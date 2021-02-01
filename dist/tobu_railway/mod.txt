@@ -1,0 +1,48 @@
+[ModMeta]
+schema=1
+name=Tobu Railway
+author=wopian
+desc=Collection of trains from Tobu Railway
+version=0.0.1
+
+[TrainUnit]
+schema=1
+id=tobu_100_head
+name_loc=tobu_100_name
+name_en=Tobu 100 (End car)
+length=21.6
+width=2.878
+max_speed=120
+power=190
+empty_mass=35750
+price=1999576
+max_pax=34
+cost_per_km_per_pax=0.05
+cost_per_day=48
+
+[TrainUnit]
+schema=1
+id=tobu_100_car
+name_loc=tobu_100_name
+name_en=Tobu 100 (Middle car)
+length=20.2
+width=2.878
+max_speed=120
+power=190
+empty_mass=37000
+price=2069492
+max_pax=55
+cost_per_km_per_pax=0.05
+cost_per_day=50
+
+[TrainMultipleUnit]
+schema=1
+id=tobu_100_mu
+name=tobu_100_name
+name_en=Tobu 100
+head_id=tobu_100_head
+car_id=tobu_100_car
+tail_id=tobu_100_head
+tail_flip=true
+min_cars=6
+max_cars=6

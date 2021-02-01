@@ -1,0 +1,1 @@
+export const tonToKg = ton => ton * 1_000

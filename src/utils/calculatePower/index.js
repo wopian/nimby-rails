@@ -1,0 +1,35 @@
+import { TRAIN_TYPE } from '../index.js'
+
+const K = 3.0681818 // Magic Number
+const N = 0.9 // Efficiency of Engine Motor
+
+const formula = (tractive, max_speed) => Math
+  .round((1 / (K * N)) * max_speed * tractive)
+
+export const calculatePower = ({ train_type, max_speed } = {}) => {
+  // 3.0681818 * ((0.9 * power) / max_speed) = tractive
+  //
+  // a = 3.0681818 * 0.9
+  // b = 1 / a
+  // step 1. (a*power) / a = (max_speed * tractive) / a
+  // step 2. power = b * max_speed * tractive
+  switch (train_type) {
+    case TRAIN_TYPE.HIGHSPEED:
+      return {
+        // power: formula((8.67857138 / 6) * min_cars)
+        // power: formula(K * ((N * 1100) / 350)) // 6
+        power: formula(K * ((N * 800) / 220), max_speed)
+      }
+    case TRAIN_TYPE.EXPRESS:
+      return {
+        power: formula(K * ((N * 190) / 120), max_speed)
+      }
+    case TRAIN_TYPE.COMMUTER:
+    default:
+      return {
+        // power: formula((4.37215906 / 2) * min_cars)
+        // power: formula(K * ((N * 190) / 120)) // 2-8
+        power: formula(K * ((N * 150) / 100), max_speed)
+      }
+  }
+}
