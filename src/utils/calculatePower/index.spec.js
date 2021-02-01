@@ -24,7 +24,7 @@ test('power of express 240 km/h', t => {
     train_type: TRAIN_TYPE.EXPRESS,
     max_speed: 240
   }), {
-    power: 380
+    power: 456
   })
 })
 
@@ -33,7 +33,7 @@ test('power of express 200 km/h', t => {
     train_type: TRAIN_TYPE.EXPRESS,
     max_speed: 200
   }), {
-    power: 317
+    power: 380
   })
 })
 
@@ -42,7 +42,7 @@ test('power of express 180 km/h', t => {
     train_type: TRAIN_TYPE.EXPRESS,
     max_speed: 180
   }), {
-    power: 285
+    power: 342
   })
 })
 
@@ -51,7 +51,7 @@ test('power of express 120 km/h', t => {
     train_type: TRAIN_TYPE.EXPRESS,
     max_speed: 120
   }), {
-    power: 190
+    power: 228
   })
 })
 
