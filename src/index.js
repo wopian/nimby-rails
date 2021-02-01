@@ -13,7 +13,7 @@ for (const { name, trains } of data) {
     result += createTrain(train)
   }
 
-  console.log(`${chalk.blueBright('[info]')} exported ${chalk.greenBright(trains.length)} train${trains.length > 1 ? 's' : ''} to〝${chalk.magentaBright(name)}〟`)
+  console.log(`${chalk.blueBright('info')} exported ${chalk.greenBright(trains.length)} train${trains.length > 1 ? 's' : ''} to〝${chalk.magentaBright(name)}〟`)
 
   if (!existsSync(OUTPUT)) mkdirSync(OUTPUT, { recursive: true })
   writeFileSync(join(OUTPUT, 'mod.txt'), result)
