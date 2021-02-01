@@ -6,7 +6,7 @@ import { createMeta, createTrain } from './utils/index.js'
 import data from '../data/trains.js'
 
 for (const { name, trains } of data) {
-  const OUTPUT = join(process.cwd(), 'dist', snakeCase(name))
+  const OUTPUT = join(process.cwd(), 'mods', snakeCase(name))
   let result = createMeta({ name })
 
   for (const train of trains) {
