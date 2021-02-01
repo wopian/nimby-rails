@@ -18,7 +18,7 @@ export const calculateEmptyMass = ({ train_type, length } = {}) => {
   return {
     empty_mass: {
       head: Math.round(derivedMass(train_type) * length.head),
-      car: Math.round(derivedMass(train_type) * length.car)
+      car: Math.round(derivedMass(train_type) * length.car * 0.997)
     }
   }
 }

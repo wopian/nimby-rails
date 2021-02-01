@@ -30,10 +30,10 @@ width=2.878
 max_speed=120
 power=190
 empty_mass=37000
-price=2069492
+price=1655593
 max_pax=55
 cost_per_km_per_pax=0.05
-cost_per_day=50
+cost_per_day=40
 
 [TrainMultipleUnit]
 schema=1

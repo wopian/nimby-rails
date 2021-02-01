@@ -1,7 +1,7 @@
 import test from 'ava'
 import { TRAIN_TYPE, calculatePrice } from '../index.js'
 
-test('mass of high-speed heavy', t => {
+test('price of high-speed heavy', t => {
   t.deepEqual(calculatePrice({
     train_type: TRAIN_TYPE.HIGHSPEED,
     empty_mass: {
@@ -11,12 +11,12 @@ test('mass of high-speed heavy', t => {
   }), {
     price: {
       head: 6_750_000,
-      car: 6_750_000
+      car: 5_400_000
     }
   })
 })
 
-test('mass of high-speed light', t => {
+test('price of high-speed light', t => {
   t.deepEqual(calculatePrice({
     train_type: TRAIN_TYPE.HIGHSPEED,
     empty_mass: {
@@ -26,12 +26,12 @@ test('mass of high-speed light', t => {
   }), {
     price: {
       head: 5_670_000,
-      car: 5_670_000
+      car: 4_536_000
     }
   })
 })
 
-test('mass of express heavy', t => {
+test('price of express heavy', t => {
   t.deepEqual(calculatePrice({
     train_type: TRAIN_TYPE.EXPRESS,
     empty_mass: {
@@ -41,12 +41,12 @@ test('mass of express heavy', t => {
   }), {
     price: {
       head: 1_732_500,
-      car: 1_732_500
+      car: 1_386_000
     }
   })
 })
 
-test('mass of express light', t => {
+test('price of express light', t => {
   t.deepEqual(calculatePrice({
     train_type: TRAIN_TYPE.EXPRESS,
     empty_mass: {
@@ -56,12 +56,12 @@ test('mass of express light', t => {
   }), {
     price: {
       head: 1_650_000,
-      car: 1_650_000
+      car: 1_320_000
     }
   })
 })
 
-test('mass of commuter heavy', t => {
+test('price of commuter heavy', t => {
   t.deepEqual(calculatePrice({
     train_type: TRAIN_TYPE.COMMUTER,
     empty_mass: {
@@ -71,12 +71,12 @@ test('mass of commuter heavy', t => {
   }), {
     price: {
       head: 1_056_051,
-      car: 1_056_051
+      car: 844_841
     }
   })
 })
 
-test('mass of commuter light', t => {
+test('price of commuter light', t => {
   t.deepEqual(calculatePrice({
     train_type: TRAIN_TYPE.COMMUTER,
     empty_mass: {
@@ -86,7 +86,7 @@ test('mass of commuter light', t => {
   }), {
     price: {
       head: 950_453,
-      car: 950_453
+      car: 760_363
     }
   })
 })

@@ -17,7 +17,7 @@ export const calculatePrice = ({ train_type, empty_mass } = {}) => {
   return {
     price: {
       head: Math.round(P(train_type) * empty_mass.head * 0.75),
-      car: Math.round(P(train_type) * empty_mass.car * 0.75)
+      car: Math.round(P(train_type) * empty_mass.car * 0.6)
     }
   }
 }
