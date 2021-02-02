@@ -41,6 +41,78 @@ export default [
         empty_mass: { head: (35.5 + 38) / 2, car: (41 * 3 + 32) / 4 }
       },
       {
+        name: 'Tobu 300',
+        train_type: TRAIN_TYPE.COMMUTER,
+        min_cars: 4,
+        max_cars: 6,
+        length: { head: 20.2, car: 20 },
+        width: 2.878,
+        power: 130 * 4,
+        max_speed: 110,
+        max_pax: { head: 64, car: (72 * 2 + 68 * 2) / 4 },
+        empty_mass: { head: 34, car: (39.5 * 2 + 40 * 2) / 4 }
+      },
+      {
+        name: 'Tobu 500',
+        train_type: TRAIN_TYPE.EXPRESS,
+        min_cars: 3,
+        max_cars: 3,
+        length: { head: 20, car: 20 },
+        width: 2.870,
+        power: 190 * 4,
+        max_speed: 135,
+        max_pax: { head: 112, car: 136 },
+        empty_mass: { head: (40.5 + 40.4) / 2, car: 35.1 }
+      },
+      {
+        name: 'Tobu 634',
+        train_type: TRAIN_TYPE.COMMUTER,
+        min_cars: 4,
+        max_cars: 4,
+        length: { head: 20, car: 20 },
+        width: 2.878,
+        power: 130 * 4,
+        max_speed: 110,
+        max_pax: { head: 150, car: 145 },
+        empty_mass: { head: 46.3, car: 40 }
+      },
+      {
+        name: 'Tobu 800',
+        train_type: TRAIN_TYPE.COMMUTER,
+        min_cars: 3,
+        max_cars: 3,
+        length: { head: 20, car: 20 },
+        width: 2.85,
+        power: 130,
+        max_speed: 110,
+        max_pax: { head: 145, car: 170 },
+        empty_mass: { head: (26 + 40.5) / 2, car: 38 }
+      },
+      {
+        name: 'Tobu 850',
+        train_type: TRAIN_TYPE.COMMUTER,
+        min_cars: 3,
+        max_cars: 3,
+        length: { head: 20, car: 20 },
+        width: 2.85,
+        power: 130,
+        max_speed: 110,
+        max_pax: { head: 145, car: 170 },
+        empty_mass: { head: (39.5 + 26) / 2, car: 39 }
+      },
+      {
+        name: 'Tobu 8000',
+        train_type: TRAIN_TYPE.COMMUTER,
+        min_cars: 2,
+        max_cars: 8,
+        length: { head: 20, car: 20 },
+        width: 2.85,
+        power: 130,
+        max_speed: 110,
+        max_pax: { head: 150, car: 170 },
+        empty_mass: { head: 26, car: (38 * 2 + 39 * 2 + 28 * 2) / 6 }
+      },
+      {
         name: 'Tobu 9000',
         train_type: TRAIN_TYPE.COMMUTER,
         min_cars: 6,
@@ -171,6 +243,30 @@ export default [
         max_speed: 120,
         max_pax: { head: 124, car: (136 * 2 + 135 * 6) / 8 },
         empty_mass: { head: 28.2, car: (33.9 * 2 + 33.4 * 2 + 25.5 * 3 + 32.3) / 8 }
+      },
+      {
+        name: 'Tobu 60000',
+        train_type: TRAIN_TYPE.COMMUTER,
+        min_cars: 6,
+        max_cars: 6,
+        length: { head: 20.13, car: 20 },
+        width: 2.8,
+        power: 165,
+        max_speed: 120,
+        max_pax: { head: 133, car: 146 },
+        empty_mass: { head: (27.7 + 27.8) / 2, car: (33.1 * 2 + 28  + 31.9) / 4 }
+      },
+      {
+        name: 'Tobu 70000',
+        train_type: TRAIN_TYPE.COMMUTER,
+        min_cars: 6,
+        max_cars: 7,
+        length: { head: 20.47, car: 20 },
+        width: 2.780,
+        power: 205,
+        max_speed: 110,
+        max_pax: { head: 140, car: 151 },
+        empty_mass: { head: (34.3 + 34.5) / 2, car: (33.2 * 2 + 32.9 + 35.1 + 33.1) / 5 }
       }
     ]
   }
