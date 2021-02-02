@@ -5,7 +5,7 @@ export const createTrainMultipleUnit = ({ name = 'blank', min_cars = 2, max_cars
   TrainMultipleUnit: {
     schema: 1,
     id: `${snakeCase(name)}_mu`,
-    name: `${snakeCase(name)}_name`,
+    name_loc: `${snakeCase(name)}_name`,
     name_en: name,
     head_id: `${snakeCase(name)}_head`,
     car_id: `${snakeCase(name)}_car`,
