@@ -3,7 +3,7 @@ import { createTrainUnit } from '../index.js'
 
 test('train car unit', t => {
   t.is(createTrainUnit({
-    unitType: 'car',
+    unit_type: 'car',
     name: 'Example 100',
     length: 20,
     width: 2.9,
@@ -19,7 +19,7 @@ test('train car unit', t => {
 
 test('train head unit', t => {
   t.is(createTrainUnit({
-    unitType: 'head',
+    unit_type: 'head',
     name: 'Example 200',
     length: 21,
     width: 2.6,
@@ -35,7 +35,7 @@ test('train head unit', t => {
 
 test('train car unit with differing lengths', t => {
   t.is(createTrainUnit({
-    unitType: 'car',
+    unit_type: 'car',
     name: 'Example 300',
     length: { head: 20.8, car: 19.5 },
     width: 2.6,
@@ -51,7 +51,7 @@ test('train car unit with differing lengths', t => {
 
 test('train head unit with differing lengths', t => {
   t.is(createTrainUnit({
-    unitType: 'head',
+    unit_type: 'head',
     name: 'Example 300',
     length: { head: 20.8, car: 19.5 },
     width: 2.6,
