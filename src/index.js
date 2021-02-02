@@ -21,5 +21,8 @@ for (const { name, trains } of data) {
   if (!existsSync(OUTPUT)) mkdirSync(OUTPUT, { recursive: true })
   writeFileSync(join(OUTPUT, 'mod.txt'), result)
 
-  if (!existsSync(join(OUTPUT, 'placeholder_commuter')) || !existsSync(join(OUTPUT, 'placeholder_express'))) copySync(join(PLACEHOLDERS), OUTPUT)
+  if (!existsSync(join(OUTPUT, 'placeholder_commuter')) || !existsSync(join(OUTPUT, 'placeholder_express'))) {
+    copySync(join(PLACEHOLDERS), OUTPUT)
+    console.info(`${chalk.blueBright('info')} exported placeholder graphics to〝${chalk.magentaBright(name)}〟`)
+  }
 }

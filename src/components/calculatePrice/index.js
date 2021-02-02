@@ -7,6 +7,8 @@ const P = train_type => {
       return 9_000_000 / 55_875
     case TRAIN_TYPE.LIMITED_EXPRESS:
       return 3_500_000 / 56_250
+    case TRAIN_TYPE.TRAM:
+      return 1_700_000 / 7_000
     case TRAIN_TYPE.COMMUTER:
     default:
       return 2_200_000 / 25_000 * 0.7

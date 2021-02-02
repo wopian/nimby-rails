@@ -15,13 +15,13 @@ const getDecors = ({ train_type, unit_type } = {}) => {
 }
 
 export const createTrainUnit = ({
-  train_type, unit_type, name, length, width, max_speed, power, empty_mass, price, max_pax, cost_per_km_per_pax, cost_per_day
+  train_type, unit_type, name, names, length, width, max_speed, power, empty_mass, price, max_pax, cost_per_km_per_pax, cost_per_day
 } = {}) => ini({
   TrainUnit: {
     schema: 1,
     id: `wopian_${snakeCase(name)}_${unit_type}`,
     name_loc: `wopian_${snakeCase(name)}_${unit_type}_name`,
-    name_en: `${name} (${'car' === unit_type ? 'Middle' : 'End'} car)`,
+    name_en: names ? names[unit_type] : `${name} (${'car' === unit_type ? 'Middle' : 'End'} car)`,
     length: length?.car ? ('car' === unit_type ? length.car : length.head) : length,
     width,
     max_speed,
