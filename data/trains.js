@@ -1,4 +1,4 @@
-import { TRAIN_TYPE } from '../src/utils/index.js'
+import { TRAIN_TYPE } from '../src/components/index.js'
 
 export default [
   {

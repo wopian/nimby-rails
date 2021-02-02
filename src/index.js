@@ -3,7 +3,7 @@ import { writeFileSync, existsSync, mkdirSync } from 'fs'
 import { copySync } from 'fs-extra'
 import { join } from 'path'
 import { snakeCase } from 'snake-case'
-import { createMeta, createTrain } from './utils/index.js'
+import { createMeta, createTrain } from './components/index.js'
 import data from '../data/trains.js'
 
 const PLACEHOLDERS = join(process.cwd(), 'placeholders')
