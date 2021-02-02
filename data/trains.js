@@ -1,7 +1,9 @@
+import { keisei_electric_railway } from './keisei_electric_railway/index.js'
 import { seibu_railway } from './seibu_railway/index.js'
 import { tobu_railway } from './tobu_railway/index.js'
 
 export default [
+  keisei_electric_railway,
   seibu_railway,
   tobu_railway,
   /*

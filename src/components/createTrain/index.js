@@ -14,10 +14,10 @@ import {
 export const createTrain = ({
   train_type, name, names, min_cars, max_cars, length, width, power, max_speed, max_pax, empty_mass
 } = {}) => {
-  if (!train_type) train_type = 250 <= max_speed
+  if (!train_type) train_type = 200 <= max_speed
     ? TRAIN_TYPE.HIGHSPEED
     : (130 <= max_speed
-      ? TRAIN_TYPE.LIMITED_EXPRESS
+      ? TRAIN_TYPE.HIGHERSPEED
       : (80 < max_speed
         ? TRAIN_TYPE.COMMUTER
         : TRAIN_TYPE.TRAM

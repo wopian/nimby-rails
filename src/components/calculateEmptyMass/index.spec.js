@@ -27,7 +27,7 @@ test('mass of high-speed 21m', t => {
 
 test('mass of express 21m', t => {
   t.deepEqual(calculateEmptyMass({
-    train_type: TRAIN_TYPE.LIMITED_EXPRESS,
+    train_type: TRAIN_TYPE.HIGHERSPEED,
     length: 21
   }), {
     empty_mass: {
@@ -39,7 +39,7 @@ test('mass of express 21m', t => {
 
 test('mass of express 20m', t => {
   t.deepEqual(calculateEmptyMass({
-    train_type: TRAIN_TYPE.LIMITED_EXPRESS,
+    train_type: TRAIN_TYPE.HIGHERSPEED,
     length: 20
   }), {
     empty_mass: {

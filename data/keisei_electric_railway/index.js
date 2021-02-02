@@ -1,10 +1,10 @@
-export const template = {
-  name: 'Template',
-  native: '鋳型',
+export const keisei_electric_railway = {
+  name: 'Keisei Electric Railway',
+  native: '京成電鉄株式会社',
   trains: [
     {
-      wiki: 'https://ja.wikipedia.org/wiki/東武100系電車',
-      name: 'Train',
+      wiki: 'https://ja.wikipedia.org/wiki/京成AE形電車_(2代)',
+      name: 'Keisei AE',
       names: { head: 'Head', car: 'Car' },
       min_cars: 6,
       max_cars: 6,

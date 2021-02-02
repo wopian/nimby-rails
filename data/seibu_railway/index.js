@@ -1,22 +1,7 @@
-import { TRAIN_TYPE } from '../../src/components/index.js'
-
 export const seibu_railway = {
   name: 'Seibu Railway',
-  local: '西武鉄道株式会社',
+  native: '西武鉄道株式会社',
   trains: [
-    {
-      wiki: 'https://ja.wikipedia.org/wiki/西武10000系電車',
-      name: 'Seibu 10000',
-      names: { head: 'KuHa 10100/10700', car: 'MoHa 10200-10600/SaHa 10400' },
-      min_cars: 7,
-      max_cars: 7,
-      max_speed: 110,
-      length: { head: 20, car: 20 },
-      width: 2.9,
-      power: 150,
-      max_pax: { head: (38 + 48) / 2, car: 64 },
-      // empty_mass: { head: 35, car: 37 }
-    },
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武001系電車',
       name: 'Seibu 001',
@@ -71,7 +56,7 @@ export const seibu_railway = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武4000系電車',
-      name: 'Seibu 2000',
+      name: 'Seibu 4000',
       names: { head: 'KuHa 4001', car: 'MoHa 4101' },
       min_cars: 4,
       max_cars: 4,
@@ -81,6 +66,19 @@ export const seibu_railway = {
       power: 150,
       max_pax: { head: (119 + 127) / 2, car: 138 },
       empty_mass: { head: (31 + 29) / 2, car: 40 }
+    },
+    {
+      wiki: 'https://ja.wikipedia.org/wiki/西武8500系電車',
+      name: 'Seibu 8500',
+      names: { head: 'KuHa 8500', car: 'MoHa 8500' },
+      min_cars: 4,
+      max_cars: 4,
+      max_speed: 80,
+      length: { head: 8.5, car: 8.5 },
+      width: 2.4308,
+      power: 95,
+      max_pax: { head: 71, car: 80 },
+      empty_mass: { head: 11, car: 10.5 }
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武6000系電車',
@@ -107,6 +105,19 @@ export const seibu_railway = {
       power: 135,
       max_pax: { head: 137, car: 147 },
       empty_mass: { head: 28.1, car: 39 }
+    },
+    {
+      wiki: 'https://ja.wikipedia.org/wiki/西武10000系電車',
+      name: 'Seibu 10000',
+      names: { head: 'KuHa 10100/10700', car: 'MoHa 10200-10600/SaHa 10400' },
+      min_cars: 7,
+      max_cars: 7,
+      max_speed: 110,
+      length: { head: 20, car: 20 },
+      width: 2.9,
+      power: 150,
+      max_pax: { head: (38 + 48) / 2, car: 64 },
+      // empty_mass: { head: 35, car: 37 }
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武20000系電車',
@@ -146,19 +157,6 @@ export const seibu_railway = {
       power: 190,
       max_pax: { head: (1_299 - (132 * 8)) / 2, car: 132 },
       empty_mass: { head: 26.7, car: 36.9 }
-    },
-    {
-      wiki: 'https://ja.wikipedia.org/wiki/西武8500系電車',
-      name: 'Seibu 8500',
-      names: { head: 'KuHa 8500', car: 'MoHa 8500' },
-      min_cars: 4,
-      max_cars: 4,
-      max_speed: 80,
-      length: { head: 8.5, car: 8.5 },
-      width: 2.4308,
-      power: 95,
-      max_pax: { head: 71, car: 80 },
-      empty_mass: { head: 11, car: 10.5 }
     }
   ]
 }

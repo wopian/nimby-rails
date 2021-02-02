@@ -21,7 +21,7 @@ test('power of high-speed 250 km/h', t => {
 
 test('power of express 240 km/h', t => {
   t.deepEqual(calculatePower({
-    train_type: TRAIN_TYPE.LIMITED_EXPRESS,
+    train_type: TRAIN_TYPE.HIGHERSPEED,
     max_speed: 240
   }), {
     power: 456
@@ -30,7 +30,7 @@ test('power of express 240 km/h', t => {
 
 test('power of express 200 km/h', t => {
   t.deepEqual(calculatePower({
-    train_type: TRAIN_TYPE.LIMITED_EXPRESS,
+    train_type: TRAIN_TYPE.HIGHERSPEED,
     max_speed: 200
   }), {
     power: 380
@@ -39,7 +39,7 @@ test('power of express 200 km/h', t => {
 
 test('power of express 180 km/h', t => {
   t.deepEqual(calculatePower({
-    train_type: TRAIN_TYPE.LIMITED_EXPRESS,
+    train_type: TRAIN_TYPE.HIGHERSPEED,
     max_speed: 180
   }), {
     power: 342
@@ -48,7 +48,7 @@ test('power of express 180 km/h', t => {
 
 test('power of express 120 km/h', t => {
   t.deepEqual(calculatePower({
-    train_type: TRAIN_TYPE.LIMITED_EXPRESS,
+    train_type: TRAIN_TYPE.HIGHERSPEED,
     max_speed: 120
   }), {
     power: 228

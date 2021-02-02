@@ -1,8 +1,6 @@
-import { TRAIN_TYPE } from '../../src/components/index.js'
-
 export const tobu_railway = {
   name: 'Tobu Railway',
-  local: '東武鉄道株式会社',
+  native: '東武鉄道株式会社',
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/東武100系電車',

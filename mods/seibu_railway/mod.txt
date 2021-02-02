@@ -7,58 +7,6 @@ version=0.0.1
 
 [TrainUnit]
 schema=1
-id=wopian_seibu_10000_head
-name_loc=wopian_seibu_10000_head_name
-name_en=KuHa 10100/10700
-length=20
-width=2.9
-max_speed=110
-power=150
-empty_mass=27692
-price=1705827
-max_pax=43
-cost_per_km_per_pax=0.05
-cost_per_day=47
-tex_base=placeholder_commuter/loco_0.png
-tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
-tex_m_width=30
-tex_m_height=3.75
-
-[TrainUnit]
-schema=1
-id=wopian_seibu_10000_car
-name_loc=wopian_seibu_10000_car_name
-name_en=MoHa 10200-10600/SaHa 10400
-length=20
-width=2.9
-max_speed=110
-power=150
-empty_mass=27609
-price=1445607
-max_pax=64
-cost_per_km_per_pax=0.05
-cost_per_day=30
-tex_base=placeholder_commuter/car_0.png
-tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
-tex_m_width=30
-tex_m_height=3.75
-
-[TrainMultipleUnit]
-schema=1
-id=wopian_seibu_10000_mu
-name_loc=wopian_seibu_10000_name
-name_en=Seibu 10000
-head_id=wopian_seibu_10000_head
-car_id=wopian_seibu_10000_car
-tail_id=wopian_seibu_10000_head
-tail_flip=true
-min_cars=7
-max_cars=7
-
-[TrainUnit]
-schema=1
 id=wopian_seibu_001_head
 name_loc=wopian_seibu_001_head_name
 name_en=KuHa 10100/10700
@@ -267,8 +215,8 @@ max_cars=8
 
 [TrainUnit]
 schema=1
-id=wopian_seibu_2000_head
-name_loc=wopian_seibu_2000_head_name
+id=wopian_seibu_4000_head
+name_loc=wopian_seibu_4000_head_name
 name_en=KuHa 4001
 length=20
 width=2.85
@@ -287,8 +235,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_seibu_2000_car
-name_loc=wopian_seibu_2000_car_name
+id=wopian_seibu_4000_car
+name_loc=wopian_seibu_4000_car_name
 name_en=MoHa 4101
 length=20
 width=2.85
@@ -307,12 +255,64 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_seibu_2000_mu
-name_loc=wopian_seibu_2000_name
-name_en=Seibu 2000
-head_id=wopian_seibu_2000_head
-car_id=wopian_seibu_2000_car
-tail_id=wopian_seibu_2000_head
+id=wopian_seibu_4000_mu
+name_loc=wopian_seibu_4000_name
+name_en=Seibu 4000
+head_id=wopian_seibu_4000_head
+car_id=wopian_seibu_4000_car
+tail_id=wopian_seibu_4000_head
+tail_flip=true
+min_cars=4
+max_cars=4
+
+[TrainUnit]
+schema=1
+id=wopian_seibu_8500_head
+name_loc=wopian_seibu_8500_head_name
+name_en=KuHa 8500
+length=8.5
+width=2.4308
+max_speed=80
+power=95
+empty_mass=11000
+price=2671429
+max_pax=71
+cost_per_km_per_pax=0.05
+cost_per_day=72
+tex_base=placeholder_tram/loco_0.png
+tex_top=placeholder_tram/loco_2.png
+tex_decors=placeholder_tram/loco_1_0.png,placeholder_tram/loco_1_1.png,placeholder_tram/loco_1_2.png,placeholder_tram/loco_1_5.png,placeholder_tram/loco_1_7.png
+tex_m_width=30
+tex_m_height=3.75
+
+[TrainUnit]
+schema=1
+id=wopian_seibu_8500_car
+name_loc=wopian_seibu_8500_car_name
+name_en=MoHa 8500
+length=8.5
+width=2.4308
+max_speed=80
+power=95
+empty_mass=10500
+price=2167500
+max_pax=80
+cost_per_km_per_pax=0.05
+cost_per_day=43
+tex_base=placeholder_tram/car_0.png
+tex_top=placeholder_tram/car_2.png
+tex_decors=placeholder_tram/car_1_0.png,placeholder_tram/car_1_1.png,placeholder_tram/car_1_2.png,placeholder_tram/car_1_5.png,placeholder_tram/car_1_7.png
+tex_m_width=30
+tex_m_height=3.75
+
+[TrainMultipleUnit]
+schema=1
+id=wopian_seibu_8500_mu
+name_loc=wopian_seibu_8500_name
+name_en=Seibu 8500
+head_id=wopian_seibu_8500_head
+car_id=wopian_seibu_8500_car
+tail_id=wopian_seibu_8500_head
 tail_flip=true
 min_cars=4
 max_cars=4
@@ -420,6 +420,58 @@ tail_id=wopian_seibu_9000_head
 tail_flip=true
 min_cars=4
 max_cars=10
+
+[TrainUnit]
+schema=1
+id=wopian_seibu_10000_head
+name_loc=wopian_seibu_10000_head_name
+name_en=KuHa 10100/10700
+length=20
+width=2.9
+max_speed=110
+power=150
+empty_mass=27692
+price=1705827
+max_pax=43
+cost_per_km_per_pax=0.05
+cost_per_day=47
+tex_base=placeholder_commuter/loco_0.png
+tex_top=placeholder_commuter/loco_2.png
+tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_m_width=30
+tex_m_height=3.75
+
+[TrainUnit]
+schema=1
+id=wopian_seibu_10000_car
+name_loc=wopian_seibu_10000_car_name
+name_en=MoHa 10200-10600/SaHa 10400
+length=20
+width=2.9
+max_speed=110
+power=150
+empty_mass=27609
+price=1445607
+max_pax=64
+cost_per_km_per_pax=0.05
+cost_per_day=30
+tex_base=placeholder_commuter/car_0.png
+tex_top=placeholder_commuter/car_2.png
+tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_m_width=30
+tex_m_height=3.75
+
+[TrainMultipleUnit]
+schema=1
+id=wopian_seibu_10000_mu
+name_loc=wopian_seibu_10000_name
+name_en=Seibu 10000
+head_id=wopian_seibu_10000_head
+car_id=wopian_seibu_10000_car
+tail_id=wopian_seibu_10000_head
+tail_flip=true
+min_cars=7
+max_cars=7
 
 [TrainUnit]
 schema=1
@@ -576,55 +628,3 @@ tail_id=wopian_seibu_40000_head
 tail_flip=true
 min_cars=10
 max_cars=10
-
-[TrainUnit]
-schema=1
-id=wopian_seibu_8500_head
-name_loc=wopian_seibu_8500_head_name
-name_en=KuHa 8500
-length=8.5
-width=2.4308
-max_speed=80
-power=95
-empty_mass=11000
-price=2671429
-max_pax=71
-cost_per_km_per_pax=0.05
-cost_per_day=72
-tex_base=placeholder_tram/loco_0.png
-tex_top=placeholder_tram/loco_2.png
-tex_decors=placeholder_tram/loco_1_0.png,placeholder_tram/loco_1_1.png,placeholder_tram/loco_1_2.png,placeholder_tram/loco_1_5.png,placeholder_tram/loco_1_7.png
-tex_m_width=30
-tex_m_height=3.75
-
-[TrainUnit]
-schema=1
-id=wopian_seibu_8500_car
-name_loc=wopian_seibu_8500_car_name
-name_en=MoHa 8500
-length=8.5
-width=2.4308
-max_speed=80
-power=95
-empty_mass=10500
-price=2167500
-max_pax=80
-cost_per_km_per_pax=0.05
-cost_per_day=43
-tex_base=placeholder_tram/car_0.png
-tex_top=placeholder_tram/car_2.png
-tex_decors=placeholder_tram/car_1_0.png,placeholder_tram/car_1_1.png,placeholder_tram/car_1_2.png,placeholder_tram/car_1_5.png,placeholder_tram/car_1_7.png
-tex_m_width=30
-tex_m_height=3.75
-
-[TrainMultipleUnit]
-schema=1
-id=wopian_seibu_8500_mu
-name_loc=wopian_seibu_8500_name
-name_en=Seibu 8500
-head_id=wopian_seibu_8500_head
-car_id=wopian_seibu_8500_car
-tail_id=wopian_seibu_8500_head
-tail_flip=true
-min_cars=4
-max_cars=4

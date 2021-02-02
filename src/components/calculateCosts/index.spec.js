@@ -16,7 +16,7 @@ test('running costs of high-speed', t => {
 
 test('running costs of express', t => {
   t.deepEqual(calculateCosts({
-    train_type: TRAIN_TYPE.LIMITED_EXPRESS,
+    train_type: TRAIN_TYPE.HIGHERSPEED,
     price: { head: 2_400_000, car: 2_200_000 }
   }), {
     cost_per_km_per_pax: 0.05,

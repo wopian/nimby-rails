@@ -5,7 +5,7 @@ const derivedMass = train_type => {
   switch(train_type) {
     case TRAIN_TYPE.HIGHSPEED:
       return 55_875 / 25
-    case TRAIN_TYPE.LIMITED_EXPRESS:
+    case TRAIN_TYPE.HIGHERSPEED:
       return 29_500 / 20
     case TRAIN_TYPE.TRAM:
       return 7_000 / 6.5

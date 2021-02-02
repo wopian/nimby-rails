@@ -11,7 +11,7 @@ export const calculateCosts = ({ train_type, price } = {}) => {
           car: Math.round(price.car / (9_000_000 / 308) * 0.85)
         }
       }
-    case TRAIN_TYPE.LIMITED_EXPRESS:
+    case TRAIN_TYPE.HIGHERSPEED:
       return {
         cost_per_km_per_pax: 0.05,
         cost_per_day: {
