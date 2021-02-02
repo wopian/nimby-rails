@@ -7,7 +7,7 @@ export const createTrainUnit = ({
   TrainUnit: {
     schema: 1,
     id: `${snakeCase(name)}_${unitType}`,
-    name_loc: `${snakeCase(name)}_name`,
+    name_loc: `${snakeCase(name)}_${unitType}_name`,
     name_en: `${name} (${'car' === unitType ? 'Middle' : 'End'} car)`,
     length: length?.car ? ('car' === unitType ? length.car : length.head) : length,
     width,
