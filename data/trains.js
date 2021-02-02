@@ -269,5 +269,111 @@ export default [
         empty_mass: { head: (34.3 + 34.5) / 2, car: (33.2 * 2 + 32.9 + 35.1 + 33.1) / 5 }
       }
     ]
+  },
+  /*
+  {
+    name: 'Seibu Railway',
+    trains: []
+  },
+  {
+    name: 'Keisei Electric Railway',
+    trains: []
+  },
+  {
+    name: 'Keio Corporation',
+    trains: []
+  },
+  {
+    name: 'Odakyu Electric Railway',
+    trains: []
+  },
+  {
+    name: 'Tokyu Corporation',
+    trains: []
+  },
+  {
+    name: 'Keikyu Corporation',
+    trains: []
+  },
+  {
+    name: 'Tokyo Metro',
+    trains: []
+  },
+  {
+    name: 'Sagami Railway',
+    trains: []
+  },
+  {
+    name: 'Meitetsu',
+    trains: []
+  },
+  {
+    name: 'Kintetsu Railway',
+    trains: []
+  },
+  {
+    name: 'Nankai Electric Railway',
+    trains: []
+  },
+  {
+    name: 'Keihan Electric Railway',
+    trains: []
+  },
+  {
+    name: 'Hankyu',
+    trains: []
+  },
+  {
+    name: 'Hanshin Electric Railway',
+    trains: []
+  },
+  {
+    name: 'Nishi-Nippon Railroad',
+    trains: []
+  },
+  {
+    name: 'Shin-Keisei Electric Railway',
+    trains: []
+  },
+  {
+    name: 'Kita-Osaka Kyuko Electric Railway',
+    trains: []
+  },
+  {
+    name: 'Senbei High Speed Railway',
+    trains: []
+  },
+  {
+    name: 'Kobe High Speed Railway',
+    trains: []
+  },
+  {
+    name: 'Sanyo Electric Railway',
+    trains: []
+  },
+  {
+    name: 'Hokkaido Railway Company (JR Hokkaido)',
+    trains: []
+  },
+  {
+    name: 'East Japan Railway Company (JR East)',
+    trains: []
+  },
+  {
+    name: 'Central Japan Railway Company (JR Central)',
+    trains: []
+  },
+  {
+    name: 'West Japan Railway Company (JR West)',
+    trains: []
+  },
+  {
+    name: 'Shikoku Railway Company (JR Shikoku)',
+    trains: []
+  },
+  {
+    name: 'Kyushu Railway Company (JR Kyushu)',
+    trains: []
   }
+  */
 ]
