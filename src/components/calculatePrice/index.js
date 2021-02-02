@@ -5,7 +5,7 @@ const P = train_type => {
   switch(train_type) {
     case TRAIN_TYPE.HIGHSPEED:
       return 9_000_000 / 55_875
-    case TRAIN_TYPE.EXPRESS:
+    case TRAIN_TYPE.LIMITED_EXPRESS:
       return 3_500_000 / 56_250
     case TRAIN_TYPE.COMMUTER:
     default:

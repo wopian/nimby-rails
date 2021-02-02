@@ -33,7 +33,7 @@ test('price of high-speed light', t => {
 
 test('price of express heavy', t => {
   t.deepEqual(calculatePrice({
-    train_type: TRAIN_TYPE.EXPRESS,
+    train_type: TRAIN_TYPE.LIMITED_EXPRESS,
     empty_mass: {
       head: 30_975,
       car: 30_975
@@ -48,7 +48,7 @@ test('price of express heavy', t => {
 
 test('price of express light', t => {
   t.deepEqual(calculatePrice({
-    train_type: TRAIN_TYPE.EXPRESS,
+    train_type: TRAIN_TYPE.LIMITED_EXPRESS,
     empty_mass: {
       head: 29_500,
       car: 29_500

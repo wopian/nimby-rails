@@ -6,7 +6,7 @@ export default [
     trains: [
       {
         name: 'Tobu 100',
-        train_type: TRAIN_TYPE.EXPRESS,
+        train_type: TRAIN_TYPE.LIMITED_EXPRESS,
         min_cars: 6,
         max_cars: 6,
         length: { head: 21.6, car: 20.2 },
@@ -18,7 +18,7 @@ export default [
       },
       {
         name: 'Tobu 200',
-        train_type: TRAIN_TYPE.EXPRESS,
+        train_type: TRAIN_TYPE.LIMITED_EXPRESS,
         min_cars: 6,
         max_cars: 6,
         length: { head: 21.3, car: 20 },
@@ -30,7 +30,7 @@ export default [
       },
       {
         name: 'Tobu 250',
-        train_type: TRAIN_TYPE.EXPRESS,
+        train_type: TRAIN_TYPE.LIMITED_EXPRESS,
         min_cars: 6,
         max_cars: 6,
         length: { head: 21.3, car: 20 },
@@ -54,7 +54,7 @@ export default [
       },
       {
         name: 'Tobu 500',
-        train_type: TRAIN_TYPE.EXPRESS,
+        train_type: TRAIN_TYPE.LIMITED_EXPRESS,
         min_cars: 3,
         max_cars: 3,
         length: { head: 20, car: 20 },

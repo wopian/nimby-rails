@@ -18,7 +18,7 @@ export const calculatePower = ({ train_type, max_speed } = {}) => {
       return {
         power: formula(K * ((N * 800) / 220), max_speed) // TODO: Fine Tune
       }
-    case TRAIN_TYPE.EXPRESS:
+    case TRAIN_TYPE.LIMITED_EXPRESS:
       return {
         power: formula(K * ((N * 190) / 100), max_speed)
       }
