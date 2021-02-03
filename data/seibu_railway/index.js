@@ -5,7 +5,6 @@ export const seibu_railway = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武001系電車',
       name: 'Seibu 001',
-      names: { head: 'KuHa 10100/10700', car: 'MoHa 10200-10600/SaHa 10400' },
       min_cars: 8,
       max_cars: 8,
       max_speed: 120,
@@ -31,7 +30,7 @@ export const seibu_railway = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武101系電車',
       name: 'Seibu 301',
-      names: { head: 'KuHa 1301', car: 'MoHa 301/SaHa 1301' },
+      names: { head: 'KuHa 1301', car: 'MoHa 301,SaHa 1301' },
       min_cars: 8,
       max_cars: 8,
       max_speed: 120,
@@ -83,7 +82,7 @@ export const seibu_railway = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武6000系電車',
       name: 'Seibu 6000',
-      names: { head: 'KuHa 6000-6100', car: 'MoHa 6200-6900/SaHa 6400-6700' },
+      names: { head: 'KuHa 6000/6100', car: 'MoHa 6200/6300/6500/6800/6900,SaHa 6400/6700' },
       min_cars: 10,
       max_cars: 10,
       max_speed: 120,
@@ -96,7 +95,7 @@ export const seibu_railway = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武9000系電車',
       name: 'Seibu 9000',
-      names: { head: 'KuHa 9000-9100', car: 'MoHa 9200-9900/SaHa 9400-9700' },
+      names: { head: 'KuHa 9000/9100', car: 'MoHa 9200/9300/9500/9600/9800/9900,SaHa 9400/9700' },
       min_cars: 4,
       max_cars: 10,
       max_speed: 120,
@@ -109,7 +108,7 @@ export const seibu_railway = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武10000系電車',
       name: 'Seibu 10000',
-      names: { head: 'KuHa 10100/10700', car: 'MoHa 10200-10600/SaHa 10400' },
+      names: { head: 'KuHa 10100/10700', car: 'MoHa 10200/10300/10500/10600,SaHa 10400' },
       min_cars: 7,
       max_cars: 7,
       max_speed: 110,
@@ -122,7 +121,7 @@ export const seibu_railway = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武20000系電車',
       name: 'Seibu 20000',
-      names: { head: 'KuHa 20000-20100', car: 'MoHa 20200-20900/SaHa 20400-20700' },
+      names: { head: 'KuHa 20000/20100', car: 'MoHa 20200/20300/20500/20800/20900,SaHa 20400/20600/20700' },
       min_cars: 8,
       max_cars: 10,
       max_speed: 120,
@@ -135,7 +134,7 @@ export const seibu_railway = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武30000系電車',
       name: 'Seibu 30000',
-      names: { head: 'KuHa 30000-30100', car: 'MoHa 30200-30900/SaHa 30400-30600' },
+      names: { head: 'KuHa 30000/30100', car: 'MoHa 30200/30300/30500/30800/30900,SaHa 30400/30600/30700' },
       min_cars: 2,
       max_cars: 10,
       max_speed: 120,
@@ -148,7 +147,7 @@ export const seibu_railway = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武40000系電車',
       name: 'Seibu 40000',
-      names: { head: 'KuHa 40000-40100', car: 'MoHa 40200-40900/SaHa 40400-40600' },
+      names: { head: 'KuHa 40000/40100', car: 'MoHa 40200/40300/40500/40800/40900,SaHa 40400/40600/40700' },
       min_cars: 10,
       max_cars: 10,
       max_speed: 120,
