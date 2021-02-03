@@ -5,6 +5,7 @@ import { odakyu_electric_railway } from './odakyu_electric_railway/index.js'
 import { seibu_railway } from './seibu_railway/index.js'
 import { shin_keisei_electric_railway } from './shin_keisei_electric_railway/index.js'
 import { tobu_railway } from './tobu_railway/index.js'
+import { tokyo_metro } from './tokyo_metro/index.js'
 import { tokyu_corporation } from './tokyu_corporation/index.js'
 
 /*
@@ -25,7 +26,6 @@ import { tokyu_corporation } from './tokyu_corporation/index.js'
   Sanyo Electric Railway
   Senbei High Speed Railway
   Shikoku Railway Company (JR Shikoku)
-  Tokyo Metro
   West Japan Railway Company (JR West)
 */
 
@@ -37,5 +37,6 @@ export default [
   seibu_railway,
   shin_keisei_electric_railway,
   tobu_railway,
+  tokyo_metro,
   tokyu_corporation
 ]

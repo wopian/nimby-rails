@@ -26,6 +26,10 @@ export const calculatePower = ({ train_type, max_speed } = {}) => {
       return {
         power: formula(K * ((N * 144) / 70), max_speed) // TODO: Fine Tune
       }
+    case TRAIN_TYPE.METRO:
+      return {
+        power: formula(K * ((N * 150) / 100), max_speed) // TODO: Fine Tune
+      }
     case TRAIN_TYPE.COMMUTER:
     default:
       return {

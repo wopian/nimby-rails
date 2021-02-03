@@ -9,6 +9,8 @@ const derivedMass = train_type => {
       return 29_500 / 20
     case TRAIN_TYPE.TRAM:
       return 7_000 / 6.5
+    case TRAIN_TYPE.METRO:
+      return 20_500 / 16.25
     case TRAIN_TYPE.COMMUTER:
     default:
       return 22_500 / 16.25

@@ -9,6 +9,8 @@ const P = train_type => {
       return 3_500_000 / 56_250
     case TRAIN_TYPE.TRAM:
       return 1_700_000 / 7_000
+    case TRAIN_TYPE.METRO:
+      return 1_900_000 / 20_500
     case TRAIN_TYPE.COMMUTER:
     default:
       return 2_200_000 / 25_000

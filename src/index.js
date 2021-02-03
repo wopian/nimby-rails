@@ -24,7 +24,8 @@ for (const { name, trains } of data) {
   if (!existsSync(join(OUTPUT, 'placeholder_highspeed')) ||
       !existsSync(join(OUTPUT, 'placeholder_higherspeed')) ||
       !existsSync(join(OUTPUT, 'placeholder_commuter')) ||
-      !existsSync(join(OUTPUT, 'placeholder_tram'))
+      !existsSync(join(OUTPUT, 'placeholder_tram')) ||
+      !existsSync(join(OUTPUT, 'placeholder_metro'))
   ) {
     copySync(join(PLACEHOLDERS), OUTPUT)
     console.info(`${chalk.blueBright('info')} exported placeholder graphics to〝${chalk.magentaBright(name)}〟`)
