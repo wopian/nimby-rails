@@ -1,3 +1,4 @@
+import { keikyu } from './keikyu/index.js'
 import { keio_corporation } from './keio_corporation/index.js'
 import { keisei_electric_railway } from './keisei_electric_railway/index.js'
 import { odakyu_electric_railway } from './odakyu_electric_railway/index.js'
@@ -13,7 +14,6 @@ import { tokyu_corporation } from './tokyu_corporation/index.js'
   Hanshin Electric Railway
   Hokkaido Railway Company (JR Hokkaido)
   Keihan Electric Railway
-  Keikyu Corporation
   Kintetsu Railway
   Kita-Osaka Kyuko Electric Railway
   Kobe High Speed Railway
@@ -30,6 +30,7 @@ import { tokyu_corporation } from './tokyu_corporation/index.js'
 */
 
 export default [
+  keikyu,
   keio_corporation,
   keisei_electric_railway,
   odakyu_electric_railway,

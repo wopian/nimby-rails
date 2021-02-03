@@ -161,7 +161,7 @@ export const tokyu_corporation = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/東急2020系電車',
       name: 'Tokyu 3020',
-      names: { head: 'KuHa 3122/3822', car: 'DeHa 3222/3322/3622/3722' },
+      names: { head: 'KuHa 3120/3820', car: 'DeHa 3220/3320/3620/3720' },
       min_cars: 6,
       max_cars: 8,
       max_speed: 120,
@@ -174,7 +174,7 @@ export const tokyu_corporation = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/東急300系電車',
       name: 'Tokyu 300',
-      names: { head: 'KuHa 3122/3822', car: 'DeHa 3222/3322/3622/3722' },
+      names: { head: 'Tokyu 300', car: 'Tokyu 300' },
       min_cars: 2,
       max_cars: 2,
       max_speed: 60,
