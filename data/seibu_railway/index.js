@@ -127,7 +127,7 @@ export const seibu_railway = {
       max_speed: 120,
       length: { head: 20.27, car: 20 },
       width: 2.8,
-      power: 135 * 4,
+      power: 135, // * 4,
       max_pax: { head: 135, car: 145 },
       empty_mass: { head: 23.6, car: 33.6 }
     },
@@ -140,7 +140,7 @@ export const seibu_railway = {
       max_speed: 120,
       length: { head: 20, car: 20 },
       width: 2.975,
-      power: 165 * 4,
+      power: 165, // * 4,
       max_pax: { head: 141, car: 153 },
       empty_mass: { head: 24.7, car: 34.1 }
     },

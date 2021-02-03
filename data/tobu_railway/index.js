@@ -10,7 +10,7 @@ export const tobu_railway = {
       max_cars: 6,
       length: { head: 21.6, car: 20.2 },
       width: 2.878,
-      power: 150 * 4,
+      power: 150, // * 4,
       max_speed: 130,
       max_pax: { head: (24 + 44) / 2, car: (64 * 2 + 56 + 36) / 4 },
       empty_mass: { head: (35.5 + 36) / 2, car: (37.5 * 2 + 36.5 * 2) / 4 }
@@ -23,7 +23,7 @@ export const tobu_railway = {
       max_cars: 6,
       length: { head: 21.3, car: 20 },
       width: 2.878,
-      power: 75 * 4,
+      power: 75, // * 4,
       max_speed: 165,
       max_pax: { head: 60, car: (72 * 2 + 76 + 58) / 4 },
       empty_mass: { head: (40.5 + 41.5) / 2, car: (39.5 * 3 + 40.5) / 4 }
@@ -36,7 +36,7 @@ export const tobu_railway = {
       max_cars: 6,
       length: { head: 21.3, car: 20 },
       width: 2.878,
-      power: 190 * 4,
+      power: 190, // * 4,
       max_speed: 165,
       max_pax: { head: 60, car: (72 * 2 + 76 + 58) / 4 },
       empty_mass: { head: (35.5 + 38) / 2, car: (41 * 3 + 32) / 4 }
@@ -49,7 +49,7 @@ export const tobu_railway = {
       max_cars: 6,
       length: { head: 20.2, car: 20 },
       width: 2.878,
-      power: 130 * 4,
+      power: 130, // * 4,
       max_speed: 110,
       max_pax: { head: 64, car: (72 * 2 + 68 * 2) / 4 },
       empty_mass: { head: 34, car: (39.5 * 2 + 40 * 2) / 4 }
@@ -62,7 +62,7 @@ export const tobu_railway = {
       max_cars: 3,
       length: { head: 20, car: 20 },
       width: 2.870,
-      power: 190 * 4,
+      power: 190, // * 4,
       max_speed: 135,
       max_pax: { head: 112, car: 136 },
       empty_mass: { head: (40.5 + 40.4) / 2, car: 35.1 }
@@ -75,7 +75,7 @@ export const tobu_railway = {
       max_cars: 4,
       length: { head: 20, car: 20 },
       width: 2.878,
-      power: 130 * 4,
+      power: 130, // * 4,
       max_speed: 110,
       max_pax: { head: 150, car: 145 },
       empty_mass: { head: 46.3, car: 40 }

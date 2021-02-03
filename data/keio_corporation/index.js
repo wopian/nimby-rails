@@ -24,7 +24,7 @@ export const keio_corporation = {
       max_speed: 130,
       length: { head: 20.44, car: 20 },
       width: 2.8,
-      power: 150 * 4,
+      power: 150, // * 4,
       max_pax: { head: 119, car: 130 },
       empty_mass: { head: 25.5, car: (34 * 2 + 33 * 3 + 25 * 3) / 8 }
     },
@@ -37,7 +37,7 @@ export const keio_corporation = {
       max_speed: 120,
       length: { head: 20, car: 20 },
       width: 2.8,
-      power: 150 * 4,
+      power: 150, // * 4,
       max_pax: { head: 150, car: 170 },
       empty_mass: { head: 28, car: (37.5 * 2 + 36.5 * 2 + 27 + 28) / 6 }
     },
