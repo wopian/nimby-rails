@@ -11,7 +11,7 @@ const P = train_type => {
       return 1_700_000 / 7_000
     case TRAIN_TYPE.COMMUTER:
     default:
-      return 2_200_000 / 25_000 * 0.7
+      return 2_200_000 / 25_000
   }
 }
 

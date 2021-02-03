@@ -26,7 +26,7 @@ export const createTrainUnit = ({
     width,
     max_speed,
     power,
-    empty_mass: 'car' === unit_type ? empty_mass.car : empty_mass.head,
+    empty_mass: Math.round('car' === unit_type ? empty_mass.car : empty_mass.head),
     price: 'car' === unit_type ? price.car : price.head,
     max_pax: max_pax?.car ? ('car' === unit_type ? max_pax.car : max_pax.head) : max_pax,
     cost_per_km_per_pax,

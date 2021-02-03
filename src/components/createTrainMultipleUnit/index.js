@@ -11,7 +11,7 @@ export const createTrainMultipleUnit = ({ name = 'blank', min_cars = 2, max_cars
     car_id: `wopian_${snakeCase(name)}_car`,
     tail_id: `wopian_${snakeCase(name)}_head`,
     tail_flip: true,
-    min_cars,
-    max_cars
+    min_cars: min_cars - 2, // End units are not counted
+    max_cars: max_cars - 2 // End units are not counted
   }
 }).replaceAll('\r', '')

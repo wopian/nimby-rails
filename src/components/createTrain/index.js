@@ -16,7 +16,7 @@ export const createTrain = ({
 } = {}) => {
   if (!train_type) train_type = 200 <= max_speed
     ? TRAIN_TYPE.HIGHSPEED
-    : (130 <= max_speed
+    : (160 <= max_speed
       ? TRAIN_TYPE.HIGHERSPEED
       : (80 < max_speed
         ? TRAIN_TYPE.COMMUTER
