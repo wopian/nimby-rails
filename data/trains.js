@@ -1,20 +1,16 @@
+import { keio_corporation } from './keio_corporation/index.js'
 import { keisei_electric_railway } from './keisei_electric_railway/index.js'
 import { seibu_railway } from './seibu_railway/index.js'
+import { shin_keisei_electric_railway } from './shin_keisei_electric_railway/index.js'
 import { tobu_railway } from './tobu_railway/index.js'
 
 export default [
+  keio_corporation,
   keisei_electric_railway,
   seibu_railway,
+  shin_keisei_electric_railway,
   tobu_railway,
   /*
-  {
-    name: 'Keisei Electric Railway',
-    trains: []
-  },
-  {
-    name: 'Keio Corporation',
-    trains: []
-  },
   {
     name: 'Odakyu Electric Railway',
     trains: []
@@ -61,10 +57,6 @@ export default [
   },
   {
     name: 'Nishi-Nippon Railroad',
-    trains: []
-  },
-  {
-    name: 'Shin-Keisei Electric Railway',
     trains: []
   },
   {
