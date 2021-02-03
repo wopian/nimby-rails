@@ -10,8 +10,8 @@ test('price of high-speed heavy', t => {
     }
   }), {
     price: {
-      head: 6_750_000,
-      car: 5_400_000
+      head: 9_000_000,
+      car: 7_650_000
     }
   })
 })
@@ -25,8 +25,8 @@ test('price of high-speed light', t => {
     }
   }), {
     price: {
-      head: 5_670_000,
-      car: 4_536_000
+      head: 7_560_000,
+      car: 6_426_000
     }
   })
 })
@@ -40,8 +40,8 @@ test('price of express heavy', t => {
     }
   }), {
     price: {
-      head: 1_732_500,
-      car: 1_386_000
+      head: 1_927_333,
+      car: 1_638_233
     }
   })
 })
@@ -55,8 +55,8 @@ test('price of express light', t => {
     }
   }), {
     price: {
-      head: 1_650_000,
-      car: 1_320_000
+      head: 1_835_556,
+      car: 1_560_222
     }
   })
 })
@@ -70,8 +70,8 @@ test('price of commuter heavy', t => {
     }
   }), {
     price: {
-      head: 1_056_051,
-      car: 844_841
+      head: 2_436_896,
+      car: 2_071_362
     }
   })
 })
@@ -85,8 +85,8 @@ test('price of commuter light', t => {
     }
   }), {
     price: {
-      head: 950_453,
-      car: 760_363
+      head: 2_193_224,
+      car: 1_864_240
     }
   })
 })

@@ -9,7 +9,7 @@ test('running costs of high-speed', t => {
     cost_per_km_per_pax: 0.05,
     cost_per_day: {
       head: 308,
-      car: 301
+      car: 256
     }
   })
 })
@@ -21,8 +21,8 @@ test('running costs of express', t => {
   }), {
     cost_per_km_per_pax: 0.05,
     cost_per_day: {
-      head: 58,
-      car: 53
+      head: 131,
+      car: 99
     }
   })
 })
@@ -34,8 +34,8 @@ test('running costs of commuter', t => {
   }), {
     cost_per_km_per_pax: 0.05,
     cost_per_day: {
-      head: 38,
-      car: 33
+      head: 47,
+      car: 31
     }
   })
 })
