@@ -264,4 +264,3 @@ tail_id=wopian_keio_9000_head
 tail_flip=true
 min_cars=6
 max_cars=8
-

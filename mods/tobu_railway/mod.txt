@@ -1148,4 +1148,3 @@ tail_id=wopian_tobu_70000_head
 tail_flip=true
 min_cars=4
 max_cars=5
-

@@ -316,4 +316,3 @@ tail_id=wopian_sotetsu_20000_head
 tail_flip=true
 min_cars=8
 max_cars=8
-

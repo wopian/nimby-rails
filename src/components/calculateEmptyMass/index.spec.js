@@ -1,7 +1,7 @@
 import test from 'ava'
 import { TRAIN_TYPE, calculateEmptyMass } from '../index.js'
 
-test('mass of high-speed 25m', t => {
+test('mass of highspeed 25m', t => {
   t.deepEqual(calculateEmptyMass({
     train_type: TRAIN_TYPE.HIGHSPEED,
     length: 25
@@ -13,7 +13,7 @@ test('mass of high-speed 25m', t => {
   })
 })
 
-test('mass of high-speed 21m', t => {
+test('mass of highspeed 21m', t => {
   t.deepEqual(calculateEmptyMass({
     train_type: TRAIN_TYPE.HIGHSPEED,
     length: 21
@@ -25,7 +25,7 @@ test('mass of high-speed 21m', t => {
   })
 })
 
-test('mass of express 21m', t => {
+test('mass of higherspeed 21m', t => {
   t.deepEqual(calculateEmptyMass({
     train_type: TRAIN_TYPE.HIGHERSPEED,
     length: 21
@@ -37,7 +37,7 @@ test('mass of express 21m', t => {
   })
 })
 
-test('mass of express 20m', t => {
+test('mass of higherspeed 20m', t => {
   t.deepEqual(calculateEmptyMass({
     train_type: TRAIN_TYPE.HIGHERSPEED,
     length: 20
@@ -55,8 +55,8 @@ test('mass of commuter 20m', t => {
     length: 20
   }), {
     empty_mass: {
-      head: 27_692,
-      car: 27_609
+      head: 22_500,
+      car: 22_433
     }
   })
 })
@@ -67,8 +67,56 @@ test('mass of commuter 18m', t => {
     length: 18
   }), {
     empty_mass: {
-      head: 24_923,
-      car: 24_848
+      head: 20_250,
+      car: 20_189
+    }
+  })
+})
+
+test('mass of metro 20m', t => {
+  t.deepEqual(calculateEmptyMass({
+    train_type: TRAIN_TYPE.METRO,
+    length: 20
+  }), {
+    empty_mass: {
+      head: 25_231,
+      car: 25_155
+    }
+  })
+})
+
+test('mass of metro 18m', t => {
+  t.deepEqual(calculateEmptyMass({
+    train_type: TRAIN_TYPE.METRO,
+    length: 18
+  }), {
+    empty_mass: {
+      head: 22_708,
+      car: 22_640
+    }
+  })
+})
+
+test('mass of tram 16m', t => {
+  t.deepEqual(calculateEmptyMass({
+    train_type: TRAIN_TYPE.TRAM,
+    length: 16
+  }), {
+    empty_mass: {
+      head: 17_231,
+      car: 17_179
+    }
+  })
+})
+
+test('mass of tram 12m', t => {
+  t.deepEqual(calculateEmptyMass({
+    train_type: TRAIN_TYPE.TRAM,
+    length: 12
+  }), {
+    empty_mass: {
+      head: 12_923,
+      car: 12_884
     }
   })
 })

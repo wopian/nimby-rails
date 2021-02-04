@@ -368,4 +368,3 @@ tail_id=wopian_keikyu_1000_ii_batch_16_head
 tail_flip=true
 min_cars=2
 max_cars=6
-

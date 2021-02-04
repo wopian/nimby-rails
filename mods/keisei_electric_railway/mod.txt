@@ -368,4 +368,3 @@ tail_id=wopian_keisei_3700_head
 tail_flip=true
 min_cars=4
 max_cars=6
-

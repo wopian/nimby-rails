@@ -2,19 +2,58 @@ import test from 'ava'
 import { createTrainMultipleUnit } from '../index.js'
 
 test('blank multiple unit', t => {
-  t.is(createTrainMultipleUnit(), '[TrainMultipleUnit]\nschema=1\nid=wopian_blank_mu\nname_loc=wopian_blank_name\nname_en=blank\nhead_id=wopian_blank_head\ncar_id=wopian_blank_car\ntail_id=wopian_blank_head\ntail_flip=true\nmin_cars=0\nmax_cars=6\n')
+  t.deepEqual(createTrainMultipleUnit(), {
+    TrainMultipleUnit: {
+      car_id: 'wopian_blank_car',
+      head_id: 'wopian_blank_head',
+      id: 'wopian_blank_mu',
+      max_cars: 6,
+      min_cars: 0,
+      name_en: 'blank',
+      name_loc: 'wopian_blank_name',
+      schema: 1,
+      tail_flip: true,
+      tail_id: 'wopian_blank_head'
+    }
+  })
 })
 
 test('multiple unit with name', t => {
-  t.is(createTrainMultipleUnit({
+  t.deepEqual(createTrainMultipleUnit({
     name: 'Example 100'
-  }), '[TrainMultipleUnit]\nschema=1\nid=wopian_example_100_mu\nname_loc=wopian_example_100_name\nname_en=Example 100\nhead_id=wopian_example_100_head\ncar_id=wopian_example_100_car\ntail_id=wopian_example_100_head\ntail_flip=true\nmin_cars=0\nmax_cars=6\n')
+  }), {
+    TrainMultipleUnit: {
+      car_id: 'wopian_example_100_car',
+      head_id: 'wopian_example_100_head',
+      id: 'wopian_example_100_mu',
+      max_cars: 6,
+      min_cars: 0,
+      name_en: 'Example 100',
+      name_loc: 'wopian_example_100_name',
+      schema: 1,
+      tail_flip: true,
+      tail_id: 'wopian_example_100_head'
+    }
+  })
 })
 
 test('multiple unit with name and cars', t => {
-  t.is(createTrainMultipleUnit({
+  t.deepEqual(createTrainMultipleUnit({
     name: 'Example 100',
     min_cars: 3,
     max_cars: 10
-  }), '[TrainMultipleUnit]\nschema=1\nid=wopian_example_100_mu\nname_loc=wopian_example_100_name\nname_en=Example 100\nhead_id=wopian_example_100_head\ncar_id=wopian_example_100_car\ntail_id=wopian_example_100_head\ntail_flip=true\nmin_cars=1\nmax_cars=8\n')
+  }), {
+    TrainMultipleUnit: {
+      car_id: 'wopian_example_100_car',
+      head_id: 'wopian_example_100_head',
+      id: 'wopian_example_100_mu',
+      max_cars: 8,
+      min_cars: 1,
+      name_en: 'Example 100',
+      name_loc: 'wopian_example_100_name',
+      schema: 1,
+      tail_flip: true,
+      tail_id: 'wopian_example_100_head'
+    }
+  })
 })

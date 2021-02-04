@@ -524,4 +524,3 @@ tail_id=wopian_odakyu_5000_ii_head
 tail_flip=true
 min_cars=8
 max_cars=8
-

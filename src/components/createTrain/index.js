@@ -10,7 +10,7 @@ import {
   tonToKg
 } from '../index.js'
 
-// type: commuter|express
+// type: commuter|higherspeed
 export const createTrain = ({
   train_type, name, names, min_cars, max_cars, length, width, power, max_speed, max_pax, empty_mass
 } = {}) => {

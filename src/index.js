@@ -19,7 +19,7 @@ for (const { name, native, region, trains } of companies) {
   console.info(`${chalk.blueBright('info')} exported ${chalk.greenBright(trains.length)} train${trains.length > 1 ? 's' : ''} to〝${chalk.magentaBright(name)}〟`)
 
   if (!existsSync(OUTPUT)) mkdirSync(OUTPUT, { recursive: true })
-  writeFileSync(join(OUTPUT, 'mod.txt'), result)
+  writeFileSync(join(OUTPUT, 'mod.txt'), result.trimEnd())
 
   if (!existsSync(join(OUTPUT, 'placeholder_highspeed')) ||
       !existsSync(join(OUTPUT, 'placeholder_higherspeed')) ||

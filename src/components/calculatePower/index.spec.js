@@ -1,7 +1,7 @@
 import test from 'ava'
 import { TRAIN_TYPE, calculatePower } from '../index.js'
 
-test('power of high-speed 350 km/h', t => {
+test('power of highspeed 350 km/h', t => {
   t.deepEqual(calculatePower({
     train_type: TRAIN_TYPE.HIGHSPEED,
     max_speed: 350
@@ -10,7 +10,7 @@ test('power of high-speed 350 km/h', t => {
   })
 })
 
-test('power of high-speed 250 km/h', t => {
+test('power of highspeed 250 km/h', t => {
   t.deepEqual(calculatePower({
     train_type: TRAIN_TYPE.HIGHSPEED,
     max_speed: 250
@@ -19,7 +19,7 @@ test('power of high-speed 250 km/h', t => {
   })
 })
 
-test('power of express 240 km/h', t => {
+test('power of higherspeed 240 km/h', t => {
   t.deepEqual(calculatePower({
     train_type: TRAIN_TYPE.HIGHERSPEED,
     max_speed: 240
@@ -28,7 +28,7 @@ test('power of express 240 km/h', t => {
   })
 })
 
-test('power of express 200 km/h', t => {
+test('power of higherspeed 200 km/h', t => {
   t.deepEqual(calculatePower({
     train_type: TRAIN_TYPE.HIGHERSPEED,
     max_speed: 200
@@ -37,7 +37,7 @@ test('power of express 200 km/h', t => {
   })
 })
 
-test('power of express 180 km/h', t => {
+test('power of higherspeed 180 km/h', t => {
   t.deepEqual(calculatePower({
     train_type: TRAIN_TYPE.HIGHERSPEED,
     max_speed: 180
@@ -46,7 +46,7 @@ test('power of express 180 km/h', t => {
   })
 })
 
-test('power of express 120 km/h', t => {
+test('power of higherspeed 120 km/h', t => {
   t.deepEqual(calculatePower({
     train_type: TRAIN_TYPE.HIGHERSPEED,
     max_speed: 120
@@ -79,5 +79,41 @@ test('power of commuter 80 km/h', t => {
     max_speed: 80
   }), {
     power: 120
+  })
+})
+
+test('power of metro 100 km/h', t => {
+  t.deepEqual(calculatePower({
+    train_type: TRAIN_TYPE.METRO,
+    max_speed: 100
+  }), {
+    power: 150
+  })
+})
+
+test('power of metro 80 km/h', t => {
+  t.deepEqual(calculatePower({
+    train_type: TRAIN_TYPE.METRO,
+    max_speed: 80
+  }), {
+    power: 120
+  })
+})
+
+test('power of tram 80 km/h', t => {
+  t.deepEqual(calculatePower({
+    train_type: TRAIN_TYPE.TRAM,
+    max_speed: 80
+  }), {
+    power: 91
+  })
+})
+
+test('power of tram 60 km/h', t => {
+  t.deepEqual(calculatePower({
+    train_type: TRAIN_TYPE.TRAM,
+    max_speed: 60
+  }), {
+    power: 68
   })
 })

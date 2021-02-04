@@ -13,7 +13,7 @@ export const sotetsu = {
       length: { head: 20.2, car: 20 },
       width: 2.9, // no info
       power: 150,
-      max_pax: { head: 1522 / 10, car: 1522 / 10 },
+      max_pax: { head: 1_522 / 10, car: 1_522 / 10 },
       empty_mass: { head: 292.8 / 10, car: 292.8 / 10 } // no info
     },
     {
@@ -26,7 +26,7 @@ export const sotetsu = {
       length: { head: 20, car: 20 },
       width: 2.9,
       power: 180,
-      max_pax: { head: 1510 / 10, car: 1510 / 10 },
+      max_pax: { head: 1_510 / 10, car: 1_510 / 10 },
       empty_mass: { head: 278.5 / 10, car: 278.5 / 10 } // no info
     },
     {
@@ -39,7 +39,7 @@ export const sotetsu = {
       length: { head: 19.62, car: 19.5 },
       width: 2.93,
       power: 95,
-      max_pax: { head: 1562 / 10, car: 1562 / 10 },
+      max_pax: { head: 1_562 / 10, car: 1_562 / 10 },
       empty_mass: { head: 259.1 / 10, car: 259.1 / 10 }
     },
     {
@@ -52,7 +52,7 @@ export const sotetsu = {
       length: { head: 19.62, car: 19.5 },
       width: 2.95,
       power: 140,
-      max_pax: { head: 1564 / 10, car: 1564 / 10 },
+      max_pax: { head: 1_564 / 10, car: 1_564 / 10 },
       empty_mass: { head: 311.9 / 10, car: 311.9 / 10 }
     },
     {
@@ -65,7 +65,7 @@ export const sotetsu = {
       length: { head: 19.62, car: 19.5 },
       width: 2.998,
       power: 140,
-      max_pax: { head: 1441 / 10, car: 1441 / 10 },
+      max_pax: { head: 1_441 / 10, car: 1_441 / 10 },
       empty_mass: { head: (31.3 + 31.6) / 2, car: (31.1 + 33.1 + 34 * 3 + 29.7 + 30.3 + 34.4) / 8 }
     },
     {
@@ -78,7 +78,7 @@ export const sotetsu = {
       length: { head: 19.97, car: 19.5 },
       width: 2.77,
       power: 190,
-      max_pax: { head: 1441 / 10, car: 1441 / 10 },
+      max_pax: { head: 1_441 / 10, car: 1_441 / 10 },
       empty_mass: { head: (29.9 + 30) / 2, car: (26.9 + 29.8 + 31.1 + 31.7) / 4 }
     }
   ]
