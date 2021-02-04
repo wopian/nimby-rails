@@ -1,4 +1,4 @@
-import { TRAIN_TYPE } from '../../src/components/index.js'
+import { TRAIN_TYPE } from '../components/index.js.js.js'
 
 export const tokyo_metro = {
   name: 'Tokyo Metro',

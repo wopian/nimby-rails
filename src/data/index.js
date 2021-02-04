@@ -30,7 +30,7 @@ import { tokyu_corporation } from './tokyu_corporation/index.js'
   West Japan Railway Company (JR West)
 */
 
-export default [
+export const companies = [
   keikyu,
   keio_corporation,
   keisei_electric_railway,
