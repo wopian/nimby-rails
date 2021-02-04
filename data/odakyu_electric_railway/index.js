@@ -108,7 +108,7 @@ export const odakyu_electric_railway = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/小田急4000形電車_(2代)',
-      name: 'Odakyu 4000 (2nd Gen)',
+      name: 'Odakyu 4000 II',
       names: { head: 'KuHa 4050', car: 'DeHa 4000,SaHa 4050' },
       min_cars: 10,
       max_cars: 10,
@@ -121,7 +121,7 @@ export const odakyu_electric_railway = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/小田急5000形電車_(2代)',
-      name: 'Odakyu 5000 (2nd Gen)',
+      name: 'Odakyu 5000 II',
       names: { head: 'KuHa 5050/5450', car: 'DeHa 5000/5100/5200/5300/5400,SaHa 5150/5250/5350' },
       min_cars: 10,
       max_cars: 10,

@@ -4,7 +4,7 @@ export const keisei_electric_railway = {
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/京成AE形電車_(2代)',
-      name: 'Keisei AE (2nd Gen)',
+      name: 'Keisei AE II',
       min_cars: 8,
       max_cars: 8,
       max_speed: 170,
@@ -16,7 +16,7 @@ export const keisei_electric_railway = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/京成3000形電車_(2代)',
-      name: 'Keisei 3000 (2nd Gen)',
+      name: 'Keisei 3000 II',
       names: { head: 'MoHa 3000', car: 'MoHa 3000,SaHa 3000' },
       min_cars: 6,
       max_cars: 8,
@@ -29,7 +29,7 @@ export const keisei_electric_railway = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/京成3000形電車_(2代)',
-      name: 'Keisei 3100 (2nd Gen)',
+      name: 'Keisei 3100 II',
       names: { head: 'MoHa 3100', car: 'MoHa 3100,SaHa 3100' },
       min_cars: 8,
       max_cars: 8,

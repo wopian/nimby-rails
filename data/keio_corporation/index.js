@@ -4,7 +4,7 @@ export const keio_corporation = {
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/京王1000系電車_(2代)',
-      name: 'Keio 1000 (2nd Gen)',
+      name: 'Keio 1000 II',
       names: { head: 'KuHa 1700/1750', car: 'DeHa 1000/1050/1100' },
       min_cars: 5,
       max_cars: 5,
@@ -17,7 +17,7 @@ export const keio_corporation = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/京王5000系電車_(2代)',
-      name: 'Keio 5000 (2nd Gen)',
+      name: 'Keio 5000 II',
       names: { head: 'KuHa 5700/5750', car: 'DeHa 5000/5050,SaHa 5500/5550' },
       min_cars: 10,
       max_cars: 10,

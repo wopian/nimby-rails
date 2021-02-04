@@ -17,7 +17,7 @@ export const keikyu = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/京急600形電車_(3代)',
-      name: 'Keikyu 600 (3rd Gen)',
+      name: 'Keikyu 600 III',
       names: { head: 'DeHa 1500', car: 'DeHa 1500,SaHa 1900' },
       min_cars: 4,
       max_cars: 8,
@@ -43,7 +43,7 @@ export const keikyu = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/京急1000形電車_(2代)',
-      name: 'Keikyu 1000 (2nd Gen) Batch 1-5',
+      name: 'Keikyu 1000 II Batch 1-5',
       names: { head: 'DeHa 1000', car: 'DeHa 1000,SaHa 1000' },
       min_cars: 4,
       max_cars: 8,
@@ -56,7 +56,7 @@ export const keikyu = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/京急1000形電車_(2代)',
-      name: 'Keikyu 1000 (2nd Gen) Batch 6-9',
+      name: 'Keikyu 1000 II Batch 6-9',
       names: { head: 'DeHa 1000', car: 'DeHa 1000,SaHa 1000' },
       min_cars: 4,
       max_cars: 8,
@@ -69,7 +69,7 @@ export const keikyu = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/京急1000形電車_(2代)',
-      name: 'Keikyu 1000 (2nd Gen) Batch 10-15',
+      name: 'Keikyu 1000 II Batch 10-15',
       names: { head: 'DeHa 1000', car: 'DeHa 1000,SaHa 1000' },
       min_cars: 4,
       max_cars: 8,
@@ -82,7 +82,7 @@ export const keikyu = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/京急1000形電車_(2代)',
-      name: 'Keikyu 1000 (2nd Gen) Batch 16+',
+      name: 'Keikyu 1000 II Batch 16+',
       names: { head: 'DeHa 1000', car: 'DeHa 1000,SaHa 1000' },
       min_cars: 4,
       max_cars: 8,

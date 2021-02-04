@@ -56,7 +56,7 @@ export const tokyu_corporation = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東急3000系電車_(2代)',
-      name: 'Tokyu 3000 (2nd Gen)',
+      name: 'Tokyu 3000 II',
       names: { head: 'KuHa 3000/3100', car: 'DeHa 3200/3250/3400,SaHa 3500' },
       min_cars: 6,
       max_cars: 8,
@@ -69,7 +69,7 @@ export const tokyu_corporation = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東急5000系電車_(2代)',
-      name: 'Tokyu 5000 (2nd Gen)',
+      name: 'Tokyu 5000 II',
       names: { head: 'KuHa 5000/5100', car: 'DeHa 5200/5400/5500/5800/5900,SaHa 5300/5600/5700' },
       min_cars: 8,
       max_cars: 10,
@@ -82,7 +82,7 @@ export const tokyu_corporation = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東急5000系電車_(2代)',
-      name: 'Tokyu 5050 (2nd Gen)',
+      name: 'Tokyu 5050 II',
       names: { head: 'KuHa 5150/5850', car: 'DeHa 5250/5350/5650/5750,SaHa 5450/5550' },
       min_cars: 8,
       max_cars: 8,
@@ -95,7 +95,7 @@ export const tokyu_corporation = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東急5000系電車_(2代)',
-      name: 'Tokyu 5080 (2nd Gen)',
+      name: 'Tokyu 5080 II',
       names: { head: 'KuHa 5180/5680', car: 'DeHa 5280/5480/5580,SaHa 5380' },
       min_cars: 6,
       max_cars: 6,
@@ -108,7 +108,7 @@ export const tokyu_corporation = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東急6000系電車_(2代)',
-      name: 'Tokyu 6000 (2nd Gen)',
+      name: 'Tokyu 6000 II',
       names: { head: 'KuHa 6100/6700', car: 'DeHa 6200/6300/6500/6600,SaHa 6400' },
       min_cars: 6,
       max_cars: 7,
@@ -121,7 +121,7 @@ export const tokyu_corporation = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東急7000系電車_(2代)',
-      name: 'Tokyu 7000 (2nd Gen)',
+      name: 'Tokyu 7000 II',
       names: { head: 'DeHa 7100,KuHa 7300', car: 'DeHa 7200' },
       min_cars: 3,
       max_cars: 3,
