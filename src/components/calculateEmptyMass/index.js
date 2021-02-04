@@ -13,7 +13,7 @@ const derivedMass = train_type => {
       return 20_500 / 16.25
     case TRAIN_TYPE.COMMUTER:
     default:
-      return 22_500 / 16.25
+      return 22_500 / 20
   }
 }
 

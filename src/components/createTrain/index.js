@@ -27,7 +27,7 @@ export const createTrain = ({
   if (empty_mass) empty_mass = { head: tonToKg(empty_mass.head), car: tonToKg(empty_mass.car) }
   else empty_mass = calculateEmptyMass({ train_type, length, empty_mass }).empty_mass
 
-  const { price } = calculatePrice({ train_type, empty_mass })
+  const { price } = calculatePrice({ train_type, empty_mass, length })
   const { cost_per_km_per_pax, cost_per_day } = calculateCosts({ train_type, price })
   const headUnit = createTrainUnit({ train_type, unit_type: 'head', name, names, length, width, max_speed, power, empty_mass, price, max_pax, cost_per_km_per_pax, cost_per_day })
   const carUnit = createTrainUnit({ train_type, unit_type: 'car', name, names, length, width, max_speed, power, empty_mass, price, max_pax, cost_per_km_per_pax, cost_per_day })

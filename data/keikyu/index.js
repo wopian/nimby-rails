@@ -87,7 +87,7 @@ export const keikyu = {
       min_cars: 4,
       max_cars: 8,
       max_speed: 130,
-      length: { head: 116, car: 126 },
+      length: { head: 18, car: 18 },
       width: 2.83,
       power: 155, //  * 16
       max_pax: { head: 122, car: 130 },

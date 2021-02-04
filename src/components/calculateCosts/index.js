@@ -15,15 +15,15 @@ export const calculateCosts = ({ train_type, price } = {}) => {
       return {
         cost_per_km_per_pax: 0.05,
         cost_per_day: {
-          head: Math.round(price.head / (3_500_000 / 224) * 0.85),
-          car: Math.round(price.car / (3_500_000 / 224) * 0.7)
+          head: Math.round(price.head / (3_500_000 / 224)),
+          car: Math.round(price.car / (3_500_000 / 224) * 0.85)
         }
       }
     case TRAIN_TYPE.TRAM:
       return {
         cost_per_km_per_pax: 0.05,
         cost_per_day: {
-          head: Math.round(price.head / (1_700_000 / 40) * 1.15),
+          head: Math.round(price.head / (1_700_000 / 40)),
           car: Math.round(price.car / (1_700_000 / 40) * 0.85)
         }
       }
@@ -31,7 +31,7 @@ export const calculateCosts = ({ train_type, price } = {}) => {
       return {
         cost_per_km_per_pax: 0.05,
         cost_per_day: {
-          head: Math.round(price.head / (1_900_000 / 42) * 1.15),
+          head: Math.round(price.head / (1_900_000 / 42)),
           car: Math.round(price.car / (1_900_000 / 42) * 0.85)
         }
       }
@@ -40,7 +40,7 @@ export const calculateCosts = ({ train_type, price } = {}) => {
       return {
         cost_per_km_per_pax: 0.05,
         cost_per_day: {
-          head: Math.round(price.head / (2_200_000 / 53) * 1.15),
+          head: Math.round(price.head / (2_200_000 / 53)),
           car: Math.round(price.car / (2_200_000 / 53) * 0.85)
         }
       }
