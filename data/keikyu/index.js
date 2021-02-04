@@ -1,6 +1,7 @@
 export const keikyu = {
   name: 'Keikyu',
   native: '京急',
+  region: 'Kantō',
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/京急1500形電車',

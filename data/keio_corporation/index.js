@@ -1,6 +1,7 @@
 export const keio_corporation = {
   name: 'Keio Corporation',
   native: '京王電鉄株式会社',
+  region: 'Kantō',
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/京王1000系電車_(2代)',

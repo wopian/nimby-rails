@@ -1,6 +1,7 @@
 export const seibu_railway = {
   name: 'Seibu Railway',
   native: '西武鉄道株式会社',
+  region: 'Kantō',
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武001系電車',

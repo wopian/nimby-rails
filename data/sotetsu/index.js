@@ -1,6 +1,7 @@
 export const sotetsu = {
   name: 'Sotetsu (Sagami Railway)',
   native: '相鉄（相模鉄道株式会社）',
+  region: 'Kantō',
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/相鉄8000系電車',

@@ -1,6 +1,7 @@
 export const tokyu_corporation = {
   name: 'Tokyu Corporation',
   native: '東急株式会社',
+  region: 'Kantō',
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/東急8500系電車',

@@ -1,6 +1,7 @@
 export const keisei_electric_railway = {
   name: 'Keisei Electric Railway',
   native: '京成電鉄株式会社',
+  region: 'Kantō',
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/京成AE形電車_(2代)',

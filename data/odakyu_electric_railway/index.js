@@ -1,6 +1,7 @@
 export const odakyu_electric_railway = {
   name: 'Odakyu Electric Railway',
   native: '小田急電鉄株式会社',
+  region: 'Kantō',
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/小田急30000形電車',
