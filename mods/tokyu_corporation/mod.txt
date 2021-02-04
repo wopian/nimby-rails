@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Tokyu Corporation
+name=Tokyu Corporation / 東急株式会社
 author=wopian
-desc=Collection of trains from Tokyu Corporation
+desc=14 trains operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]

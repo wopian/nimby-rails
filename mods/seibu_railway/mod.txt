@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Seibu Railway
+name=Seibu Railway / 西武鉄道株式会社
 author=wopian
-desc=Collection of trains from Seibu Railway
+desc=12 trains operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]

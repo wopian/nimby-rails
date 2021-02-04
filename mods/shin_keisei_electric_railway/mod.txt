@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Shin-Keisei Electric Railway
+name=Shin-Keisei Electric Railway / 新京成電鉄
 author=wopian
-desc=Collection of trains from Shin-Keisei Electric Railway
+desc=5 trains operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]

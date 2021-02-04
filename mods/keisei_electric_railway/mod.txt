@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Keisei Electric Railway
+name=Keisei Electric Railway / 京成電鉄株式会社
 author=wopian
-desc=Collection of trains from Keisei Electric Railway
+desc=7 trains operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]

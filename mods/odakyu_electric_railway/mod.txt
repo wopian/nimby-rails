@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Odakyu Electric Railway
+name=Odakyu Electric Railway / 小田急電鉄株式会社
 author=wopian
-desc=Collection of trains from Odakyu Electric Railway
+desc=10 trains operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]

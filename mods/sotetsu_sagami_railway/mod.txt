@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Sotetsu (Sagami Railway)
+name=Sotetsu (Sagami Railway) / 相鉄（相模鉄道株式会社）
 author=wopian
-desc=Collection of trains from Sotetsu (Sagami Railway)
+desc=6 trains operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]

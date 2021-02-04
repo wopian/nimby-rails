@@ -8,9 +8,9 @@ import data from '../data/trains.js'
 
 const PLACEHOLDERS = join(process.cwd(), 'placeholders')
 
-for (const { name, trains } of data) {
+for (const { name, native, region, trains } of data) {
   const OUTPUT = join(process.cwd(), 'mods', snakeCase(name))
-  let result = createMeta({ name })
+  let result = createMeta({ name, native, region, totalTrains: trains.length })
 
   for (const train of trains) {
     result += createTrain(train)

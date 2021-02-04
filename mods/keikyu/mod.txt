@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Keikyu
+name=Keikyu / 京急
 author=wopian
-desc=Collection of trains from Keikyu
+desc=7 trains operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]

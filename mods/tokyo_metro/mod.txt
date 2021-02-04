@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Tokyo Metro
+name=Tokyo Metro / 東京メトロ
 author=wopian
-desc=Collection of trains from Tokyo Metro
+desc=20 trains operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]

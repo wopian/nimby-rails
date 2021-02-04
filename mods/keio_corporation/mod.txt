@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Keio Corporation
+name=Keio Corporation / 京王電鉄株式会社
 author=wopian
-desc=Collection of trains from Keio Corporation
+desc=5 trains operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]
