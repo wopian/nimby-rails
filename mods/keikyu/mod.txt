@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Keikyu / 京急
+name=Keikyu
 author=wopian
-desc=7 trains operated in the Kantō region
+desc=7 EMUs operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]
@@ -368,3 +368,4 @@ tail_id=wopian_keikyu_1000_ii_batch_16_head
 tail_flip=true
 min_cars=2
 max_cars=6
+

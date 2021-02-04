@@ -29,9 +29,10 @@ export const createTrain = ({
 
   const { price } = calculatePrice({ train_type, empty_mass, length })
   const { cost_per_km_per_pax, cost_per_day } = calculateCosts({ train_type, price })
-  const headUnit = createTrainUnit({ train_type, unit_type: 'head', name, names, length, width, max_speed, power, empty_mass, price, max_pax, cost_per_km_per_pax, cost_per_day })
-  const carUnit = createTrainUnit({ train_type, unit_type: 'car', name, names, length, width, max_speed, power, empty_mass, price, max_pax, cost_per_km_per_pax, cost_per_day })
-  const multipleUnit = createTrainMultipleUnit({ name, min_cars, max_cars })
 
-  return NEW_LINE.concat(headUnit, NEW_LINE, carUnit, NEW_LINE, multipleUnit)
+  return [
+    createTrainUnit({ train_type, unit_type: 'head', name, names, length, width, max_speed, power, empty_mass, price, max_pax, cost_per_km_per_pax, cost_per_day }),
+    createTrainUnit({ train_type, unit_type: 'car', name, names, length, width, max_speed, power, empty_mass, price, max_pax, cost_per_km_per_pax, cost_per_day }),
+    createTrainMultipleUnit({ name, min_cars, max_cars })
+  ]
 }

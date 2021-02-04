@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Keisei Electric Railway / 京成電鉄株式会社
+name=Keisei Electric Railway
 author=wopian
-desc=7 trains operated in the Kantō region
+desc=7 EMUs operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]
@@ -368,3 +368,4 @@ tail_id=wopian_keisei_3700_head
 tail_flip=true
 min_cars=4
 max_cars=6
+

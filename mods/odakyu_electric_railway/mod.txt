@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Odakyu Electric Railway / 小田急電鉄株式会社
+name=Odakyu Electric Railway
 author=wopian
-desc=10 trains operated in the Kantō region
+desc=10 EMUs operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]
@@ -524,3 +524,4 @@ tail_id=wopian_odakyu_5000_ii_head
 tail_flip=true
 min_cars=8
 max_cars=8
+

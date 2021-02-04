@@ -1,4 +1,3 @@
-import { stringify as ini } from 'ini'
 import { snakeCase } from 'snake-case'
 import { TRAIN_TYPE } from '../index.js'
 
@@ -17,7 +16,7 @@ const getDecors = ({ train_type, unit_type } = {}) => {
 
 export const createTrainUnit = ({
   train_type = TRAIN_TYPE.COMMUTER, unit_type, name, names, length, width, max_speed, power, empty_mass, price, max_pax, cost_per_km_per_pax, cost_per_day
-} = {}) => ini({
+} = {}) => ({
   TrainUnit: {
     schema: 1,
     id: `wopian_${snakeCase(name)}_${unit_type}`,
@@ -39,4 +38,4 @@ export const createTrainUnit = ({
     tex_m_width: 30,
     tex_m_height: 3.75
   }
-}).replaceAll('\r', '')
+})

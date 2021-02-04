@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Tobu Railway / 東武鉄道株式会社
+name=Tobu Railway
 author=wopian
-desc=22 trains operated in the Kantō region
+desc=22 EMUs operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]
@@ -1148,3 +1148,4 @@ tail_id=wopian_tobu_70000_head
 tail_flip=true
 min_cars=4
 max_cars=5
+

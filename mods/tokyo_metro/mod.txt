@@ -1,8 +1,8 @@
 [ModMeta]
 schema=1
-name=Tokyo Metro / 東京メトロ
+name=Tokyo Metro
 author=wopian
-desc=20 trains operated in the Kantō region
+desc=20 EMUs operated in the Kantō region
 version=0.0.1
 
 [TrainUnit]
@@ -1044,3 +1044,4 @@ tail_id=wopian_tokyo_metro_9000_head
 tail_flip=true
 min_cars=4
 max_cars=4
+
