@@ -215,8 +215,8 @@ max_cars=8
 
 [TrainUnit]
 schema=1
-id=wopian_tokyu_3000_2nd_gen_head
-name_loc=wopian_tokyu_3000_2nd_gen_head_name
+id=wopian_tokyu_3000_ii_head
+name_loc=wopian_tokyu_3000_ii_head_name
 name_en=KuHa 3000/3100
 length=20.3
 width=2.77
@@ -235,8 +235,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_tokyu_3000_2nd_gen_car
-name_loc=wopian_tokyu_3000_2nd_gen_car_name
+id=wopian_tokyu_3000_ii_car
+name_loc=wopian_tokyu_3000_ii_car_name
 name_en=DeHa 3200/3250/3400,SaHa 3500
 length=20
 width=2.77
@@ -255,20 +255,20 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_tokyu_3000_2nd_gen_mu
-name_loc=wopian_tokyu_3000_2nd_gen_name
-name_en=Tokyu 3000 (2nd Gen)
-head_id=wopian_tokyu_3000_2nd_gen_head
-car_id=wopian_tokyu_3000_2nd_gen_car
-tail_id=wopian_tokyu_3000_2nd_gen_head
+id=wopian_tokyu_3000_ii_mu
+name_loc=wopian_tokyu_3000_ii_name
+name_en=Tokyu 3000 II
+head_id=wopian_tokyu_3000_ii_head
+car_id=wopian_tokyu_3000_ii_car
+tail_id=wopian_tokyu_3000_ii_head
 tail_flip=true
 min_cars=4
 max_cars=6
 
 [TrainUnit]
 schema=1
-id=wopian_tokyu_5000_2nd_gen_head
-name_loc=wopian_tokyu_5000_2nd_gen_head_name
+id=wopian_tokyu_5000_ii_head
+name_loc=wopian_tokyu_5000_ii_head_name
 name_en=KuHa 5000/5100
 length=20.1
 width=2.8
@@ -287,8 +287,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_tokyu_5000_2nd_gen_car
-name_loc=wopian_tokyu_5000_2nd_gen_car_name
+id=wopian_tokyu_5000_ii_car
+name_loc=wopian_tokyu_5000_ii_car_name
 name_en=DeHa 5200/5400/5500/5800/5900,SaHa 5300/5600/5700
 length=20
 width=2.8
@@ -307,20 +307,20 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_tokyu_5000_2nd_gen_mu
-name_loc=wopian_tokyu_5000_2nd_gen_name
-name_en=Tokyu 5000 (2nd Gen)
-head_id=wopian_tokyu_5000_2nd_gen_head
-car_id=wopian_tokyu_5000_2nd_gen_car
-tail_id=wopian_tokyu_5000_2nd_gen_head
+id=wopian_tokyu_5000_ii_mu
+name_loc=wopian_tokyu_5000_ii_name
+name_en=Tokyu 5000 II
+head_id=wopian_tokyu_5000_ii_head
+car_id=wopian_tokyu_5000_ii_car
+tail_id=wopian_tokyu_5000_ii_head
 tail_flip=true
 min_cars=6
 max_cars=8
 
 [TrainUnit]
 schema=1
-id=wopian_tokyu_5050_2nd_gen_head
-name_loc=wopian_tokyu_5050_2nd_gen_head_name
+id=wopian_tokyu_5050_ii_head
+name_loc=wopian_tokyu_5050_ii_head_name
 name_en=KuHa 5150/5850
 length=20.2
 width=2.82
@@ -339,8 +339,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_tokyu_5050_2nd_gen_car
-name_loc=wopian_tokyu_5050_2nd_gen_car_name
+id=wopian_tokyu_5050_ii_car
+name_loc=wopian_tokyu_5050_ii_car_name
 name_en=DeHa 5250/5350/5650/5750,SaHa 5450/5550
 length=20
 width=2.82
@@ -359,20 +359,20 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_tokyu_5050_2nd_gen_mu
-name_loc=wopian_tokyu_5050_2nd_gen_name
-name_en=Tokyu 5050 (2nd Gen)
-head_id=wopian_tokyu_5050_2nd_gen_head
-car_id=wopian_tokyu_5050_2nd_gen_car
-tail_id=wopian_tokyu_5050_2nd_gen_head
+id=wopian_tokyu_5050_ii_mu
+name_loc=wopian_tokyu_5050_ii_name
+name_en=Tokyu 5050 II
+head_id=wopian_tokyu_5050_ii_head
+car_id=wopian_tokyu_5050_ii_car
+tail_id=wopian_tokyu_5050_ii_head
 tail_flip=true
 min_cars=6
 max_cars=6
 
 [TrainUnit]
 schema=1
-id=wopian_tokyu_5080_2nd_gen_head
-name_loc=wopian_tokyu_5080_2nd_gen_head_name
+id=wopian_tokyu_5080_ii_head
+name_loc=wopian_tokyu_5080_ii_head_name
 name_en=KuHa 5180/5680
 length=20.2
 width=2.8
@@ -391,8 +391,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_tokyu_5080_2nd_gen_car
-name_loc=wopian_tokyu_5080_2nd_gen_car_name
+id=wopian_tokyu_5080_ii_car
+name_loc=wopian_tokyu_5080_ii_car_name
 name_en=DeHa 5280/5480/5580,SaHa 5380
 length=20
 width=2.8
@@ -411,20 +411,20 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_tokyu_5080_2nd_gen_mu
-name_loc=wopian_tokyu_5080_2nd_gen_name
-name_en=Tokyu 5080 (2nd Gen)
-head_id=wopian_tokyu_5080_2nd_gen_head
-car_id=wopian_tokyu_5080_2nd_gen_car
-tail_id=wopian_tokyu_5080_2nd_gen_head
+id=wopian_tokyu_5080_ii_mu
+name_loc=wopian_tokyu_5080_ii_name
+name_en=Tokyu 5080 II
+head_id=wopian_tokyu_5080_ii_head
+car_id=wopian_tokyu_5080_ii_car
+tail_id=wopian_tokyu_5080_ii_head
 tail_flip=true
 min_cars=4
 max_cars=4
 
 [TrainUnit]
 schema=1
-id=wopian_tokyu_6000_2nd_gen_head
-name_loc=wopian_tokyu_6000_2nd_gen_head_name
+id=wopian_tokyu_6000_ii_head
+name_loc=wopian_tokyu_6000_ii_head_name
 name_en=KuHa 6100/6700
 length=20.435
 width=2.8
@@ -443,8 +443,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_tokyu_6000_2nd_gen_car
-name_loc=wopian_tokyu_6000_2nd_gen_car_name
+id=wopian_tokyu_6000_ii_car
+name_loc=wopian_tokyu_6000_ii_car_name
 name_en=DeHa 6200/6300/6500/6600,SaHa 6400
 length=20
 width=2.8
@@ -463,20 +463,20 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_tokyu_6000_2nd_gen_mu
-name_loc=wopian_tokyu_6000_2nd_gen_name
-name_en=Tokyu 6000 (2nd Gen)
-head_id=wopian_tokyu_6000_2nd_gen_head
-car_id=wopian_tokyu_6000_2nd_gen_car
-tail_id=wopian_tokyu_6000_2nd_gen_head
+id=wopian_tokyu_6000_ii_mu
+name_loc=wopian_tokyu_6000_ii_name
+name_en=Tokyu 6000 II
+head_id=wopian_tokyu_6000_ii_head
+car_id=wopian_tokyu_6000_ii_car
+tail_id=wopian_tokyu_6000_ii_head
 tail_flip=true
 min_cars=4
 max_cars=5
 
 [TrainUnit]
 schema=1
-id=wopian_tokyu_7000_2nd_gen_head
-name_loc=wopian_tokyu_7000_2nd_gen_head_name
+id=wopian_tokyu_7000_ii_head
+name_loc=wopian_tokyu_7000_ii_head_name
 name_en=DeHa 7100,KuHa 7300
 length=18.1
 width=2.8
@@ -495,8 +495,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_tokyu_7000_2nd_gen_car
-name_loc=wopian_tokyu_7000_2nd_gen_car_name
+id=wopian_tokyu_7000_ii_car
+name_loc=wopian_tokyu_7000_ii_car_name
 name_en=DeHa 7200
 length=18
 width=2.8
@@ -515,12 +515,12 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_tokyu_7000_2nd_gen_mu
-name_loc=wopian_tokyu_7000_2nd_gen_name
-name_en=Tokyu 7000 (2nd Gen)
-head_id=wopian_tokyu_7000_2nd_gen_head
-car_id=wopian_tokyu_7000_2nd_gen_car
-tail_id=wopian_tokyu_7000_2nd_gen_head
+id=wopian_tokyu_7000_ii_mu
+name_loc=wopian_tokyu_7000_ii_name
+name_en=Tokyu 7000 II
+head_id=wopian_tokyu_7000_ii_head
+car_id=wopian_tokyu_7000_ii_car
+tail_id=wopian_tokyu_7000_ii_head
 tail_flip=true
 min_cars=1
 max_cars=1

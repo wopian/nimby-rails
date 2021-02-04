@@ -7,9 +7,9 @@ version=0.0.1
 
 [TrainUnit]
 schema=1
-id=wopian_keisei_ae_2nd_gen_head
-name_loc=wopian_keisei_ae_2nd_gen_head_name
-name_en=Keisei AE (2nd Gen) (End car)
+id=wopian_keisei_ae_ii_head
+name_loc=wopian_keisei_ae_ii_head_name
+name_en=Keisei AE II (End car)
 length=19.5
 width=2.794
 max_speed=170
@@ -27,9 +27,9 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_keisei_ae_2nd_gen_car
-name_loc=wopian_keisei_ae_2nd_gen_car_name
-name_en=Keisei AE (2nd Gen) (Middle car)
+id=wopian_keisei_ae_ii_car
+name_loc=wopian_keisei_ae_ii_car_name
+name_en=Keisei AE II (Middle car)
 length=19
 width=2.794
 max_speed=170
@@ -47,20 +47,20 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_keisei_ae_2nd_gen_mu
-name_loc=wopian_keisei_ae_2nd_gen_name
-name_en=Keisei AE (2nd Gen)
-head_id=wopian_keisei_ae_2nd_gen_head
-car_id=wopian_keisei_ae_2nd_gen_car
-tail_id=wopian_keisei_ae_2nd_gen_head
+id=wopian_keisei_ae_ii_mu
+name_loc=wopian_keisei_ae_ii_name
+name_en=Keisei AE II
+head_id=wopian_keisei_ae_ii_head
+car_id=wopian_keisei_ae_ii_car
+tail_id=wopian_keisei_ae_ii_head
 tail_flip=true
 min_cars=6
 max_cars=6
 
 [TrainUnit]
 schema=1
-id=wopian_keisei_3000_2nd_gen_head
-name_loc=wopian_keisei_3000_2nd_gen_head_name
+id=wopian_keisei_3000_ii_head
+name_loc=wopian_keisei_3000_ii_head_name
 name_en=MoHa 3000
 length=18
 width=2.768
@@ -79,8 +79,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_keisei_3000_2nd_gen_car
-name_loc=wopian_keisei_3000_2nd_gen_car_name
+id=wopian_keisei_3000_ii_car
+name_loc=wopian_keisei_3000_ii_car_name
 name_en=MoHa 3000,SaHa 3000
 length=18
 width=2.768
@@ -99,20 +99,20 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_keisei_3000_2nd_gen_mu
-name_loc=wopian_keisei_3000_2nd_gen_name
-name_en=Keisei 3000 (2nd Gen)
-head_id=wopian_keisei_3000_2nd_gen_head
-car_id=wopian_keisei_3000_2nd_gen_car
-tail_id=wopian_keisei_3000_2nd_gen_head
+id=wopian_keisei_3000_ii_mu
+name_loc=wopian_keisei_3000_ii_name
+name_en=Keisei 3000 II
+head_id=wopian_keisei_3000_ii_head
+car_id=wopian_keisei_3000_ii_car
+tail_id=wopian_keisei_3000_ii_head
 tail_flip=true
 min_cars=4
 max_cars=6
 
 [TrainUnit]
 schema=1
-id=wopian_keisei_3100_2nd_gen_head
-name_loc=wopian_keisei_3100_2nd_gen_head_name
+id=wopian_keisei_3100_ii_head
+name_loc=wopian_keisei_3100_ii_head_name
 name_en=MoHa 3100
 length=18
 width=2.845
@@ -131,8 +131,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_keisei_3100_2nd_gen_car
-name_loc=wopian_keisei_3100_2nd_gen_car_name
+id=wopian_keisei_3100_ii_car
+name_loc=wopian_keisei_3100_ii_car_name
 name_en=MoHa 3100,SaHa 3100
 length=18
 width=2.845
@@ -151,12 +151,12 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_keisei_3100_2nd_gen_mu
-name_loc=wopian_keisei_3100_2nd_gen_name
-name_en=Keisei 3100 (2nd Gen)
-head_id=wopian_keisei_3100_2nd_gen_head
-car_id=wopian_keisei_3100_2nd_gen_car
-tail_id=wopian_keisei_3100_2nd_gen_head
+id=wopian_keisei_3100_ii_mu
+name_loc=wopian_keisei_3100_ii_name
+name_en=Keisei 3100 II
+head_id=wopian_keisei_3100_ii_head
+car_id=wopian_keisei_3100_ii_car
+tail_id=wopian_keisei_3100_ii_head
 tail_flip=true
 min_cars=6
 max_cars=6

@@ -59,8 +59,8 @@ max_cars=6
 
 [TrainUnit]
 schema=1
-id=wopian_keikyu_600_3rd_gen_head
-name_loc=wopian_keikyu_600_3rd_gen_head_name
+id=wopian_keikyu_600_iii_head
+name_loc=wopian_keikyu_600_iii_head_name
 name_en=DeHa 1500
 length=18
 width=2.83
@@ -79,8 +79,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_keikyu_600_3rd_gen_car
-name_loc=wopian_keikyu_600_3rd_gen_car_name
+id=wopian_keikyu_600_iii_car
+name_loc=wopian_keikyu_600_iii_car_name
 name_en=DeHa 1500,SaHa 1900
 length=18
 width=2.83
@@ -99,12 +99,12 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_keikyu_600_3rd_gen_mu
-name_loc=wopian_keikyu_600_3rd_gen_name
-name_en=Keikyu 600 (3rd Gen)
-head_id=wopian_keikyu_600_3rd_gen_head
-car_id=wopian_keikyu_600_3rd_gen_car
-tail_id=wopian_keikyu_600_3rd_gen_head
+id=wopian_keikyu_600_iii_mu
+name_loc=wopian_keikyu_600_iii_name
+name_en=Keikyu 600 III
+head_id=wopian_keikyu_600_iii_head
+car_id=wopian_keikyu_600_iii_car
+tail_id=wopian_keikyu_600_iii_head
 tail_flip=true
 min_cars=2
 max_cars=6
@@ -163,8 +163,8 @@ max_cars=6
 
 [TrainUnit]
 schema=1
-id=wopian_keikyu_1000_2nd_gen_batch_1_5_head
-name_loc=wopian_keikyu_1000_2nd_gen_batch_1_5_head_name
+id=wopian_keikyu_1000_ii_batch_1_5_head
+name_loc=wopian_keikyu_1000_ii_batch_1_5_head_name
 name_en=DeHa 1000
 length=18
 width=2.83
@@ -183,8 +183,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_keikyu_1000_2nd_gen_batch_1_5_car
-name_loc=wopian_keikyu_1000_2nd_gen_batch_1_5_car_name
+id=wopian_keikyu_1000_ii_batch_1_5_car
+name_loc=wopian_keikyu_1000_ii_batch_1_5_car_name
 name_en=DeHa 1000,SaHa 1000
 length=18
 width=2.83
@@ -203,20 +203,20 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_keikyu_1000_2nd_gen_batch_1_5_mu
-name_loc=wopian_keikyu_1000_2nd_gen_batch_1_5_name
-name_en=Keikyu 1000 (2nd Gen) Batch 1-5
-head_id=wopian_keikyu_1000_2nd_gen_batch_1_5_head
-car_id=wopian_keikyu_1000_2nd_gen_batch_1_5_car
-tail_id=wopian_keikyu_1000_2nd_gen_batch_1_5_head
+id=wopian_keikyu_1000_ii_batch_1_5_mu
+name_loc=wopian_keikyu_1000_ii_batch_1_5_name
+name_en=Keikyu 1000 II Batch 1-5
+head_id=wopian_keikyu_1000_ii_batch_1_5_head
+car_id=wopian_keikyu_1000_ii_batch_1_5_car
+tail_id=wopian_keikyu_1000_ii_batch_1_5_head
 tail_flip=true
 min_cars=2
 max_cars=6
 
 [TrainUnit]
 schema=1
-id=wopian_keikyu_1000_2nd_gen_batch_6_9_head
-name_loc=wopian_keikyu_1000_2nd_gen_batch_6_9_head_name
+id=wopian_keikyu_1000_ii_batch_6_9_head
+name_loc=wopian_keikyu_1000_ii_batch_6_9_head_name
 name_en=DeHa 1000
 length=18
 width=2.83
@@ -235,8 +235,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_keikyu_1000_2nd_gen_batch_6_9_car
-name_loc=wopian_keikyu_1000_2nd_gen_batch_6_9_car_name
+id=wopian_keikyu_1000_ii_batch_6_9_car
+name_loc=wopian_keikyu_1000_ii_batch_6_9_car_name
 name_en=DeHa 1000,SaHa 1000
 length=18
 width=2.83
@@ -255,20 +255,20 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_keikyu_1000_2nd_gen_batch_6_9_mu
-name_loc=wopian_keikyu_1000_2nd_gen_batch_6_9_name
-name_en=Keikyu 1000 (2nd Gen) Batch 6-9
-head_id=wopian_keikyu_1000_2nd_gen_batch_6_9_head
-car_id=wopian_keikyu_1000_2nd_gen_batch_6_9_car
-tail_id=wopian_keikyu_1000_2nd_gen_batch_6_9_head
+id=wopian_keikyu_1000_ii_batch_6_9_mu
+name_loc=wopian_keikyu_1000_ii_batch_6_9_name
+name_en=Keikyu 1000 II Batch 6-9
+head_id=wopian_keikyu_1000_ii_batch_6_9_head
+car_id=wopian_keikyu_1000_ii_batch_6_9_car
+tail_id=wopian_keikyu_1000_ii_batch_6_9_head
 tail_flip=true
 min_cars=2
 max_cars=6
 
 [TrainUnit]
 schema=1
-id=wopian_keikyu_1000_2nd_gen_batch_10_15_head
-name_loc=wopian_keikyu_1000_2nd_gen_batch_10_15_head_name
+id=wopian_keikyu_1000_ii_batch_10_15_head
+name_loc=wopian_keikyu_1000_ii_batch_10_15_head_name
 name_en=DeHa 1000
 length=18
 width=2.83
@@ -287,8 +287,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_keikyu_1000_2nd_gen_batch_10_15_car
-name_loc=wopian_keikyu_1000_2nd_gen_batch_10_15_car_name
+id=wopian_keikyu_1000_ii_batch_10_15_car
+name_loc=wopian_keikyu_1000_ii_batch_10_15_car_name
 name_en=DeHa 1000,SaHa 1000
 length=18
 width=2.83
@@ -307,20 +307,20 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_keikyu_1000_2nd_gen_batch_10_15_mu
-name_loc=wopian_keikyu_1000_2nd_gen_batch_10_15_name
-name_en=Keikyu 1000 (2nd Gen) Batch 10-15
-head_id=wopian_keikyu_1000_2nd_gen_batch_10_15_head
-car_id=wopian_keikyu_1000_2nd_gen_batch_10_15_car
-tail_id=wopian_keikyu_1000_2nd_gen_batch_10_15_head
+id=wopian_keikyu_1000_ii_batch_10_15_mu
+name_loc=wopian_keikyu_1000_ii_batch_10_15_name
+name_en=Keikyu 1000 II Batch 10-15
+head_id=wopian_keikyu_1000_ii_batch_10_15_head
+car_id=wopian_keikyu_1000_ii_batch_10_15_car
+tail_id=wopian_keikyu_1000_ii_batch_10_15_head
 tail_flip=true
 min_cars=2
 max_cars=6
 
 [TrainUnit]
 schema=1
-id=wopian_keikyu_1000_2nd_gen_batch_16_head
-name_loc=wopian_keikyu_1000_2nd_gen_batch_16_head_name
+id=wopian_keikyu_1000_ii_batch_16_head
+name_loc=wopian_keikyu_1000_ii_batch_16_head_name
 name_en=DeHa 1000
 length=18
 width=2.83
@@ -339,8 +339,8 @@ tex_m_height=3.75
 
 [TrainUnit]
 schema=1
-id=wopian_keikyu_1000_2nd_gen_batch_16_car
-name_loc=wopian_keikyu_1000_2nd_gen_batch_16_car_name
+id=wopian_keikyu_1000_ii_batch_16_car
+name_loc=wopian_keikyu_1000_ii_batch_16_car_name
 name_en=DeHa 1000,SaHa 1000
 length=18
 width=2.83
@@ -359,12 +359,12 @@ tex_m_height=3.75
 
 [TrainMultipleUnit]
 schema=1
-id=wopian_keikyu_1000_2nd_gen_batch_16_mu
-name_loc=wopian_keikyu_1000_2nd_gen_batch_16_name
-name_en=Keikyu 1000 (2nd Gen) Batch 16+
-head_id=wopian_keikyu_1000_2nd_gen_batch_16_head
-car_id=wopian_keikyu_1000_2nd_gen_batch_16_car
-tail_id=wopian_keikyu_1000_2nd_gen_batch_16_head
+id=wopian_keikyu_1000_ii_batch_16_mu
+name_loc=wopian_keikyu_1000_ii_batch_16_name
+name_en=Keikyu 1000 II Batch 16+
+head_id=wopian_keikyu_1000_ii_batch_16_head
+car_id=wopian_keikyu_1000_ii_batch_16_car
+tail_id=wopian_keikyu_1000_ii_batch_16_head
 tail_flip=true
 min_cars=2
 max_cars=6
