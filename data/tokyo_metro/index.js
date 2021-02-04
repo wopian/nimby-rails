@@ -6,7 +6,7 @@ export const tokyo_metro = {
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ1000系電車',
-      train_type: TRAIN_TYPE.METRO,
+      train_type: TRAIN_TYPE.COMMUTER,
       name: 'Tokyo Metro 1000',
       names: { head: '1000/1100', car: '1200/1300/1400/1500' },
       min_cars: 6,
@@ -20,7 +20,7 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ2000系電車',
-      train_type: TRAIN_TYPE.METRO,
+      train_type: TRAIN_TYPE.COMMUTER,
       name: 'Tokyo Metro 2000',
       names: { head: '2000/2100', car: '2200/2300/2400/2500' },
       min_cars: 6,
@@ -34,7 +34,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ13000系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 13000',
       names: { head: '13000/13100', car: '13200/13300/13400/13500/13600' },
       min_cars: 7,
@@ -48,7 +47,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ05系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 05 Batch 1-13',
       names: { head: '05-000/100', car: '05-200/300/400/500/600/700/800/900' },
       min_cars: 10,
@@ -62,7 +60,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ05系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 05 Batch 14',
       names: { head: '05-000/100', car: '05-200/300/400/500/600/700/800/900' },
       min_cars: 3,
@@ -76,7 +73,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ05系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 05 Batch 15-18',
       names: { head: '05-000/100', car: '05-200/300/400/500/600/700/800/900' },
       min_cars: 10,
@@ -90,7 +86,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ05系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 05 Batch 19-24',
       names: { head: '05-000/100', car: '05-200/300/400/500/600/700/800/900' },
       min_cars: 10,
@@ -104,7 +99,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ05系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 05N Batch 25-33',
       names: { head: '05-000/100', car: '05-200/300/400/500/600/700/800/900' },
       min_cars: 3,
@@ -118,7 +112,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ05系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 05N Batch 34-39',
       names: { head: '05-000/100', car: '05-200/300/400/500/600/700/800/900' },
       min_cars: 3,
@@ -132,7 +125,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ05系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 05N Batch 40-43',
       names: { head: '05-000/100', car: '05-200/300/400/500/600/700/800/900' },
       min_cars: 3,
@@ -146,7 +138,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ07系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 07 Tozai',
       names: { head: '07-000/100', car: '07-200/300/400/500/600/700/800/900' },
       min_cars: 10,
@@ -160,7 +151,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ07系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 07 Yurakucho',
       names: { head: '07-000/100', car: '07-200/300/400/500/600/700/800/900' },
       min_cars: 10,
@@ -174,7 +164,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ15000系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 15000',
       names: { head: '15000/15100', car: '15200/15300/15400/15500/15600/15700/15800/15900' },
       min_cars: 10,
@@ -188,7 +177,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ16000系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 16000',
       names: { head: '16000/16100', car: '16200/16300/16400/16500/16600/16700/16800/16900' },
       min_cars: 10,
@@ -202,7 +190,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ7000系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 7000',
       names: { head: '7000/7100', car: '7200/7300/7400/7500/7600/7700/7800/7900' },
       min_cars: 8,
@@ -216,7 +203,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ10000系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 10000',
       names: { head: '10000/10100', car: '10200/10300/10400/10500/10600/10700/10800/10900' },
       min_cars: 8,
@@ -230,7 +216,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ17000系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 17000',
       names: { head: '17000/17100', car: '17200/17300/17400/17500/17600/17700/17800/17900' },
       min_cars: 8,
@@ -244,7 +229,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ8000系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 8000',
       names: { head: '8000/8100', car: '8200/8300/8400/8500/8600/8700/8800/8900' },
       min_cars: 6,
@@ -258,7 +242,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ08系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 08',
       names: { head: '08-000/100', car: '08-200/300/400/500/600/700/800/900' },
       min_cars: 10,
@@ -272,7 +255,6 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ9000系電車',
-      train_type: TRAIN_TYPE.METRO,
       name: 'Tokyo Metro 9000',
       names: { head: '9100/9800', car: '9200/9300/9600/9700' },
       min_cars: 6,
