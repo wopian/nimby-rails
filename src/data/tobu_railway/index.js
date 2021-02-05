@@ -1,4 +1,5 @@
 export const tobu_railway = {
+  wiki: 'https://ja.wikipedia.org/wiki/東武鉄道',
   name: 'Tobu Railway',
   native: '東武鉄道株式会社',
   region: 'Kantō',

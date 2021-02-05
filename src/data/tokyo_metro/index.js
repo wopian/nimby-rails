@@ -1,6 +1,7 @@
 import { TRAIN_TYPE } from '../../components/index.js'
 
 export const tokyo_metro = {
+  wiki: 'https://ja.wikipedia.org/wiki/東京地下鉄',
   name: 'Tokyo Metro',
   native: '東京メトロ',
   region: 'Kantō',

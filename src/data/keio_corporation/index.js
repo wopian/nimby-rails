@@ -1,4 +1,5 @@
 export const keio_corporation = {
+  wiki: 'https://ja.wikipedia.org/wiki/京王電鉄',
   name: 'Keio Corporation',
   native: '京王電鉄株式会社',
   region: 'Kantō',

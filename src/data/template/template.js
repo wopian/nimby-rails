@@ -1,4 +1,5 @@
 export const template = {
+  wiki: 'https://ja.wikipedia.org/wiki/京浜急行電鉄',
   name: 'Template',
   native: '鋳型',
   region: 'Region',

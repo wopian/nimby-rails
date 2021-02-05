@@ -1,4 +1,5 @@
 export const tokyu_corporation = {
+  wiki: 'https://ja.wikipedia.org/wiki/東急',
   name: 'Tokyu Corporation',
   native: '東急株式会社',
   region: 'Kantō',

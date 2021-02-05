@@ -1,4 +1,5 @@
 export const keikyu = {
+  wiki: 'https://ja.wikipedia.org/wiki/京浜急行電鉄',
   name: 'Keikyu',
   native: '京急',
   region: 'Kantō',

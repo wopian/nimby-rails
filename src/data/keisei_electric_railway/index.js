@@ -1,4 +1,5 @@
 export const keisei_electric_railway = {
+  wiki: 'https://ja.wikipedia.org/wiki/京成電鉄',
   name: 'Keisei Electric Railway',
   native: '京成電鉄株式会社',
   region: 'Kantō',
