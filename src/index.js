@@ -29,27 +29,25 @@ for (const { name, native, region, trains } of companies) {
 
   console.info(`${blue('info')} exported ${green(trains.length)} train${trains.length > 1 ? 's' : ''} to〝${magenta(name)}〟`)
 
-  if (!existsSync(join(OUTPUT, 'thumbnail.jpg'))) {
-    exportSVG({
-      input: [
-        join(COMPANIES, `${snakeCase(name)}.svg`)
+  exportSVG({
+    input: [
+      join(COMPANIES, `${snakeCase(name)}.svg`)
+    ],
+    output: [
+      [
+        join(OUTPUT, 'thumbnail.jpg'),
+        '1080',
+        '90%'
       ],
-      output: [
-        [
-          join(OUTPUT, 'thumbnail.jpg'),
-          '1080',
-          '90%'
-        ],
-        [
-          join(OUTPUT, 'preview.jpg'),
-          '1920:1080',
-          '90%',
-          'pad'
-        ]
+      [
+        join(OUTPUT, 'preview.jpg'),
+        '1920:1080',
+        '90%',
+        'pad'
       ]
-    })
-    console.info(`${blue('info')} exported thumbnail/preview to〝${magenta(name)}〟`)
-  }
+    ]
+  })
+  console.info(`${blue('info')} exported thumbnail/preview to〝${magenta(name)}〟`)
 
   if (!existsSync(join(OUTPUT, 'placeholder_highspeed')) ||
       !existsSync(join(OUTPUT, 'placeholder_higherspeed')) ||
