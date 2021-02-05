@@ -22,9 +22,9 @@
     "coverage": "c8 --check-coverage --lines 100 --functions 100 --branches 100 --reporter lcovonly --reporter text --reporter text-summary ava"
   },
   "dependencies": {
-    "chalk": "~4.1.0",
     "fs-extra": "^9.1.0",
     "ini": "~2.0.0",
+    "kleur": "^4.1.4",
     "snake-case": "~3.0.4",
     "svgexport": "^0.4.1"
   },
