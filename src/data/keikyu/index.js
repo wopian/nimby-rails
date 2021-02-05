@@ -1,8 +1,10 @@
+import { REGION } from '../../components/index.js'
+
 export const keikyu = {
   wiki: 'https://ja.wikipedia.org/wiki/京浜急行電鉄',
   name: 'Keikyu',
   native: '京急',
-  region: 'Kantō',
+  region: REGION.KANTO,
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/京急1500形電車',

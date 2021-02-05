@@ -1,16 +1,4 @@
-import { TRAIN_TYPE, filterTrainType } from '../index.js'
-
-// key for graphics/thumbnail.svg
-const REGION_COLOURS = {
-  'Hokkaidō': 'red',
-  'Tōhoku': 'yellow',
-  'Kantō': 'green',
-  'Chūbu': 'cyan',
-  'Kansai': 'blue',
-  'Chūgoku': 'orange',
-  'Shikoku': 'purple',
-  'Kyūshū': 'grey'
-}
+import { TRAIN_TYPE, REGION_COLOURS, filterTrainType } from '../index.js'
 
 export const createCollectionDescription = ({ companies = [], country = 'Japan' } = {}) => {
   if (companies.length === 0) return ''

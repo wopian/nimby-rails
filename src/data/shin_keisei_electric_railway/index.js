@@ -1,8 +1,10 @@
+import { REGION } from '../../components/index.js'
+
 export const shin_keisei_electric_railway = {
   wiki: 'https://ja.wikipedia.org/wiki/新京成電鉄',
   name: 'Shin-Keisei Electric Railway',
   native: '新京成電鉄',
-  region: 'Kantō',
+  region: REGION.KANTO,
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/新京成電鉄N800形電車',

@@ -1,8 +1,10 @@
+import { REGION } from '../../components/index.js'
+
 export const tokyu_corporation = {
   wiki: 'https://ja.wikipedia.org/wiki/東急',
   name: 'Tokyu Corporation',
   native: '東急株式会社',
-  region: 'Kantō',
+  region: REGION.KANTO,
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/東急8500系電車',

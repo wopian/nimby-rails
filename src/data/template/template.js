@@ -1,8 +1,10 @@
+import { REGION } from '../../components/index.js'
+
 export const template = {
   wiki: 'https://ja.wikipedia.org/wiki/京浜急行電鉄',
   name: 'Template',
   native: '鋳型',
-  region: 'Region',
+  region: REGION.KANTO,
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/東武100系電車',

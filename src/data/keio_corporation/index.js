@@ -1,8 +1,10 @@
+import { REGION } from '../../components/index.js'
+
 export const keio_corporation = {
   wiki: 'https://ja.wikipedia.org/wiki/京王電鉄',
   name: 'Keio Corporation',
   native: '京王電鉄株式会社',
-  region: 'Kantō',
+  region: REGION.KANTO,
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/京王1000系電車_(2代)',

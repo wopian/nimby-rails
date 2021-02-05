@@ -1,8 +1,10 @@
+import { REGION } from '../../components/index.js'
+
 export const seibu_railway = {
   wiki: 'https://ja.wikipedia.org/wiki/西武鉄道',
   name: 'Seibu Railway',
   native: '西武鉄道株式会社',
-  region: 'Kantō',
+  region: REGION.KANTO,
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/西武001系電車',

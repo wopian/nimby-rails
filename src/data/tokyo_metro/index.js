@@ -1,10 +1,12 @@
+import { REGION } from '../../components/index.js'
+
 import { TRAIN_TYPE } from '../../components/index.js'
 
 export const tokyo_metro = {
   wiki: 'https://ja.wikipedia.org/wiki/東京地下鉄',
   name: 'Tokyo Metro',
   native: '東京メトロ',
-  region: 'Kantō',
+  region: REGION.KANTO,
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ1000系電車',
