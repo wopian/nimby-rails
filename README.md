@@ -21,24 +21,22 @@ Exports `schema=1` compatible mod files to `mods/:company/mod.txt`
 ### Company Schema
 
 
-| Property | Type              | Default   | Required | Description
-| -------- | ----------------- | --------- | -------- | -----------
-| wiki     | string            | undefined | ❌       | Link to the company on Wikipedia
-| name     | string            | undefined | ✔️       | Name of the company in English
-| native   | string            | undefined | ❌       | Name of the company in the local language
-| region   | string            | undefined | ❌       | Region the company operates in
-| trains   | array[TrainUnit]  | undefined | ✔️       | Train data
+| Property | Type              | Default    | Required | Description
+| -------- | ----------------- | ---------- | -------- | -----------
+| wiki     | string            | undefined  | ❌       | Link to the company on Wikipedia
+| name     | string            | 'Mod Name' | ❌       | Name of the company in English
+| native   | string            | undefined  | ❌       | Name of the company in the local language
+| region   | string            | undefined  | ❌       | Region the company operates in
+| trains   | array[TrainUnit]  | undefined  | ❌       | Array of TrainUnit objects
 
 ### TrainUnit Schema
-
-See the official [Mod Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666) for further details
 
 | Property        | Type           | Default       | Required | Description
 | --------------- | -------------- | ------------- | -------- | -----------
 | wiki            | string         | undefined     | ❌       | Link to the train on Wikipedia
 | train_type      | string         | \*            | ❌       | <span>\* Calculated from `max_speed` by default<br>Valid values are 'highspeed', 'higherspeed', 'commuter', 'metro' or 'tram'</span>
 | name            | string         | 'Train Name'  | ❌       | Name of the train (series/model)
-| names           | object         |               | ❌       | Name of the individual TrainUnits
+| names           | object         | undefined     | ❌       | Name of the individual TrainUnits
 | names.head      | string         |               | ❌       | Name of the head TrainUnits
 | names.car       | string         |               | ❌       | Name of the car TrainUnits
 | min_cars        | number         | 2             | ❌       | Includes the head and tail TrainUnits
@@ -49,12 +47,14 @@ See the official [Mod Guide](https://steamcommunity.com/sharedfiles/filedetails/
 | length.car      | number         |               | ❌       | Length of the car TrainUnits in metres
 | width           | number         | 2.8           | ❌       | Width of the TrainUnit in metres
 | power           | number         | \*            | ❌       | <span>\* Calculated from `train_type` and `max_speed` by default<br>Power of the TrainUnit in kW</span>
-| max_pax         | number\|object | undefined     | ✔️       | Number of passengers the TrainUnit can carry
-| max_pax.head    | number         | undefined     | ❌       | Passengers the head TrainUnit can carry
-| max_pax.car     | number         | undefined     | ❌       | Passengers the car TrainUnit can carry
+| max_pax         | number\|object | 130           | ❌       | Number of passengers the TrainUnit can carry
+| max_pax.head    | number         |               | ❌       | Passengers the head TrainUnit can carry
+| max_pax.car     | number         |               | ❌       | Passengers the car TrainUnit can carry
 | empty_mass      | number\|object | \*            | ❌       | <span>\* Calculated from `train_type` and `length` by default<br>Weight of the TrainUnit in tonnes (1,000kg)</span>
-| empty_mass.head | number         | undefined     | ❌       | Weight of the head TrainUnit in tonnes (1,000kg)
-| empty_mass.car  | number         | undefined     | ❌       | Weight of the car TrainUnit in tonnes (1,000kg)
+| empty_mass.head | number         |               | ❌       | Weight of the head TrainUnit in tonnes (1,000kg)
+| empty_mass.car  | number         |               | ❌       | Weight of the car TrainUnit in tonnes (1,000kg)
+
+See the official [Mod Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666) for further details
 
 ## Commands
 
