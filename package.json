@@ -1,7 +1,23 @@
 {
+  "private": true,
+  "name": "nimby-rail-mods",
+  "description": "Collection of mods for NIMBY Rails",
+  "author": "wopian <wopian@wopian.me>",
+  "license": "CC BY-NC-ND 4.0",
+  "main": "src/index",
+  "module": "src/index",
   "type": "module",
+  "homepage": "https://github.com/wopian/nimby-rails#readme",
+  "repository": "https://github.com/wopian/nimby-rails",
+  "bugs": "https://github.com/wopian/nimby-rails/issues",
+  "funding": "https://github.com/sponsors/wopian",
+  "engines": {
+    "node": ">= 15"
+  },
   "scripts": {
-    "start": "node src",
+    "build": "node src",
+    "collectionThumbnail": "node src/collectionThumbnail",
+    "start": "yarn build && yarn collectionThumbnail",
     "test": "ava",
     "coverage": "c8 --check-coverage --lines 100 --functions 100 --branches 100 --reporter lcovonly --reporter text --reporter text-summary ava"
   },

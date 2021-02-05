@@ -7,7 +7,7 @@ import { snakeCase } from 'snake-case'
 import { createMeta, createTrain, createDescription, createCollectionDescription, ini } from './components/index.js'
 import { companies } from './data/index.js'
 
-const PLACEHOLDERS = join(process.cwd(), 'placeholders')
+const PLACEHOLDERS = join(process.cwd(), 'graphics', 'placeholders')
 
 for (const { name, native, region, trains } of companies) {
   const OUTPUT = join(process.cwd(), 'mods', snakeCase(name))
@@ -26,19 +26,19 @@ for (const { name, native, region, trains } of companies) {
 
   if (!existsSync(join(OUTPUT, 'thumbnail.jpg'))) exportSVG({
     input: [
-      join(process.cwd(), 'thumbnails', `${snakeCase(name)}.svg`)
+      join(process.cwd(), 'graphics', 'companies', `${snakeCase(name)}.svg`)
     ],
     output: [
       [
         join(OUTPUT, 'thumbnail.jpg'),
-        '800',
+        '1080',
         '90%'
       ],
       [
         join(OUTPUT, 'preview.jpg'),
-        '1422:800',
+        '1920:1080',
         '90%',
-        '16x9'
+        'pad'
       ]
     ]
   })

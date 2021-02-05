@@ -1,7 +1,8 @@
 .nyc_output
 coverage
+node_modules
 mods/**/placeholder*/
 mods/**/description.txt
 mods/**/preview.jpg
 mods/**/thumbnail.jpg
-node_modules
+tmp
