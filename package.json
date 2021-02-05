@@ -9,7 +9,8 @@
     "chalk": "~4.1.0",
     "fs-extra": "^9.1.0",
     "ini": "~2.0.0",
-    "snake-case": "~3.0.4"
+    "snake-case": "~3.0.4",
+    "svgexport": "^0.4.1"
   },
   "devDependencies": {
     "ava": "~3.15.0",

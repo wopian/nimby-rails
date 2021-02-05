@@ -1,4 +1,5 @@
 import chalk from 'chalk'
+import { render as exportSVG } from 'svgexport'
 import { writeFileSync, existsSync, mkdirSync } from 'fs'
 import { copySync } from 'fs-extra'
 import { join } from 'path'
@@ -20,6 +21,19 @@ for (const { name, native, region, trains } of companies) {
 
   if (!existsSync(OUTPUT)) mkdirSync(OUTPUT, { recursive: true })
   writeFileSync(join(OUTPUT, 'mod.txt'), result.trimEnd())
+
+  if (!existsSync(join(OUTPUT, 'thumbnail.jpg'))) exportSVG({
+    input: [
+      join(process.cwd(), 'thumbnails', `${snakeCase(name)}.svg`)
+    ],
+    output: [
+      [
+        join(OUTPUT, 'thumbnail.jpg'),
+        '800',
+        '90%'
+      ]
+    ]
+  })
 
   if (!existsSync(join(OUTPUT, 'placeholder_highspeed')) ||
       !existsSync(join(OUTPUT, 'placeholder_higherspeed')) ||
