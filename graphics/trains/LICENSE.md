@@ -1,3 +1,5 @@
+## Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+
 ```
 By exercising the Licensed Rights (defined below), You accept and agree
 to be bound by the terms and conditions of this Creative Commons
