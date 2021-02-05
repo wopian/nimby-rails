@@ -104,7 +104,7 @@ export const meitetsu = {
       min_cars: 2,
       max_cars: 2,
       max_speed: 110,
-      length: { head: 18.9, car: 0 },
+      length: { head: 18.9, car: 0.1 },
       width: 2.73,
       power: 150, // * 4
       max_pax: { head: 130, car: 0 },
@@ -156,7 +156,7 @@ export const meitetsu = {
       min_cars: 2,
       max_cars: 2,
       max_speed: 130,
-      length: { head: 18.9, car: 0 },
+      length: { head: 18.9, car: 0.1 },
       width: 2.74,
       power: 170, // * 4
       max_pax: { head: 258 / 2, car: 0 },
@@ -182,7 +182,7 @@ export const meitetsu = {
       min_cars: 2,
       max_cars: 2,
       max_speed: 130,
-      length: { head: 18.9, car: 0 },
+      length: { head: 18.9, car: 0.1 },
       width: 2.743,
       power: 170, // * 4
       max_pax: { head: 234 / 2, car: 0 },
@@ -221,7 +221,7 @@ export const meitetsu = {
       min_cars: 2,
       max_cars: 2,
       max_speed: 130,
-      length: { head: 18.385, car: 0 },
+      length: { head: 18.385, car: 0.1 },
       width: 2.744,
       power: 170,
       max_pax: { head: 125, car: 0 },

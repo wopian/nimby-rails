@@ -374,6 +374,7 @@ schema=1
 id=wopian_meitetsu_6800_head
 name_loc=wopian_meitetsu_6800_head_name
 name_en=Ku 6800/Mo 6900
+length=18.9
 width=2.73
 max_speed=110
 power=150
@@ -387,10 +388,6 @@ tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,p
 tex_m_width=30
 tex_m_height=3.75
 
-[TrainUnit.length]
-head=18.9
-car=0
-
 [TrainUnit.max_pax]
 head=130
 car=0
@@ -400,6 +397,7 @@ schema=1
 id=wopian_meitetsu_6800_car
 name_loc=wopian_meitetsu_6800_car_name
 name_en=Mo 6900
+length=0.1
 width=2.73
 max_speed=110
 power=150
@@ -412,10 +410,6 @@ tex_top=placeholder_commuter/car_2.png
 tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
 tex_m_width=30
 tex_m_height=3.75
-
-[TrainUnit.length]
-head=18.9
-car=0
 
 [TrainUnit.max_pax]
 head=130
@@ -594,6 +588,7 @@ schema=1
 id=wopian_meitetsu_3100_head
 name_loc=wopian_meitetsu_3100_head_name
 name_en=Ku 3100,Mo 3200
+length=18.9
 width=2.74
 max_speed=130
 power=170
@@ -607,10 +602,6 @@ tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,p
 tex_m_width=30
 tex_m_height=3.75
 
-[TrainUnit.length]
-head=18.9
-car=0
-
 [TrainUnit.max_pax]
 head=129
 car=0
@@ -620,6 +611,7 @@ schema=1
 id=wopian_meitetsu_3100_car
 name_loc=wopian_meitetsu_3100_car_name
 name_en=Mo 3200
+length=0.1
 width=2.74
 max_speed=130
 power=170
@@ -632,10 +624,6 @@ tex_top=placeholder_commuter/car_2.png
 tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
 tex_m_width=30
 tex_m_height=3.75
-
-[TrainUnit.length]
-head=18.9
-car=0
 
 [TrainUnit.max_pax]
 head=129
@@ -710,6 +698,7 @@ schema=1
 id=wopian_meitetsu_3150_iii_head
 name_loc=wopian_meitetsu_3150_iii_head_name
 name_en=Ku 3150,Mo 3250
+length=18.9
 width=2.743
 max_speed=130
 power=170
@@ -723,10 +712,6 @@ tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,p
 tex_m_width=30
 tex_m_height=3.75
 
-[TrainUnit.length]
-head=18.9
-car=0
-
 [TrainUnit.max_pax]
 head=117
 car=0
@@ -736,6 +721,7 @@ schema=1
 id=wopian_meitetsu_3150_iii_car
 name_loc=wopian_meitetsu_3150_iii_car_name
 name_en=Mo 3250
+length=0.1
 width=2.743
 max_speed=130
 power=170
@@ -748,10 +734,6 @@ tex_top=placeholder_commuter/car_2.png
 tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
 tex_m_width=30
 tex_m_height=3.75
-
-[TrainUnit.length]
-head=18.9
-car=0
 
 [TrainUnit.max_pax]
 head=117
@@ -878,6 +860,7 @@ schema=1
 id=wopian_meitetsu_9100_head
 name_loc=wopian_meitetsu_9100_head_name
 name_en=Ku 9500,Mo 9600
+length=18.385
 width=2.744
 max_speed=130
 power=170
@@ -891,10 +874,6 @@ tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,p
 tex_m_width=30
 tex_m_height=3.75
 
-[TrainUnit.length]
-head=18.385
-car=0
-
 [TrainUnit.max_pax]
 head=125
 car=0
@@ -904,6 +883,7 @@ schema=1
 id=wopian_meitetsu_9100_car
 name_loc=wopian_meitetsu_9100_car_name
 name_en=Mo 9600
+length=0.1
 width=2.744
 max_speed=130
 power=170
@@ -916,10 +896,6 @@ tex_top=placeholder_commuter/car_2.png
 tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
 tex_m_width=30
 tex_m_height=3.75
-
-[TrainUnit.length]
-head=18.385
-car=0
 
 [TrainUnit.max_pax]
 head=125

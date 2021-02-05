@@ -15,6 +15,7 @@ const COMPANIES = join(GRAPHICS, 'companies')
 
 for (const { name, native, region, trains } of companies) {
   const OUTPUT = join(MODS, snakeCase(name))
+  const { compare } = new Intl.Collator('en', { numeric: true, sensitivity: 'base' })
   let result = ini(createMeta({ name, native, region, totalTrains: trains.length }))
 
   for (const train of trains) {
@@ -25,7 +26,7 @@ for (const { name, native, region, trains } of companies) {
 
   writeFileSync(join(OUTPUT, 'mod.txt'), result.trimEnd())
   writeFileSync(join(OUTPUT, 'title.txt'), `${name} / ${native}`)
-  writeFileSync(join(OUTPUT, 'description.txt'), createDescription({ name, native, region, trains }))
+  writeFileSync(join(OUTPUT, 'description.txt'), createDescription({ name, native, region, trains: trains.sort((a, b) => compare(a.name, b.name, 'ja'))}))
 
   console.info(`${blue('info')} exported ${green(trains.length)} train${trains.length > 1 ? 's' : ''} to〝${magenta(name)}〟`)
 
