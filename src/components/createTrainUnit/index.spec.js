@@ -148,3 +148,42 @@ test('train head unit with differing lengths', t => {
     }
   })
 })
+
+
+test('train unit with named cars and uniform max_pax', t => {
+  t.deepEqual(createTrainUnit({
+    unit_type: 'head',
+    name: 'Example 400',
+    names: { head: 'KuHa 400', car: 'DeHa 400' },
+    length: { head: 20, car: 20 },
+    width: 2.6,
+    max_speed: 120,
+    power: 250,
+    empty_mass: { head: 29_000, car: 29_000 },
+    price: { head: 2_250_000, car: 2_000_000 },
+    max_pax: 25,
+    cost_per_km_per_pax: 0.05,
+    cost_per_day: { head: 75, car: 65 }
+  }), {
+    TrainUnit: {
+      cost_per_day: 75,
+      cost_per_km_per_pax: 0.05,
+      empty_mass: 29_000,
+      id: 'wopian_example_400_head',
+      length: 20,
+      max_pax: 25,
+      max_speed: 120,
+      name_en: 'KuHa 400',
+      name_loc: 'wopian_example_400_head_name',
+      power: 250,
+      price: 2_250_000,
+      schema: 1,
+      tex_base: 'placeholder_commuter/loco_0.png',
+      tex_decors: 'placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png',
+      tex_m_height: 3.75,
+      tex_m_width: 30,
+      tex_top: 'placeholder_commuter/loco_2.png',
+      width: 2.6,
+    }
+  })
+})
