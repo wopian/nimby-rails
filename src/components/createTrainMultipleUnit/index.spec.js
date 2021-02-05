@@ -26,7 +26,7 @@ test('multiple unit with name', t => {
       car_id: 'wopian_example_100_car',
       head_id: 'wopian_example_100_head',
       id: 'wopian_example_100_mu',
-      max_cars: 6,
+      max_cars: 8,
       min_cars: 0,
       name_en: 'Example 100',
       name_loc: 'wopian_example_100_name',

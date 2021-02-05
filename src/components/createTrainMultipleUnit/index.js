@@ -1,6 +1,6 @@
 import { snakeCase } from 'snake-case'
 
-export const createTrainMultipleUnit = ({ name = 'blank', min_cars = 2, max_cars = 8 } = {}) => ({
+export const createTrainMultipleUnit = ({ name = 'blank', min_cars = 2, max_cars = 10 } = {}) => ({
   TrainMultipleUnit: {
     schema: 1,
     id: `wopian_${snakeCase(name)}_mu`,
