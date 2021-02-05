@@ -3,7 +3,7 @@
   "name": "nimby-rail-mods",
   "description": "Collection of mods for NIMBY Rails",
   "author": "wopian <wopian@wopian.me>",
-  "license": "CC BY-NC-ND 4.0",
+  "license": "MIT+CC BY-NC-ND 4.0",
   "main": "src/index",
   "module": "src/index",
   "type": "module",

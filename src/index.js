@@ -24,6 +24,7 @@ for (const { name, native, region, trains } of companies) {
   if (!existsSync(OUTPUT)) mkdirSync(OUTPUT, { recursive: true })
 
   writeFileSync(join(OUTPUT, 'mod.txt'), result.trimEnd())
+  writeFileSync(join(OUTPUT, 'title.txt'), `${name} / ${native}`)
   writeFileSync(join(OUTPUT, 'description.txt'), createDescription({ name, native, region, trains }))
 
   console.info(`${blue('info')} exported ${green(trains.length)} train${trains.length > 1 ? 's' : ''} to〝${magenta(name)}〟`)
