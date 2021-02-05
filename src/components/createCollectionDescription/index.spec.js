@@ -1,5 +1,5 @@
 import test from 'ava'
-import { TRAIN_TYPE, createCollectionDescription } from '../index.js'
+import { createCollectionDescription } from '../index.js'
 
 test('blank description gets generated', t => {
   t.is(createCollectionDescription(), '')
@@ -35,5 +35,5 @@ test('with company trains', t => {
         ]
       }
     ]
-  }), 'Collection of 0 trains from 1 companies operating in Japan.\n\nHokkaidō region (red on map):\nWop Corp 1 highspeed, 1 commuter\n\nCurrently these are using placeholder graphics from the built-in trains. Graphics are planned for a future update.')
+  }), 'Collection of 2 trains from 1 companies operating in Japan.\n\nHokkaidō region (red on map):\nWop Corp 1 highspeed, 1 commuter\n\nCurrently these are using placeholder graphics from the built-in trains. Graphics are planned for a future update.')
 })

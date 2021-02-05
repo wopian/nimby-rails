@@ -3,10 +3,8 @@ import { TRAIN_TYPE, REGION_COLOURS, filterTrainType } from '../index.js'
 export const createCollectionDescription = ({ companies = [], country = 'Japan' } = {}) => {
   if (companies.length === 0) return ''
   const regions = new Set(companies.map(a => a.region))
-  const totalTrains = companies.reduce((a, b) => {
-    if (!Number.isInteger(a)) a = 0
-    return a + b?.trains?.length
-  })
+  let totalTrains = 0
+  companies.forEach(({ trains }) => totalTrains += trains ? trains.length : 0)
   let description = `Collection of ${totalTrains} trains from ${companies.length} companies operating in ${country}.\n`
   for (const region of regions) {
     description += `\n${region} region`
