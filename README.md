@@ -8,6 +8,30 @@ Collection of mods for the rail simulation game [NIMBY Rails](https://store.stea
 - Yarn 1.22.x or newer
 - ImageMagick 7.0.x or newer
 
+## Meaning of unit names
+
+Vehicle type is followed by vehicle grade. For example, クハ/KuHa is a standard-size car with a driver cab
+
+### Vehicle Type
+
+- モ/Mo = Electric Motor car
+- ク/Ku = Driver cab
+- クモ/KuMo = Electric Motor and driver cab
+- サ/Sa = Ancillary car (no motor or driver cab, lighter)
+- キ/Ki = Diesel engine car
+- ネ/Ne = Sleeper car
+- シ/Si = Dining car
+- ユ/Yu = Postal car
+- ヤ/Ya = Test car
+- フ/Fu = Brake van
+- ニ/Ni = Luggage cars
+- テ/Te = Observation car (large windows)
+
+### Vehicle Grade
+
+- ロ/Ro = Green car (more seat space and higher price)
+- ハ/Ha = Standard car
+
 ## File Structure
 
 ### Getting Started

@@ -1,6 +1,7 @@
 import { keikyu } from './keikyu/index.js'
 import { keio_corporation } from './keio_corporation/index.js'
 import { keisei_electric_railway } from './keisei_electric_railway/index.js'
+import { meitetsu } from './meitetsu/index.js'
 import { odakyu_electric_railway } from './odakyu_electric_railway/index.js'
 import { seibu_railway } from './seibu_railway/index.js'
 import { shin_keisei_electric_railway } from './shin_keisei_electric_railway/index.js'
@@ -13,6 +14,7 @@ export const companies = [
   keikyu,
   keio_corporation,
   keisei_electric_railway,
+  meitetsu,
   odakyu_electric_railway,
   seibu_railway,
   shin_keisei_electric_railway,
