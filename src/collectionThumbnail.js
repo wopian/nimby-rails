@@ -8,7 +8,7 @@ const chunkify = (a,n)=>[...Array(Math.ceil(a.length/n))].map((_,i)=>a.slice(n*i
 
 let index = 0
 const total = companies.length // 28
-const perRow = 7
+const perRow = 5 // 7
 const width = 1080 / perRow
 const chunks = chunkify(companies, perRow)
 const INPUT = join(process.cwd(), 'graphics', 'companies')
