@@ -7,7 +7,7 @@ test('blank multiple unit', t => {
       car_id: 'wopian_blank_car',
       head_id: 'wopian_blank_head',
       id: 'wopian_blank_mu',
-      max_cars: 6,
+      max_cars: 8,
       min_cars: 0,
       name_en: 'blank',
       name_loc: 'wopian_blank_name',
