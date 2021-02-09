@@ -28,7 +28,7 @@ export const createTrainUnit = ({
     power,
     empty_mass: Math.round('car' === unit_type ? empty_mass.car : empty_mass.head),
     price: 'car' === unit_type ? price.car : price.head,
-    max_pax: max_pax?.car ? ('car' === unit_type ? max_pax.car : max_pax.head) : max_pax,
+    max_pax: max_pax?.constructor === Object ? ('car' === unit_type ? max_pax.car : max_pax.head) : max_pax,
     cost_per_km_per_pax,
     cost_per_day: 'car' === unit_type ? cost_per_day.car : cost_per_day.head,
     tex_base: `placeholder_${train_type}/${getType(unit_type)}_0.png`,

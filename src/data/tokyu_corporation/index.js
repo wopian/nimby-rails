@@ -182,11 +182,11 @@ export const tokyu_corporation = {
       min_cars: 2,
       max_cars: 2,
       max_speed: 60,
-      length: { head: 11.99, car: 11.99 },
+      length: { head: 11.99, car: 0.1 },
       width: 2.5,
       power: 60,
-      max_pax: { head: 132, car: 132 },
-      empty_mass: { head: 15.35, car: 15.35 }
+      max_pax: { head: 132, car: 0 },
+      empty_mass: { head: 15.35, car: 0 }
     }
   ]
 }
