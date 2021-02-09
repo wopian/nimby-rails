@@ -14,9 +14,10 @@ Vehicle type is followed by vehicle grade. For example, クハ/KuHa is a standar
 
 ### Vehicle Type
 
-- モ/Mo = Electric Motor car
-- ク/Ku = Driver cab
-- クモ/KuMo = Electric Motor and driver cab
+- モ/Mo = Electric motor car
+- デ/De = Electric car (equivalent to モ/Mo)
+- ク/Ku = Driver cab car
+- クモ/KuMo = Driver cab and electric motor car
 - サ/Sa = Ancillary car (no motor or driver cab, lighter)
 - キ/Ki = Diesel engine car
 - ネ/Ne = Sleeper car
@@ -24,7 +25,7 @@ Vehicle type is followed by vehicle grade. For example, クハ/KuHa is a standar
 - ユ/Yu = Postal car
 - ヤ/Ya = Test car
 - フ/Fu = Brake van
-- ニ/Ni = Luggage cars
+- ニ/Ni = Luggage car
 - テ/Te = Observation car (large windows)
 
 ### Vehicle Grade
