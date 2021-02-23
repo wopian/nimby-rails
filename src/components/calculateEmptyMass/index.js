@@ -1,28 +1,27 @@
-import { TRAIN_TYPE } from '../index.js'
+import { roundTo, tonToKg } from '../index.js'
 
-// derived from empty_mass / length
-const derivedMass = train_type => {
-  switch(train_type) {
-    case TRAIN_TYPE.HIGHSPEED:
-      return 55_875 / 25
-    case TRAIN_TYPE.HIGHERSPEED:
-      return 29_500 / 20
-    case TRAIN_TYPE.TRAM:
-      return 7_000 / 6.5
-    case TRAIN_TYPE.METRO:
-      return 20_500 / 16.25
-    case TRAIN_TYPE.COMMUTER:
-    default:
-      return 22_500 / 20
-  }
-}
-
-export const calculateEmptyMass = ({ train_type, length } = {}) => {
-  if (!length?.car) length = { head: length, car: length }
-  return {
-    empty_mass: {
-      head: Math.round(derivedMass(train_type) * length.head),
-      car: Math.round(derivedMass(train_type) * length.car * 0.997)
+export const calculateEmptyMass = ({ length, width, tags = '' } = {}) => {
+  let output = (length * width) / 2
+  for (const tag of tags.split(',')) {
+    switch (tag) {
+      case 'restaurant':
+      case 'bar':
+      case 'lounge':
+      case 'observation':
+        output *= 1.031
+        continue
+      case 'baggage':
+      case 'sleeper':
+        output *= 0.95
+        continue
+      case 'tram':
+        output *= 0.89
+        continue
+      case 'generator':
+        output *= 1.101
+      default:
+        continue
     }
   }
+  return roundTo(tonToKg(output), 100)
 }

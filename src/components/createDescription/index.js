@@ -1,17 +1,17 @@
-import { TRAIN_TYPE, filterTrainType } from '../index.js'
+import { MU_TAG, sortObject, plural } from '../index.js'
 
-export const createDescription = ({ name = 'Company', region, trains = [] } = {}) => {
-  let description = `Collection of ${trains.length} EMUs operated by ${name}`
-
-  if (region) description += ` in the ${region} region.\n`
-  else description += '.\n'
+export const createDescription = ({ name = 'Company', region, trains = [], totalTrains = 0, totalCompositions = 0 } = {}) => {
+  let description = `Collection of ${totalTrains} EMU${plural(totalTrains)} (${totalCompositions} composition${plural(totalCompositions)}) operated by ${name}`
+  if (region) description += ` in the ${region} region`
+  description += '.\n'
 
   if (trains.length > 0) {
-    for (const type in TRAIN_TYPE) {
-      const filteredTrains = filterTrainType({ trains, filter: TRAIN_TYPE[type]})
+    for (const type of Object.values(MU_TAG.ROLE).sort()) {
+      const filteredTrains = trains.filter(({ tags }) => tags ? tags.includes(type) : false)
       if (filteredTrains.length === 0) continue
-      description += `\n${type.charAt(0)}${type.slice(1).toLocaleLowerCase()}:\n`
-      for (const train of filteredTrains) {
+
+      description += `\n${type.charAt(0).toLocaleUpperCase()}${type.slice(1)}:\n`
+      for (const train of sortObject(filteredTrains, 'name')) {
         if (train.wiki) description += `[url=${train.wiki}]`
         description += train.name
         if (train.wiki) description += '[/url]'
@@ -20,5 +20,5 @@ export const createDescription = ({ name = 'Company', region, trains = [] } = {}
     }
   }
 
-  return `${description}\nCurrently these are using placeholder graphics from the built-in trains. Graphics are planned for a future update.`.replaceAll('\r', '').trimEnd()
+  return description.replaceAll('\r', '').trimEnd()
 }

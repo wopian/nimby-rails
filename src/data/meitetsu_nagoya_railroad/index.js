@@ -32,7 +32,7 @@ export const meitetsu = {
       max_pax: { head: 89 / 2, car: 481 / 4 },
       empty_mass: { head: 206.1 / 6, car: 206.1 }
     },
-    {
+    { // 1700/2300 retired 2021
       wiki: 'https://en.wikipedia.org/wiki/Meitetsu_1700_series',
       name: 'Meitetsu 2300',
       names: { head: 'Mo 1700/2300', car: 'Mo 2450,Sa 1650/2350/2400' },

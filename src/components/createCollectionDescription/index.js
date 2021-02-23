@@ -1,31 +1,56 @@
-import { TRAIN_TYPE, REGION_COLOURS, filterTrainType } from '../index.js'
+import { MU_TAG, plural } from '../index.js'
+
+const getCompositionTotal = trains => trains.reduce((sum, { composition }) => composition ? sum + composition.length : sum, 0)
+
+const filterRoleTags = ({ tags }) => tags ? tags.filter(tag =>Object.values(MU_TAG.ROLE).indexOf(tag) !== -1) : []
+
+const listRoles = trains => Array.from(new Set([].concat(...trains.map(filterRoleTags)))).sort()
+
+const listTrains = (trains, totalTrains) => {
+  const totalCompositions = getCompositionTotal(trains)
+  const roles = listRoles(trains)
+
+  let description = ` ${totalTrains} EMU${plural(totalTrains)} (${totalCompositions} composition${plural(totalCompositions)}`
+  if (roles?.length > 1) description += ` - ${roles.join('/')}`
+  return description += ')'
+}
+
+const listCompanies = (companies) => {
+  let description = ''
+  for (const { wiki, name, trains = []} of companies) {
+    const totalTrains = trains.length
+
+    if (wiki) description += `[url=${wiki}]`
+    description += name
+    if (wiki) description += '[/url]'
+    if (totalTrains > 0) description += listTrains(trains, totalTrains)
+  }
+  return description
+}
+
+const listRegionsAndCompanies = (regions, companies) => {
+  let description = ''
+  for (const region of regions) {
+    description += `\n${region} region:\n`
+    description += listCompanies(companies.filter(company => company.region === region))
+    description += '\n'
+  }
+  return description
+}
 
 export const createCollectionDescription = ({ companies = [], country = 'Japan' } = {}) => {
-  if (companies.length === 0) return ''
-  const regions = new Set(companies.map(a => a.region))
-  let totalTrains = 0
-  companies.forEach(({ trains }) => totalTrains += trains ? trains.length : 0)
-  let description = `Collection of ${totalTrains} trains from ${companies.length} companies operating in ${country}.\n`
-  for (const region of regions) {
-    description += `\n${region} region`
-    if (REGION_COLOURS[region]) description += ` (${REGION_COLOURS[region]} on map)`
-    description += ':\n'
-    const filteredCompanies = companies.filter(company => company.region === region)
-    for (const company of filteredCompanies) {
-      if (company.wiki) description += `[url=${company.wiki}]`
-      description += company.name
-      if (company.wiki) description += '[/url]'
-      if (company?.trains?.length > 0) {
-        for (const type in TRAIN_TYPE) {
-          const filteredTrains = filterTrainType({ trains: company.trains, filter: TRAIN_TYPE[type]})
-          if (filteredTrains.length === 0) continue
-          description += ` ${filteredTrains.length} ${type.toLocaleLowerCase()},`
-        }
-        description = `${description.slice(0, -1)}`
-      }
-      description += '\n'
-    }
-  }
-  description += '\nCurrently these are using placeholder graphics from the built-in trains. Graphics are planned for a future update.'
+  const totalCompanies = companies.length
+  if (totalCompanies === 0) return ''
+
+  const regions = new Set(companies.map(company => company.region))
+  const totalTrains = companies.reduce((total, { trains }) => trains ? total + trains.length : total, 0)
+
+  const totalCompositions = companies.reduce((total, { trains }) => trains ? total + getCompositionTotal(trains) : total, 0)
+
+  let description = `Collection of ${totalTrains} EMU${plural(totalTrains)} (${totalCompositions} composition${plural(totalCompositions)}) from ${totalCompanies} compan${plural(totalCompanies, 'ies', 'y')} operating in ${country}.\n`
+
+  if (regions.length === 0) description += listCompanies(companies)
+  else description += listRegionsAndCompanies(regions, companies)
+
   return description.trimEnd()
 }

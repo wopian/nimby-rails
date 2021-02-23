@@ -1,192 +1,132 @@
 import test from 'ava'
-import { TRAIN_TYPE, calculatePrice } from '../index.js'
+import { calculatePrice } from '../index.js'
 
-test('price of highspeed heavy', t => {
+test('Matches base game prices for Yamanote E231-500', t => {
   t.deepEqual(calculatePrice({
-    train_type: TRAIN_TYPE.HIGHSPEED,
-    empty_mass: {
-      head: 55_875,
-      car: 55_875
-    },
-    length: {
-      head: 25,
-      car: 25
-    }
+    max_speed: 120,
+    max_pax: 156,
+    empty_mass: 25_000,
+    length: 20,
+    width: 2.95
   }), {
-    price: {
-      head: 8_550_000,
-      car: 7_650_000
-    }
+    cost_per_day: 53,
+    price: 2_200_000
   })
 })
 
-test('price of highspeed light', t => {
+test('Renfe121', t => {
   t.deepEqual(calculatePrice({
-    train_type: TRAIN_TYPE.HIGHSPEED,
-    empty_mass: {
-      head: 46_935,
-      car: 46_935
-    },
-    length: {
-      head: 25,
-      car: 25
-    }
+    max_speed: 220,
+    max_pax: 70,
+    empty_mass: 56_250,
+    length: 25.78,
+    width: 2.92
   }), {
-    price: {
-      head: 7_182_000,
-      car: 6_426_000
-    }
+    cost_per_day: 84, // 224
+    price: 3_500_000 // 3_500_000
   })
 })
 
-test('price of higherspeed heavy', t => {
+test('NYR160', t => {
   t.deepEqual(calculatePrice({
-    train_type: TRAIN_TYPE.HIGHERSPEED,
-    empty_mass: {
-      head: 30_975,
-      car: 30_975
-    },
-    length: {
-      head: 20,
-      car: 20
-    }
+    max_speed: 90,
+    max_pax: 135,
+    empty_mass: 38_600,
+    length: 18.35,
+    width: 2.978
   }), {
-    price: {
-      head: 1_830_967,
-      car: 1_638_233
-    }
+    cost_per_day: 69, // 33
+    price: 2_866_000 // 2_500_000
   })
 })
 
-test('price of higherspeed light', t => {
+test('AlstomCitadis', t => {
   t.deepEqual(calculatePrice({
-    train_type: TRAIN_TYPE.HIGHERSPEED,
-    empty_mass: {
-      head: 29_500,
-      car: 29_500
-    },
-    length: {
-      head: 20,
-      car: 20
-    }
+    max_speed: 70,
+    max_pax: 45,
+    empty_mass: 7000,
+    length: 6.5,
+    width: 2.4
   }), {
-    price: {
-      head: 1_743_778,
-      car: 1_560_222
-    }
+    cost_per_day: 20, // 40
+    price: 957_000 // 1_700_000
   })
 })
 
-test('price of commuter heavy', t => {
+test('London1992', t => {
   t.deepEqual(calculatePrice({
-    train_type: TRAIN_TYPE.COMMUTER,
-    empty_mass: {
-      head: 27_692,
-      car: 27_692
-    },
-    length: {
-      head: 20,
-      car: 20
-    }
+    max_speed: 100,
+    max_pax: 111,
+    empty_mass: 20_500,
+    length: 16.25,
+    width: 2.62
   }), {
-    price: {
-      head: 2_315_051,
-      car: 2_071_362
-    }
+    cost_per_day: 33, // 42
+    price: 1_359_000 // 1_900_000
   })
 })
 
-test('price of commuter light', t => {
+test('TgvDuplex', t => {
   t.deepEqual(calculatePrice({
-    train_type: TRAIN_TYPE.COMMUTER,
-    empty_mass: {
-      head: 24_923,
-      car: 24_923
-    },
-    length: {
-      head: 20,
-      car: 20
-    }
+    max_speed: 320,
+    max_pax: 63,
+    empty_mass: 39_000,
+    length: 20,
+    width: 2.904
   }), {
-    price: {
-      head: 2_083_563,
-      car: 1_864_240
-    }
+    cost_per_day: 73, // 30
+    price: 3_047_000 // 3_400_000
   })
 })
 
-test('price of metro heavy', t => {
+test('SiemensVelaroE', t => {
   t.deepEqual(calculatePrice({
-    train_type: TRAIN_TYPE.METRO,
-    empty_mass: {
-      head: 27_692,
-      car: 27_692
-    },
-    length: {
-      head: 20,
-      car: 20
-    }
+    max_speed: 350,
+    max_pax: 60,
+    empty_mass: 55_875,
+    length: 25,
+    width: 2.95
   }), {
-    price: {
-      head: 1_800_552,
-      car: 1_611_020
-    }
+    cost_per_day: 217, // 308
+    price: 9_000_000 // 9_000_000
   })
 })
 
-test('price of metro light', t => {
+test('Keikyu DeHa 1500', t => {
   t.deepEqual(calculatePrice({
-    train_type: TRAIN_TYPE.METRO,
-    empty_mass: {
-      head: 24_923,
-      car: 24_923
-    },
-    length: {
-      head: 20,
-      car: 20
-    }
+    max_speed: 130,
+    max_pax: 140,
+    empty_mass: 25_000,
+    length: 20,
+    width: 2.798
   }), {
-    price: {
-      head: 1_620_509,
-      car: 1_449_929
-    }
+    cost_per_day: 52,
+    price: 2_141_000
   })
 })
 
-test('price of tram heavy', t => {
+test('Tokyu 300', t => {
   t.deepEqual(calculatePrice({
-    train_type: TRAIN_TYPE.TRAM,
-    empty_mass: {
-      head: 15_350,
-      car: 15_350
-    },
-    length: {
-      head: 12,
-      car: 12
-    }
+    max_speed: 60,
+    max_pax: 132,
+    empty_mass: 15_350,
+    length: 11.99,
+    width: 2.5
   }), {
-    price: {
-      head: 980_713,
-      car: 877_480
-    }
+    cost_per_day: 26, // 23
+    price: 1_089_000 // 979_896
   })
 })
 
-test('price of tram light', t => {
+test('Tokyu DeHa 3220', t => {
   t.deepEqual(calculatePrice({
-    train_type: TRAIN_TYPE.TRAM,
-    empty_mass: {
-      head: 11_000,
-      car: 10_500
-    },
-    length: {
-      head: 8.5,
-      car: 8.5
-    }
+    max_speed: 120,
+    max_pax: 155,
+    empty_mass: 33_300,
+    length: 20,
+    width: 2.788
   }), {
-    price: {
-      head: 497_810,
-      car: 425_163
-    }
+    cost_per_day: 69, // 51
+    price: 2_869_000 // 2_490_840
   })
 })

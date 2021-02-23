@@ -1,41 +1,55 @@
-import { snakeCase } from 'snake-case'
-import { TRAIN_TYPE } from '../index.js'
-
-const getType = unit_type => 'car' === unit_type ? 'car' : 'loco'
-
-const getDecors = ({ train_type, unit_type } = {}) => {
-  const decalLayers = [ 0, 1, 2, 5, 7 ]
-  let output = ''
-
-  for (const decal of decalLayers) {
-    output += `placeholder_${train_type}/${unit_type}_1_${decal}.png,`
-  }
-
-  return output.slice(0, -1)
-}
+import { PLACEHOLDER, calculateEmptyMass, calculatePower, calculatePrice, slugify, tonToKg } from '../index.js'
 
 export const createTrainUnit = ({
-  train_type = TRAIN_TYPE.COMMUTER, unit_type, name, names, length, width, max_speed, power, empty_mass, price, max_pax, cost_per_km_per_pax, cost_per_day
-} = {}) => ({
-  TrainUnit: {
-    schema: 1,
-    id: `wopian_${snakeCase(name)}_${unit_type}`,
-    name_loc: `wopian_${snakeCase(name)}_${unit_type}_name`,
-    name_en: names ? names[unit_type] : `${name} (${'car' === unit_type ? 'Middle' : 'End'} car)`,
-    length: length?.car ? ('car' === unit_type ? length.car : length.head) : length,
+  name,
+  length = 20, // m
+  width = 2.8, // m
+  max_speed = 120, // km/h
+  acceleration, // km/h, optional if power unknown for more accurate calculatePower results
+  power, // kW
+  empty_mass, // kg
+  max_pax = 0,
+  cost_per_km_per_pax = 0.05, // $
+  graphics = PLACEHOLDER.COMMUTER.CAR,
+  recolor_base = true,
+  recolor_decor = true,
+  tags = []
+}) => {
+  let output = {
+    schema: 2,
+    id: `wopian_${slugify(name)}_unit`,
+    name_loc: `wopian_${slugify(name)}_name`,
+    name_en: name.substring(name.indexOf(' ')).trim(),
+    length,
     width,
     max_speed,
-    power,
-    empty_mass: Math.round('car' === unit_type ? empty_mass.car : empty_mass.head),
-    price: 'car' === unit_type ? price.car : price.head,
-    max_pax: max_pax?.constructor === Object ? ('car' === unit_type ? max_pax.car : max_pax.head) : max_pax,
+    max_pax,
     cost_per_km_per_pax,
-    cost_per_day: 'car' === unit_type ? cost_per_day.car : cost_per_day.head,
-    tex_base: `placeholder_${train_type}/${getType(unit_type)}_0.png`,
-    tex_top: `placeholder_${train_type}/${getType(unit_type)}_2.png`,
-    // tex_decors: `placeholder_${train_type}/${'car' === unit_type ? 'car' : 'loco'}_1_0.png`,
-    tex_decors: getDecors({ train_type, unit_type: getType(unit_type) }),
     tex_m_width: 30,
-    tex_m_height: 3.75
+    tex_m_height: 3.75,
+    recolor_base,
+    recolor_decor
   }
-})
+
+  if (tags?.length > 0) output.tags = Array.from(new Set(tags)).join(',') // strip duplicates
+
+  if (empty_mass >= 0) output.empty_mass = tonToKg(empty_mass)
+  else output.empty_mass = calculateEmptyMass(output)
+
+  if (power >= 0) output.power = power
+  else output.power = calculatePower({ ...output, acceleration })
+
+  if (graphics) {
+    output.tex_base = graphics.base
+    output.tex_top = graphics.top
+    output.tex_decors = graphics.decors.join(',')
+  }
+
+  // price: train_type, empty_mass, length
+  // cost_per_day: train_type, price
+  const { price, cost_per_day } = calculatePrice(output)
+  output.price = price
+  output.cost_per_day = cost_per_day
+
+  return { TrainUnit: output }
+}

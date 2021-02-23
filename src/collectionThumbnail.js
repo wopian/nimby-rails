@@ -1,4 +1,4 @@
-import { blue } from 'kleur/colors'
+import { blue } from 'colorette'
 import { spawnSync } from 'child_process'
 import { existsSync, mkdirSync } from 'fs'
 import { join } from 'path'
