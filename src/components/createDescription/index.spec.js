@@ -33,3 +33,13 @@ test('region gets generated', t => {
     region: 'Hokkaidō'
   }), 'Collection of 0 EMUs (0 compositions) operated by Company in the Hokkaidō region.')
 })
+
+test('train list gets generated without tags', t => {
+  t.is(createDescription({
+    trains: [
+      { wiki: 'https://wiki.example', name: 'Train 1' }
+    ],
+    totalTrains: 1,
+    totalCompositions: 1
+  }), 'Collection of 1 EMU (1 composition) operated by Company.\n\n[url=https://wiki.example]Train 1[/url]')
+})
