@@ -1,4 +1,4 @@
-import { REGION, TRAIN_TYPE } from '../../components/index.js'
+import { REGION } from '../../components/index.js'
 
 export const meitetsu = {
   wiki: 'https://ja.wikipedia.org/wiki/名古屋鉄道',
@@ -229,7 +229,7 @@ export const meitetsu = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/名鉄100系電車',
-      train_type: TRAIN_TYPE.METRO,
+      // train_type: TRAIN_TYPE.METRO,
       name: 'Meitetsu 100',
       names: { head: 'Mo 110/140', car: 'Mo 120/130/160,Sa 150' },
       min_cars: 4,
@@ -243,7 +243,7 @@ export const meitetsu = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/名鉄100系電車',
-      train_type: TRAIN_TYPE.METRO,
+      // train_type: TRAIN_TYPE.METRO,
       name: 'Meitetsu 200',
       names: { head: 'Ku 210,Mo 240', car: 'Mo 220/230/260,Sa 250' },
       min_cars: 4,
@@ -257,7 +257,7 @@ export const meitetsu = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/名鉄300系電車',
-      train_type: TRAIN_TYPE.METRO,
+      // train_type: TRAIN_TYPE.METRO,
       name: 'Meitetsu 300',
       names: { head: 'Ku 310/340', car: 'Mo 320/330' },
       min_cars: 4,

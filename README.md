@@ -41,7 +41,7 @@ Mod data is stored in `src/data/:company_name/index.js`
 
 A blank template is available in [`src/data/template/index.js`](https://github.com/wopian/nimby-rails/blob/master/src/data/template/template.js)
 
-Exports `schema=1` compatible mod files to `mods/:company/mod.txt`
+Exports `schema=2` compatible mod files to `mods/:company/mod.txt`
 
 ### Company Schema
 
@@ -49,37 +49,63 @@ Exports `schema=1` compatible mod files to `mods/:company/mod.txt`
 | Property | Type              | Default    | Required | Description
 | -------- | ----------------- | ---------- | -------- | -----------
 | wiki     | string            | undefined  | ❌       | Link to the company on Wikipedia
-| name     | string            | 'Mod Name' | ❌       | Name of the company in English
+| name     | string            | 'Mod Name' | ✔       | Name of the company in English
 | native   | string            | undefined  | ❌       | Name of the company in the local language
 | region   | string            | undefined  | ❌       | Region the company operates in
-| trains   | array[TrainUnit]  | undefined  | ❌       | Array of TrainUnit objects
+| units    | array\[`TrainUnit`\]  | undefined  | ✔       | Array of `TrainUnit` objects
+| trains   | array\[`TrainMultipleUnit`\] | undefined | ✔ | Array of `TrainMultipleUnit` objects
 
 ### TrainUnit Schema
+
+| Property     | Type   | Default     | Required | Description
+| ------------ | ------ | ----------- | -------- | -----------
+| name         | string | 'Unit Name' | ✔ | Name of the unit (e.g. model number)
+| length       | number | 20          | ❌ | Length of the TrainUnit in metres
+| width        | number | 2.8         | ❌ | Width of the TrainUnit in metres
+| max_speed    | number | 120         | ❌ | Maximum speed in km/h
+| power        | number | \*          | ❌ | <span>\* **NOTE:** Calculated from `train_type` and `max_speed` by default<br>Power of the TrainUnit in kW</span>
+| acceleration | number | 3\*         | ❌ | <span>\* **NOTE:** Value only used if `power` is not provided for more accurate `power` calculations<br>Acceleration in km/h/s</span>
+| empty_mass   | number | \*          | ❌ | <span>\* Calculated from `train_type` and `length` by default<br>Weight of the TrainUnit in metric tonnes (1 t = 1,000kg)</span>
+| max_pax      | number | 0           | ❌ | Number of passengers the TrainUnit can carry
+| tags       | array\[string\] | \[\] | ❌ | See the official [Mod Guide] for available tags
+| cost_per_km_per_pax | number | 0.05 | ❌ | Default value of all base-game trains
+| recolor_base  | boolean | true      | ❌ | Whether the base colour can be recoloured by players
+| recolor_decor | boolean | true      | ❌ | Whether the decor colour can be recoloured by players
+| graphics      | object  | \*        | ❌ | <span>\* **NOTE:** Defaults to the in-game Yamanote textures<br>Textures used for the TrainUnit</span>
+| graphics.tex_base   | string |      | ❌ | Relative path to an RGBA 1024x128 PNG file
+| graphics.tex_top    | string |      | ❌ | Relative path to an RGBA 1024x128 PNG file
+| graphics.tex_decors | array\[string\] | | ❌ | Relative paths to RGBA 1024x128 PNG files
+
+### TrainMultipleUnit Schema
 
 | Property        | Type           | Default       | Required | Description
 | --------------- | -------------- | ------------- | -------- | -----------
 | wiki            | string         | undefined     | ❌       | Link to the train on Wikipedia
-| train_type      | string         | \*            | ❌       | <span>\* Calculated from `max_speed` by default<br>Valid values are 'highspeed', 'higherspeed', 'commuter', 'metro' or 'tram'</span>
-| name            | string         | 'Train Name'  | ❌       | Name of the train (series/model)
-| names           | object         | undefined     | ❌       | Name of the individual TrainUnits
-| names.head      | string         |               | ❌       | Name of the head TrainUnits
-| names.car       | string         |               | ❌       | Name of the car TrainUnits
-| min_cars        | number         | 2             | ❌       | Includes the head and tail TrainUnits
-| max_cars        | number         | 10            | ❌       | Includes the head and tail TrainUnits
-| max_speed       | number         | 120           | ❌       | Maximum speed in km/h
-| length          | number\|object | 20            | ❌       | Length of the TrainUnits in metres
-| length.head     | number         |               | ❌       | Length of the head TrainUnits in metres
-| length.car      | number         |               | ❌       | Length of the car TrainUnits in metres
-| width           | number         | 2.8           | ❌       | Width of the TrainUnit in metres
-| power           | number         | \*            | ❌       | <span>\* Calculated from `train_type` and `max_speed` by default<br>Power of the TrainUnit in kW</span>
-| max_pax         | number\|object | 130           | ❌       | Number of passengers the TrainUnit can carry
-| max_pax.head    | number         |               | ❌       | Passengers the head TrainUnit can carry
-| max_pax.car     | number         |               | ❌       | Passengers the car TrainUnit can carry
-| empty_mass      | number\|object | \*            | ❌       | <span>\* Calculated from `train_type` and `length` by default<br>Weight of the TrainUnit in tonnes (1,000kg)</span>
-| empty_mass.head | number         |               | ❌       | Weight of the head TrainUnit in tonnes (1,000kg)
-| empty_mass.car  | number         |               | ❌       | Weight of the car TrainUnit in tonnes (1,000kg)
+| name            | string         | 'Train Name'  | ✔       | Name of the train (series/model)
+| description     | string         | ''            | ❌       | Description of the train
+| year_introduced | number         |               | ❌       | Year in YYYY format (`2020`)
+| year_retired    | number         |               | ❌       | Year in YYYY format (`2020`)
+| countries_operated | string      | 'jp'          | ❌       | [ISO-3166-2] country code
+| countries_built | string         | 'jp'          | ❌       | [ISO-3166-2] country code
+| default_code    | string         | \*            | ❌       | Defaults to first 3 letters of `name` with 2 random numbers. Use \# for digit and @ for number placeholders
+| default_name    | string         | \*            | ❌       | Defaults to `name`. Use \# for digit and @ for number placeholders
+| photo           | string         |               | ❌       |
+| tags            | array\[string\]      | \[\]    | ❌       | See the official [Mod Guide] for available tags
+| composition     | array\[`Composition`\] | \[\]    | ✔       | Array of `Composition` objects
 
-See the official [Mod Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666) for further details
+### Composition Schema
+
+| Property     | Type      | Default | Required | Description
+| ------------ | --------- | ------- | -------- | -----------
+| name         | string    |         | ✔       | Name of composition
+| units  | array\[object\] | \[\]    | ✔       | Array of units forming the composition
+| units[].unit | `TrainUnit` |       | ✔       | Reference to a previously defined `TrainUnit` object
+| units[].min  | number    | 1       | ❌       | Minimum number of units (`0-`)
+| units[].def  | number    | 1       | ❌       | Default number of units (`0-`)
+| units[].max  | number    | 1       | ❌       | Maximum number of units (`1-`)
+| units[].flip | boolean   | false   | ❌       | Whether the graphic if flipped horizontally
+
+See the official [Mod Guide] for further details
 
 ## Commands
 
@@ -100,3 +126,6 @@ yarn test
 ```
 yarn coverage
 ```
+
+[Mod Guide]:https://steamcommunity.com/sharedfiles/filedetails/?id=2268014666
+[ISO 3166-2]:https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2

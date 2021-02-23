@@ -1,7 +1,7 @@
 import { PLACEHOLDER, calculateEmptyMass, calculatePower, calculatePrice, slugify, tonToKg } from '../index.js'
 
 export const createTrainUnit = ({
-  name,
+  name = 'Unit Name',
   length = 20, // m
   width = 2.8, // m
   max_speed = 120, // km/h
@@ -45,8 +45,6 @@ export const createTrainUnit = ({
     output.tex_decors = graphics.decors.join(',')
   }
 
-  // price: train_type, empty_mass, length
-  // cost_per_day: train_type, price
   const { price, cost_per_day } = calculatePrice(output)
   output.price = price
   output.cost_per_day = cost_per_day

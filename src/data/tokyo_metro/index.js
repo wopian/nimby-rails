@@ -1,7 +1,5 @@
 import { REGION } from '../../components/index.js'
 
-import { TRAIN_TYPE } from '../../components/index.js'
-
 export const tokyo_metro = {
   wiki: 'https://ja.wikipedia.org/wiki/東京地下鉄',
   name: 'Tokyo Metro',
@@ -10,7 +8,7 @@ export const tokyo_metro = {
   trains: [
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ1000系電車',
-      train_type: TRAIN_TYPE.COMMUTER,
+      // train_type: TRAIN_TYPE.COMMUTER,
       name: 'Tokyo Metro 1000',
       names: { head: '1000/1100', car: '1200/1300/1400/1500' },
       min_cars: 6,
@@ -24,7 +22,7 @@ export const tokyo_metro = {
     },
     {
       wiki: 'https://ja.wikipedia.org/wiki/東京メトロ2000系電車',
-      train_type: TRAIN_TYPE.COMMUTER,
+      // train_type: TRAIN_TYPE.COMMUTER,
       name: 'Tokyo Metro 2000',
       names: { head: '2000/2100', car: '2200/2300/2400/2500' },
       min_cars: 6,
