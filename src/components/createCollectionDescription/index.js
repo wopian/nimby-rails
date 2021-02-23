@@ -48,9 +48,6 @@ export const createCollectionDescription = ({ companies = [], country = 'Japan' 
   const totalCompositions = companies.reduce((total, { trains }) => trains ? total + getCompositionTotal(trains) : total, 0)
 
   let description = `Collection of ${totalTrains} EMU${plural(totalTrains)} (${totalCompositions} composition${plural(totalCompositions)}) from ${totalCompanies} compan${plural(totalCompanies, 'ies', 'y')} operating in ${country}.\n`
-
-  if (regions.length === 0) description += listCompanies(companies)
-  else description += listRegionsAndCompanies(regions, companies)
-
+  description += listRegionsAndCompanies(regions, companies)
   return description.trimEnd()
 }

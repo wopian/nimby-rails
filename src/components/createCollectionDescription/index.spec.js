@@ -52,3 +52,31 @@ test('with company trains and tagged by role', t => {
     ]
   }), 'Collection of 2 EMUs (3 compositions) from 1 company operating in Japan.\n\nHokkaidō region:\nWop Corp 2 EMUs (3 compositions - metro/tram)')
 })
+
+test('with company trains and tagged by role, without region', t => {
+  t.is(createCollectionDescription({
+    companies: [
+      {
+        name: 'Wop Corp',
+        trains: [
+          { tags: [ MU_TAG.ROLE.METRO ], composition: [ {} ] },
+          { tags: [ MU_TAG.ROLE.TRAM ], composition: [ {}, {} ] }
+        ]
+      }
+    ]
+  }), 'Collection of 2 EMUs (3 compositions) from 1 company operating in Japan.\n\nundefined region:\nWop Corp 2 EMUs (3 compositions - metro/tram)')
+})
+
+test('with company trains without compositions', t => {
+  t.is(createCollectionDescription({
+    companies: [
+      {
+        name: 'Wop Corp',
+        trains: [
+          { tags: [ MU_TAG.ROLE.METRO ] },
+          { tags: [ MU_TAG.ROLE.TRAM ] }
+        ]
+      }
+    ]
+  }), 'Collection of 2 EMUs (0 compositions) from 1 company operating in Japan.\n\nundefined region:\nWop Corp 2 EMUs (0 compositions - metro/tram)')
+})
