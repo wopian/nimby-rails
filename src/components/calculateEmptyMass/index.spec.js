@@ -52,3 +52,19 @@ test('mass of 20x2.95m with generator', t => {
     tags: 'generator'
   }), 32500)
 })
+
+test('mass of 20x2.95m with sleeper', t => {
+  t.deepEqual(calculateEmptyMass({
+    length: 20,
+    width: 2.95,
+    tags: 'sleeper'
+  }), 28100)
+})
+
+test('mass of 20x2.95m with restaurant and baggage', t => {
+  t.deepEqual(calculateEmptyMass({
+    length: 20,
+    width: 2.95,
+    tags: 'baggage,restaurant'
+  }), 28900)
+})
