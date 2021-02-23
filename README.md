@@ -52,8 +52,8 @@ Exports `schema=2` compatible mod files to `mods/:company/mod.txt`
 | name     | string            | 'Mod Name' | ✔       | Name of the company in English
 | native   | string            | undefined  | ❌       | Name of the company in the local language
 | region   | string            | undefined  | ❌       | Region the company operates in
-| units    | array\[`TrainUnit`\]  | undefined  | ✔       | Array of `TrainUnit` objects
-| trains   | array\[`TrainMultipleUnit`\] | undefined | ✔ | Array of `TrainMultipleUnit` objects
+| units    | array\[`TrainUnit`\]  | \[\]  | ✔       | Array of `TrainUnit` objects
+| trains   | array\[`TrainMultipleUnit`\] | \[\] | ✔ | Array of `TrainMultipleUnit` objects
 
 ### TrainUnit Schema
 
