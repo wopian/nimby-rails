@@ -5,28 +5,28 @@ test('mass of 25.78x2.92m', t => {
   t.deepEqual(calculateEmptyMass({
     length: 25.78,
     width: 2.92
-  }), 37700)
+  }), 37600)
 })
 
 test('mass of 18.35x2.978m', t => {
   t.deepEqual(calculateEmptyMass({
     length: 18.35,
     width: 2.978
-  }), 27400)
+  }), 27300)
 })
 
 test('mass of 20x2.95m', t => {
   t.deepEqual(calculateEmptyMass({
     length: 20,
     width: 2.95
-  }), 29600)
+  }), 29500)
 })
 
 test('mass of 6.5x2.4', t => {
   t.deepEqual(calculateEmptyMass({
     length: 6.5,
     width: 2.4
-  }), 7900)
+  }), 7800)
 })
 
 test('mass of 6.5x2.4 with tram', t => {
@@ -34,7 +34,7 @@ test('mass of 6.5x2.4 with tram', t => {
     length: 6.5,
     width: 2.4,
     tags: 'tram'
-  }), 7000)
+  }), 6900)
 })
 
 test('mass of 20x2.95m with bar', t => {
@@ -42,7 +42,7 @@ test('mass of 20x2.95m with bar', t => {
     length: 20,
     width: 2.95,
     tags: 'bar'
-  }), 30500)
+  }), 30400)
 })
 
 test('mass of 20x2.95m with generator', t => {
@@ -50,7 +50,7 @@ test('mass of 20x2.95m with generator', t => {
     length: 20,
     width: 2.95,
     tags: 'generator'
-  }), 32500)
+  }), 32400)
 })
 
 test('mass of 20x2.95m with sleeper', t => {
@@ -58,7 +58,7 @@ test('mass of 20x2.95m with sleeper', t => {
     length: 20,
     width: 2.95,
     tags: 'sleeper'
-  }), 28100)
+  }), 28000)
 })
 
 test('mass of 20x2.95m with restaurant and baggage', t => {
@@ -66,5 +66,5 @@ test('mass of 20x2.95m with restaurant and baggage', t => {
     length: 20,
     width: 2.95,
     tags: 'baggage,restaurant'
-  }), 28900)
+  }), 28800)
 })
