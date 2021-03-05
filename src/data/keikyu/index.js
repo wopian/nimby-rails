@@ -674,6 +674,7 @@ const UNITS = {
 }
 
 export const keikyu = {
+  version: '1.0.0',
   wiki: 'https://ja.wikipedia.org/wiki/京浜急行電鉄',
   name: 'Keikyu',
   native: '京急',
@@ -689,29 +690,49 @@ export const keikyu = {
       tags: [MU_TAG.GAUGE.STANDARD, MU_TAG.POWER.ELECTRIC, MU_TAG.ROLE.COMMUTER],
       composition: [
         {
-          name: 'Keikyu 1500 4M2T & 4M (2001)',
-          units: [
-            { unit: UNITS.DeHa_1500_M1c },
-            { unit: UNITS.DeHa_1500_M2 },
-            { unit: UNITS.SaHa_1900_Tu, min: 0, def: 1, max: 1 },
-            { unit: UNITS.SaHa_1900_Ts, min: 0, def: 1, max: 1 },
-            { unit: UNITS.DeHa_1500_M1 },
-            { unit: UNITS.DeHa_1500_M2c, flip: true }
-          ]
-        },
-        {
-          name: 'Keikyu 1700 6M2T & 6M (1992)',
+          name: 'Keikyu 1700 6M (1992)',
           units: [
             { unit: UNITS.DeHa_1700_M1c },
             { unit: UNITS.DeHa_1700_M2 },
-            { unit: UNITS.SaHa_1900_Tu, min: 0, def: 1, max: 1 },
-            { unit: UNITS.SaHa_1900_Ts, min: 0, def: 1, max: 1 },
             { unit: UNITS.DeHa_1700_M1 },
             { unit: UNITS.DeHa_1700_M2 },
             { unit: UNITS.DeHa_1700_M1 },
             { unit: UNITS.DeHa_1700_M2c, flip: true }
           ]
-        }
+        },
+        {
+          name: 'Keikyu 1700 6M2T (1992)',
+          units: [
+            { unit: UNITS.DeHa_1700_M1c },
+            { unit: UNITS.DeHa_1700_M2 },
+            { unit: UNITS.SaHa_1900_Tu },
+            { unit: UNITS.SaHa_1900_Ts },
+            { unit: UNITS.DeHa_1700_M1 },
+            { unit: UNITS.DeHa_1700_M2 },
+            { unit: UNITS.DeHa_1700_M1 },
+            { unit: UNITS.DeHa_1700_M2c, flip: true }
+          ]
+        },
+        {
+          name: 'Keikyu 1500 4M (2001)',
+          units: [
+            { unit: UNITS.DeHa_1500_M1c },
+            { unit: UNITS.DeHa_1500_M2 },
+            { unit: UNITS.DeHa_1500_M1 },
+            { unit: UNITS.DeHa_1500_M2c, flip: true }
+          ]
+        },
+        {
+          name: 'Keikyu 1500 4M2T (2001)',
+          units: [
+            { unit: UNITS.DeHa_1500_M1c },
+            { unit: UNITS.DeHa_1500_M2 },
+            { unit: UNITS.SaHa_1900_Tu },
+            { unit: UNITS.SaHa_1900_Ts },
+            { unit: UNITS.DeHa_1500_M1 },
+            { unit: UNITS.DeHa_1500_M2c, flip: true }
+          ]
+        },
       ]
     },
     {
@@ -736,7 +757,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 600 III 6M2T (1996)',
+          name: 'Keikyu 600 III 4M4T (1996)',
           units: [
             { unit: UNITS.DeHa_600_Muc },
             { unit: UNITS.SaHa_600_T },
@@ -751,6 +772,40 @@ export const keikyu = {
         {
           name: 'Keikyu 600 III 2M2T (1996)',
           units: [
+            { unit: UNITS.DeHa_600_Muc },
+            { unit: UNITS.SaHa_600_T },
+            { unit: UNITS.SaHa_600_Tp },
+            { unit: UNITS.DeHa_600_Msc, flip: true }
+          ]
+        },
+        {
+          name: 'Keikyu 600 III 8M4T (1994/1996)',
+          units: [
+            { unit: UNITS.DeHa_600_M1c },
+            { unit: UNITS.DeHa_600_M2 },
+            { unit: UNITS.SaHa_600_Tu },
+            { unit: UNITS.SaHa_600_Ts },
+            { unit: UNITS.DeHa_600_M1a },
+            { unit: UNITS.DeHa_600_M2a },
+            { unit: UNITS.DeHa_600_M1 },
+            { unit: UNITS.DeHa_600_M2c, flip: true },
+            { unit: UNITS.DeHa_600_Muc },
+            { unit: UNITS.SaHa_600_T },
+            { unit: UNITS.SaHa_600_Tp },
+            { unit: UNITS.DeHa_600_Msc, flip: true }
+          ]
+        },
+        {
+          name: 'Keikyu 600 III 6M6T (1996)',
+          units: [
+            { unit: UNITS.DeHa_600_Muc },
+            { unit: UNITS.SaHa_600_T },
+            { unit: UNITS.SaHa_600_Tp },
+            { unit: UNITS.DeHa_600_Mu },
+            { unit: UNITS.DeHa_600_Ms },
+            { unit: UNITS.SaHa_600_T },
+            { unit: UNITS.SaHa_600_Tp },
+            { unit: UNITS.DeHa_600_Msc, flip: true },
             { unit: UNITS.DeHa_600_Muc },
             { unit: UNITS.SaHa_600_T },
             { unit: UNITS.SaHa_600_Tp },
@@ -791,7 +846,7 @@ export const keikyu = {
       tags: [MU_TAG.GAUGE.STANDARD, MU_TAG.POWER.ELECTRIC, MU_TAG.ROLE.COMMUTER],
       composition: [
         {
-          name: 'Keikyu 1000 II 4M4T (2002)',
+          name: 'Keikyu 1000 II 4M4T (2002, Aluminium)',
           units: [
             { unit: UNITS.DeHa_1000_Muc },
             { unit: UNITS.SaHa_1000_Tpu },
@@ -804,7 +859,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 2M2T (2002)',
+          name: 'Keikyu 1000 II 2M2T (2002, Aluminium)',
           units: [
             { unit: UNITS.DeHa_1000_Muc },
             { unit: UNITS.SaHa_1000_Tpu1 },
@@ -813,7 +868,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 2M2T (2003)',
+          name: 'Keikyu 1000 II 2M2T (2003, Aluminium)',
           units: [
             { unit: UNITS.DeHa_1000_Muc },
             { unit: UNITS.SaHa_1000_T },
@@ -822,7 +877,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 6M2T (2005)',
+          name: 'Keikyu 1000 II 6M2T (2005, Aluminium)',
           units: [
             { unit: UNITS.DeHa_1000_Muc_3 },
             { unit: UNITS.SaHa_1000_Tpu },
@@ -835,7 +890,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 3M1T (2005)',
+          name: 'Keikyu 1000 II 3M1T (2005, Aluminium)',
           units: [
             { unit: UNITS.DeHa_1000_Muc_3 },
             { unit: UNITS.DeHa_1000_M2 },
@@ -844,7 +899,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 6M2T (2007)',
+          name: 'Keikyu 1000 II 6M2T (2007, Stainless Steel)',
           units: [
             { unit: UNITS.DeHa_1000_M2uc_6 },
             { unit: UNITS.DeHa_1000_M1u_6 },
@@ -857,7 +912,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 6M2T (2008)',
+          name: 'Keikyu 1000 II (2008, Stainless Steel)',
           units: [
             { unit: UNITS.DeHa_1000_M2uc_6 },
             { unit: UNITS.DeHa_1000_M1u_6 },
@@ -870,7 +925,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 4M (2008)',
+          name: 'Keikyu 1000 II 4M (2008, Stainless Steel)',
           units: [
             { unit: UNITS.DeHa_1000_M2uc_8 },
             { unit: UNITS.DeHa_1000_M1u_6 },
@@ -879,7 +934,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 4M2T (2011)',
+          name: 'Keikyu 1000 II 4M2T (2011, Stainless Steel)',
           units: [
             { unit: UNITS.DeHa_1000_M2uc_8 },
             { unit: UNITS.DeHa_1000_M1u_6 },
@@ -890,7 +945,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 4M2T (2015)',
+          name: 'Keikyu 1000 II 4M2T (2015, Stainless Steel)',
           units: [
             { unit: UNITS.DeHa_1000_M2uc_8 },
             { unit: UNITS.DeHa_1000_M1u_15 },
@@ -901,7 +956,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 4M (2016)',
+          name: 'Keikyu 1000 II 4M (2016, Stainless Steel)',
           units: [
             { unit: UNITS.DeHa_1000_M2uc_15 },
             { unit: UNITS.DeHa_1000_M1u_15 },
