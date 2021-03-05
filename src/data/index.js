@@ -12,7 +12,7 @@ import { tokyo_metro } from './tokyo_metro/index.js'
 import { tokyu_corporation } from './tokyu_corporation/index.js'
 
 export const companies = [
-  keikyu,
+  keikyu,/*
   keio_corporation,
   keisei_electric_railway,
   meitetsu,
@@ -23,5 +23,5 @@ export const companies = [
   sotetsu,
   tobu_railway,
   tokyo_metro,
-  tokyu_corporation
+  tokyu_corporation*/
 ]
