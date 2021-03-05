@@ -846,7 +846,7 @@ export const keikyu = {
       tags: [MU_TAG.GAUGE.STANDARD, MU_TAG.POWER.ELECTRIC, MU_TAG.ROLE.COMMUTER],
       composition: [
         {
-          name: 'Keikyu 1000 II 4M4T (2002, Aluminium)',
+          name: 'Keikyu 1000 II 4M4T Aluminium (2002)',
           units: [
             { unit: UNITS.DeHa_1000_Muc },
             { unit: UNITS.SaHa_1000_Tpu },
@@ -859,7 +859,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 2M2T (2002, Aluminium)',
+          name: 'Keikyu 1000 II 2M2T Aluminium (2002)',
           units: [
             { unit: UNITS.DeHa_1000_Muc },
             { unit: UNITS.SaHa_1000_Tpu1 },
@@ -868,7 +868,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 2M2T (2003, Aluminium)',
+          name: 'Keikyu 1000 II 2M2T Aluminium (2003)',
           units: [
             { unit: UNITS.DeHa_1000_Muc },
             { unit: UNITS.SaHa_1000_T },
@@ -877,7 +877,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 6M2T (2005, Aluminium)',
+          name: 'Keikyu 1000 II 6M2T Aluminium (2005)',
           units: [
             { unit: UNITS.DeHa_1000_Muc_3 },
             { unit: UNITS.SaHa_1000_Tpu },
@@ -890,7 +890,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 3M1T (2005, Aluminium)',
+          name: 'Keikyu 1000 II 3M1T Aluminium (2005)',
           units: [
             { unit: UNITS.DeHa_1000_Muc_3 },
             { unit: UNITS.DeHa_1000_M2 },
@@ -899,7 +899,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 6M2T (2007, Stainless Steel)',
+          name: 'Keikyu 1000 II 6M2T Stainless Steel (2007)',
           units: [
             { unit: UNITS.DeHa_1000_M2uc_6 },
             { unit: UNITS.DeHa_1000_M1u_6 },
@@ -912,7 +912,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II (2008, Stainless Steel)',
+          name: 'Keikyu 1000 II 6M2T Stainless Steel (2008)',
           units: [
             { unit: UNITS.DeHa_1000_M2uc_6 },
             { unit: UNITS.DeHa_1000_M1u_6 },
@@ -925,7 +925,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 4M (2008, Stainless Steel)',
+          name: 'Keikyu 1000 II 4M Stainless Steel (2008)',
           units: [
             { unit: UNITS.DeHa_1000_M2uc_8 },
             { unit: UNITS.DeHa_1000_M1u_6 },
@@ -934,7 +934,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 4M2T (2011, Stainless Steel)',
+          name: 'Keikyu 1000 II 4M2T Stainless Steel (2011)',
           units: [
             { unit: UNITS.DeHa_1000_M2uc_8 },
             { unit: UNITS.DeHa_1000_M1u_6 },
@@ -945,7 +945,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 4M2T (2015, Stainless Steel)',
+          name: 'Keikyu 1000 II 4M2T Stainless Steel (2015)',
           units: [
             { unit: UNITS.DeHa_1000_M2uc_8 },
             { unit: UNITS.DeHa_1000_M1u_15 },
@@ -956,7 +956,7 @@ export const keikyu = {
           ]
         },
         {
-          name: 'Keikyu 1000 II 4M (2016, Stainless Steel)',
+          name: 'Keikyu 1000 II 4M Stainless Steel (2016)',
           units: [
             { unit: UNITS.DeHa_1000_M2uc_15 },
             { unit: UNITS.DeHa_1000_M1u_15 },
