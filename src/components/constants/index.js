@@ -109,65 +109,77 @@ export const PRESET_TAG = {
   SAHA: [...VEHICLE_TYPE.SA, ...VEHICLE_GRADE.HA]
 }
 
+
+// Decals disabled to lower texture usage until textures are loaded dynamically in NIMBY
 export const PLACEHOLDER = {
   HIGHSPEED: {
     HEAD: {
       base: 'placeholder_highspeed/loco_0.png',
       top: 'placeholder_highspeed/loco_2.png',
-      decors: 'placeholder_highspeed/loco_1_0.png,placeholder_highspeed/loco_1_1.png,placeholder_highspeed/loco_1_2.png,placeholder_highspeed/loco_1_5.png,placeholder_highspeed/loco_1_7.png'.split(',')
+      decors: 'placeholder_highspeed/loco_1_2.png'
+      // decors: 'placeholder_highspeed/loco_1_2.png'.split(',')
     },
     CAR: {
       base: 'placeholder_highspeed/car_0.png',
       top: 'placeholder_highspeed/car_2.png',
-      decors: 'placeholder_highspeed/car_1_0.png,placeholder_highspeed/car_1_1.png,placeholder_highspeed/car_1_2.png,placeholder_highspeed/car_1_5.png,placeholder_highspeed/car_1_7.png'.split(',')
+      decors: 'placeholder_highspeed/car_1_2.png'
+      // decors: 'placeholder_highspeed/car_1_2.png'.split(',')
     }
   },
   HIGHERSPEED: {
     HEAD: {
       base: 'placeholder_higherspeed/loco_0.png',
       top: 'placeholder_higherspeed/loco_2.png',
-      decors: 'placeholder_higherspeed/loco_1_0.png,placeholder_higherspeed/loco_1_1.png,placeholder_higherspeed/loco_1_2.png,placeholder_higherspeed/loco_1_5.png,placeholder_higherspeed/loco_1_7.png'.split(',')
+      decors: 'placeholder_higherspeed/loco_1_2.png'
+      // decors: 'placeholder_higherspeed/loco_1_2.png'.split(',')
     },
     CAR: {
       base: 'placeholder_higherspeed/car_0.png',
       top: 'placeholder_higherspeed/car_2.png',
-      decors: 'placeholder_higherspeed/car_1_0.png,placeholder_higherspeed/car_1_1.png,placeholder_higherspeed/car_1_2.png,placeholder_higherspeed/car_1_5.png,placeholder_higherspeed/car_1_7.png'.split(',')
+      decors: 'placeholder_higherspeed/car_1_2.png'
+      // decors: 'placeholder_higherspeed/car_1_2.png'.split(',')
     }
   },
   COMMUTER: {
     HEAD: {
       base: 'placeholder_commuter/loco_0.png',
       top: 'placeholder_commuter/loco_2.png',
-      decors: 'placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png'.split(',')
+      decors: 'placeholder_commuter/loco_1_2.png'
+      // decors: 'placeholder_commuter/loco_1_2.png'.split(',')
     },
     CAR: {
       base: 'placeholder_commuter/car_0.png',
       top: 'placeholder_commuter/car_2.png',
-      decors: 'placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png'.split(',')
+      decors: 'placeholder_commuter/car_1_2.png'
+      // decors: 'placeholder_commuter/car_1_2.png'.split(',')
     }
   },
   METRO: {
     HEAD: {
       base: 'placeholder_metro/loco_0.png',
       top: 'placeholder_metro/loco_2.png',
-      decors: 'placeholder_metro/loco_1_0.png,placeholder_metro/loco_1_1.png,placeholder_metro/loco_1_2.png,placeholder_metro/loco_1_5.png,placeholder_metro/loco_1_7.png'.split(',')
+      decors: 'placeholder_metro/loco_1_2.png'
+      // decors: 'placeholder_metro/loco_1_2.png'.split(',')
     },
     CAR: {
       base: 'placeholder_metro/car_0.png',
       top: 'placeholder_metro/car_2.png',
-      decors: 'placeholder_metro/car_1_0.png,placeholder_metro/car_1_1.png,placeholder_metro/car_1_2.png,placeholder_metro/car_1_5.png,placeholder_metro/car_1_7.png'.split(',')
+      decors: 'placeholder_metro/car_1_2.png'
+      // decors: 'placeholder_metro/car_1_2.png'.split(',')
     }
   },
   TRAM: {
     HEAD: {
       base: 'placeholder_tram/loco_0.png',
       top: 'placeholder_tram/loco_2.png',
-      decors: 'placeholder_tram/loco_1_0.png,placeholder_tram/loco_1_1.png,placeholder_tram/loco_1_2.png,placeholder_tram/loco_1_5.png,placeholder_tram/loco_1_7.png'.split(',')
+      decors: 'placeholder_tram/loco_1_2.png'
+      // decors: 'placeholder_tram/loco_1_2.png'.split(',')
     },
     CAR: {
       base: 'placeholder_tram/car_0.png',
       top: 'placeholder_tram/car_2.png',
-      decors: 'placeholder_tram/car_1_0.png,placeholder_tram/car_1_1.png,placeholder_tram/car_1_2.png,placeholder_tram/car_1_5.png,placeholder_tram/car_1_7.png'.split(',')
+      decors: 'placeholder_tram/car_1_2.png'
+      // decors: 'placeholder_tram/car_1_2.png'.split(',')
     }
   }
 }

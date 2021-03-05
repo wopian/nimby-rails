@@ -24,7 +24,7 @@ empty_mass=32000
 power=620
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2309000
 cost_per_day=55
 
@@ -47,7 +47,7 @@ empty_mass=31500
 power=620
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2306000
 cost_per_day=55
 
@@ -70,7 +70,7 @@ empty_mass=31500
 power=620
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2306000
 cost_per_day=55
 
@@ -93,7 +93,7 @@ empty_mass=31000
 power=620
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2303000
 cost_per_day=55
 
@@ -116,7 +116,7 @@ empty_mass=24500
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2256000
 cost_per_day=54
 
@@ -139,7 +139,7 @@ empty_mass=25500
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2264000
 cost_per_day=54
 
@@ -162,7 +162,7 @@ empty_mass=32000
 power=480
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2309000
 cost_per_day=55
 
@@ -185,7 +185,7 @@ empty_mass=31500
 power=480
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2306000
 cost_per_day=55
 
@@ -208,7 +208,7 @@ empty_mass=31500
 power=480
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2306000
 cost_per_day=55
 
@@ -231,7 +231,7 @@ empty_mass=31000
 power=480
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2303000
 cost_per_day=55
 
@@ -254,7 +254,7 @@ empty_mass=33500
 power=480
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2357000
 cost_per_day=56
 
@@ -277,7 +277,7 @@ empty_mass=33000
 power=480
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2354000
 cost_per_day=56
 
@@ -300,7 +300,7 @@ empty_mass=33000
 power=480
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2354000
 cost_per_day=56
 
@@ -323,7 +323,7 @@ empty_mass=32000
 power=480
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2348000
 cost_per_day=56
 
@@ -346,7 +346,7 @@ empty_mass=32500
 power=480
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2351000
 cost_per_day=56
 
@@ -369,7 +369,7 @@ empty_mass=32000
 power=480
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2348000
 cost_per_day=56
 
@@ -392,7 +392,7 @@ empty_mass=24500
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2276000
 cost_per_day=54
 
@@ -415,7 +415,7 @@ empty_mass=25500
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2284000
 cost_per_day=55
 
@@ -438,7 +438,7 @@ empty_mass=34000
 power=720
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2360000
 cost_per_day=56
 
@@ -461,7 +461,7 @@ empty_mass=32000
 power=720
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2348000
 cost_per_day=56
 
@@ -484,7 +484,7 @@ empty_mass=31500
 power=720
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2326000
 cost_per_day=56
 
@@ -507,7 +507,7 @@ empty_mass=32000
 power=720
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2329000
 cost_per_day=56
 
@@ -530,7 +530,7 @@ empty_mass=25500
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2284000
 cost_per_day=55
 
@@ -553,7 +553,7 @@ empty_mass=23500
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2268000
 cost_per_day=54
 
@@ -576,7 +576,7 @@ empty_mass=33000
 power=760
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2368000
 cost_per_day=57
 
@@ -599,7 +599,7 @@ empty_mass=33000
 power=760
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2368000
 cost_per_day=57
 
@@ -622,7 +622,7 @@ empty_mass=30500
 power=760
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2334000
 cost_per_day=56
 
@@ -645,7 +645,7 @@ empty_mass=30500
 power=760
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2334000
 cost_per_day=56
 
@@ -668,7 +668,7 @@ empty_mass=26500
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2306000
 cost_per_day=55
 
@@ -691,7 +691,7 @@ empty_mass=24500
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2290000
 cost_per_day=55
 
@@ -714,7 +714,7 @@ empty_mass=33000
 power=760
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2346000
 cost_per_day=56
 
@@ -737,7 +737,7 @@ empty_mass=32000
 power=760
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2340000
 cost_per_day=56
 
@@ -760,7 +760,7 @@ empty_mass=33000
 power=760
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2346000
 cost_per_day=56
 
@@ -783,7 +783,7 @@ empty_mass=32000
 power=760
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2340000
 cost_per_day=56
 
@@ -806,7 +806,7 @@ empty_mass=31000
 power=760
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2320000
 cost_per_day=55
 
@@ -829,7 +829,7 @@ empty_mass=31000
 power=760
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2320000
 cost_per_day=55
 
@@ -852,7 +852,7 @@ empty_mass=30000
 power=760
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2313000
 cost_per_day=55
 
@@ -875,7 +875,7 @@ empty_mass=30000
 power=760
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2313000
 cost_per_day=55
 
@@ -898,7 +898,7 @@ empty_mass=31000
 power=760
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2320000
 cost_per_day=55
 
@@ -921,7 +921,7 @@ empty_mass=30000
 power=760
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2313000
 cost_per_day=55
 
@@ -944,7 +944,7 @@ empty_mass=30000
 power=760
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2313000
 cost_per_day=55
 
@@ -967,7 +967,7 @@ empty_mass=27000
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2292000
 cost_per_day=55
 
@@ -990,7 +990,7 @@ empty_mass=26500
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2288000
 cost_per_day=55
 
@@ -1013,7 +1013,7 @@ empty_mass=23000
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2260000
 cost_per_day=54
 
@@ -1036,7 +1036,7 @@ empty_mass=24000
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2269000
 cost_per_day=54
 
@@ -1059,7 +1059,7 @@ empty_mass=23000
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2260000
 cost_per_day=54
 
@@ -1082,7 +1082,7 @@ empty_mass=27000
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2292000
 cost_per_day=55
 
@@ -1105,7 +1105,7 @@ empty_mass=27000
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2292000
 cost_per_day=55
 
@@ -1128,7 +1128,7 @@ empty_mass=26500
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2288000
 cost_per_day=55
 
@@ -1151,7 +1151,7 @@ empty_mass=33500
 power=620
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2355000
 cost_per_day=56
 
@@ -1174,7 +1174,7 @@ empty_mass=33500
 power=620
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2355000
 cost_per_day=56
 
@@ -1197,7 +1197,7 @@ empty_mass=32500
 power=620
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2329000
 cost_per_day=56
 
@@ -1220,7 +1220,7 @@ empty_mass=32000
 power=620
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2326000
 cost_per_day=56
 
@@ -1243,7 +1243,7 @@ empty_mass=28500
 power=620
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2303000
 cost_per_day=55
 
@@ -1266,7 +1266,7 @@ empty_mass=32500
 power=620
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2329000
 cost_per_day=56
 
@@ -1289,7 +1289,7 @@ empty_mass=24500
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2273000
 cost_per_day=54
 
@@ -1312,7 +1312,7 @@ empty_mass=24500
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2273000
 cost_per_day=54
 
@@ -1335,7 +1335,7 @@ empty_mass=34500
 power=620
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2361000
 cost_per_day=56
 
@@ -1358,7 +1358,7 @@ empty_mass=34500
 power=620
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2361000
 cost_per_day=56
 
@@ -1381,7 +1381,7 @@ empty_mass=24000
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2270000
 cost_per_day=54
 
@@ -1404,7 +1404,7 @@ empty_mass=24000
 power=0
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2270000
 cost_per_day=54
 
@@ -1427,7 +1427,7 @@ empty_mass=35000
 power=620
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2364000
 cost_per_day=56
 
@@ -1450,7 +1450,7 @@ empty_mass=35000
 power=620
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 price=2364000
 cost_per_day=56
 
@@ -1473,7 +1473,7 @@ empty_mass=33000
 power=620
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2334000
 cost_per_day=56
 
@@ -1496,7 +1496,7 @@ empty_mass=33000
 power=620
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 price=2334000
 cost_per_day=56
 

@@ -42,7 +42,11 @@ export const createTrainUnit = ({
   if (graphics) {
     output.tex_base = graphics.base
     output.tex_top = graphics.top
-    output.tex_decors = graphics.decors.join(',')
+    output.tex_decors = typeof graphics.decors === 'string'
+      ? graphics.decors
+      : Array.isArray(graphics.decors)
+        ? graphics.decors.join(',')
+        : undefined
   }
 
   const { price, cost_per_day } = calculatePrice(output)

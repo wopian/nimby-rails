@@ -21,7 +21,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=78
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -41,7 +41,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=57
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -73,7 +73,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=165
 tex_base=placeholder_higherspeed/loco_0.png
 tex_top=placeholder_higherspeed/loco_2.png
-tex_decors=placeholder_higherspeed/loco_1_0.png,placeholder_higherspeed/loco_1_1.png,placeholder_higherspeed/loco_1_2.png,placeholder_higherspeed/loco_1_5.png,placeholder_higherspeed/loco_1_7.png
+tex_decors=placeholder_higherspeed/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -93,7 +93,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=114
 tex_base=placeholder_higherspeed/car_0.png
 tex_top=placeholder_higherspeed/car_2.png
-tex_decors=placeholder_higherspeed/car_1_0.png,placeholder_higherspeed/car_1_1.png,placeholder_higherspeed/car_1_2.png,placeholder_higherspeed/car_1_5.png,placeholder_higherspeed/car_1_7.png
+tex_decors=placeholder_higherspeed/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -125,7 +125,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=148
 tex_base=placeholder_higherspeed/loco_0.png
 tex_top=placeholder_higherspeed/loco_2.png
-tex_decors=placeholder_higherspeed/loco_1_0.png,placeholder_higherspeed/loco_1_1.png,placeholder_higherspeed/loco_1_2.png,placeholder_higherspeed/loco_1_5.png,placeholder_higherspeed/loco_1_7.png
+tex_decors=placeholder_higherspeed/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -145,7 +145,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=111
 tex_base=placeholder_higherspeed/car_0.png
 tex_top=placeholder_higherspeed/car_2.png
-tex_decors=placeholder_higherspeed/car_1_0.png,placeholder_higherspeed/car_1_1.png,placeholder_higherspeed/car_1_2.png,placeholder_higherspeed/car_1_5.png,placeholder_higherspeed/car_1_7.png
+tex_decors=placeholder_higherspeed/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -177,7 +177,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=69
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -197,7 +197,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=61
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -229,7 +229,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=81
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -249,7 +249,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=54
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -281,7 +281,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=93
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -301,7 +301,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=61
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -333,7 +333,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=67
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -353,7 +353,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=58
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -385,7 +385,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=66
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -405,7 +405,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=60
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -437,7 +437,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=52
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -457,7 +457,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=54
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -489,7 +489,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=58
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -509,7 +509,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=56
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -541,7 +541,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=60
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -561,7 +561,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=52
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -593,7 +593,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=58
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -613,7 +613,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=54
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -645,7 +645,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=59
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -665,7 +665,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=55
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -697,7 +697,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=59
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -717,7 +717,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=61
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -749,7 +749,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=55
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -769,7 +769,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=49
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -801,7 +801,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=58
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -821,7 +821,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=57
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -853,7 +853,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=54
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -873,7 +873,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=44
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -905,7 +905,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=55
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -925,7 +925,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=44
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -957,7 +957,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=57
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -977,7 +977,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=45
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -1009,7 +1009,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=57
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -1029,7 +1029,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=47
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -1061,7 +1061,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=56
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -1081,7 +1081,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=48
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -1113,7 +1113,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=71
 tex_base=placeholder_commuter/loco_0.png
 tex_top=placeholder_commuter/loco_2.png
-tex_decors=placeholder_commuter/loco_1_0.png,placeholder_commuter/loco_1_1.png,placeholder_commuter/loco_1_2.png,placeholder_commuter/loco_1_5.png,placeholder_commuter/loco_1_7.png
+tex_decors=placeholder_commuter/loco_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
@@ -1133,7 +1133,7 @@ cost_per_km_per_pax=0.05
 cost_per_day=51
 tex_base=placeholder_commuter/car_0.png
 tex_top=placeholder_commuter/car_2.png
-tex_decors=placeholder_commuter/car_1_0.png,placeholder_commuter/car_1_1.png,placeholder_commuter/car_1_2.png,placeholder_commuter/car_1_5.png,placeholder_commuter/car_1_7.png
+tex_decors=placeholder_commuter/car_1_2.png
 tex_m_width=30
 tex_m_height=3.75
 
