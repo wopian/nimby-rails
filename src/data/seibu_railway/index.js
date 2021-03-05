@@ -1,5 +1,7 @@
 import { REGION } from '../../components/index.js'
 
+// Schema 2 default_code: 'SBR-30##'
+
 export const seibu_railway = {
   wiki: 'https://ja.wikipedia.org/wiki/西武鉄道',
   name: 'Seibu Railway',

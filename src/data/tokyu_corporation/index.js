@@ -1,5 +1,7 @@
 import { REGION } from '../../components/index.js'
 
+// Schema 2 default_code: 'TKK-30##'
+
 export const tokyu_corporation = {
   wiki: 'https://ja.wikipedia.org/wiki/東急',
   name: 'Tokyu Corporation',

@@ -1,5 +1,7 @@
 import { REGION } from '../../components/index.js'
 
+// Schema 2 default_code: 'OER-30##'
+
 export const odakyu_electric_railway = {
   wiki: 'https://ja.wikipedia.org/wiki/小田急電鉄',
   name: 'Odakyu Electric Railway',

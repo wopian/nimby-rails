@@ -1,5 +1,7 @@
 import { REGION } from '../../components/index.js'
 
+// Schema 2 default_code: 'KO-30##
+
 export const keio_corporation = {
   wiki: 'https://ja.wikipedia.org/wiki/京王電鉄',
   name: 'Keio Corporation',

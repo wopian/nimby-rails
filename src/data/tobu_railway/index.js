@@ -1,5 +1,7 @@
 import { REGION } from '../../components/index.js'
 
+// Schema 2 default_code: 'TOBU-30##'
+
 export const tobu_railway = {
   wiki: 'https://ja.wikipedia.org/wiki/東武鉄道',
   name: 'Tobu Railway',

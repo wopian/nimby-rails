@@ -1,5 +1,7 @@
 import { REGION } from '../../components/index.js'
 
+// Schema 2 default_code: 'NNR-30##'
+
 export const nishitetsu = {
   wiki: 'https://ja.wikipedia.org/wiki/西日本鉄道',
   name: 'Nishitetsu (Nishi-Nippon Railroad)',

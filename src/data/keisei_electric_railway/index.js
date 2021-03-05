@@ -1,5 +1,7 @@
 import { REGION } from '../../components/index.js'
 
+// Schema 2 default_code: 'KER-30##
+
 export const keisei_electric_railway = {
   wiki: 'https://ja.wikipedia.org/wiki/京成電鉄',
   name: 'Keisei Electric Railway',

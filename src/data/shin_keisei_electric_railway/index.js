@@ -1,5 +1,7 @@
 import { REGION } from '../../components/index.js'
 
+// Schema 2 default_code: 'SKER-30##'
+
 export const shin_keisei_electric_railway = {
   wiki: 'https://ja.wikipedia.org/wiki/新京成電鉄',
   name: 'Shin-Keisei Electric Railway',

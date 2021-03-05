@@ -1,5 +1,7 @@
 import { REGION } from '../../components/index.js'
 
+// Schema 2 default_code: 'MTT-30##'
+
 export const meitetsu = {
   wiki: 'https://ja.wikipedia.org/wiki/名古屋鉄道',
   name: 'Meitetsu (Nagoya Railroad)',

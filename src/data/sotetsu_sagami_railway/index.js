@@ -1,5 +1,7 @@
 import { REGION } from '../../components/index.js'
 
+// Schema 2 default_code: 'STT-30##'
+
 export const sotetsu = {
   wiki: 'https://ja.wikipedia.org/wiki/相模鉄道',
   name: 'Sotetsu (Sagami Railway)',
