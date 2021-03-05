@@ -19,7 +19,7 @@
     "collectionThumbnail": "node src/collectionThumbnail",
     "start": "yarn build && yarn collectionThumbnail",
     "test": "ava",
-    "coverage": "c8 --check-coverage --lines 100 --functions 100 --branches 100 --reporter lcovonly --reporter text --reporter text-summary ava"
+    "coverage": "c8 --check-coverage --lines 80 --functions 75 --branches 100 --reporter lcovonly --reporter text --reporter text-summary ava"
   },
   "dependencies": {
     "colorette": "^1.2.1",
