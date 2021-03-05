@@ -4,7 +4,7 @@ Collection of mods for the rail simulation game [NIMBY Rails](https://store.stea
 
 ## Prerequisites
 
-- Node 15.6.x or newer
+- Node 15.10.x or newer
 - Yarn 1.22.x or newer
 - ImageMagick 7.0.x or newer
 

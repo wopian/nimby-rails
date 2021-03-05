@@ -22,14 +22,14 @@
     "coverage": "c8 --check-coverage --lines 80 --functions 75 --branches 100 --reporter lcovonly --reporter text --reporter text-summary ava"
   },
   "dependencies": {
-    "colorette": "^1.2.1",
-    "fs-extra": "^9.1.0",
+    "colorette": "~1.2.1",
+    "fs-extra": "~9.1.0",
     "ini": "~2.0.0",
     "snake-case": "~3.0.4",
-    "svgexport": "^0.4.1"
+    "svgexport": "~0.4.1"
   },
   "devDependencies": {
     "ava": "~3.15.0",
-    "c8": "~7.5.0"
+    "c8": "~7.6.0"
   }
 }
