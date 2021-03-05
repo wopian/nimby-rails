@@ -11,9 +11,12 @@ const listTrains = trains => {
   return description
 }
 
-export const createDescription = ({ name = 'Company', region, trains = [], totalTrains = 0, totalCompositions = 0 } = {}) => {
+export const createDescription = ({ name = 'Company', region, country = 'Japan', trains = [], totalTrains = 0, totalCompositions = 0 } = {}) => {
   let description = `Collection of ${totalTrains} EMU${plural(totalTrains)} (${totalCompositions} composition${plural(totalCompositions)}) operated by ${name}`
-  if (region) description += ` in the ${region} region`
+
+  if (region) description += ` in the ${region} region, ${country}`
+  else description += ` in ${country}`
+
   description += '.\n\nTrain models use accurate and realistic figures. Purchase price and running costs are balanced with the built-in trains and all other mods published by wopian.\n'
 
   if (trains.length > 0) {
