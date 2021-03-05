@@ -2,7 +2,9 @@ import { MU_TAG, plural } from '../index.js'
 
 const getCompositionTotal = trains => trains.reduce((sum, { composition }) => composition ? sum + composition.length : sum, 0)
 
-const filterRoleTags = ({ tags }) => tags ? tags.filter(tag =>Object.values(MU_TAG.ROLE).indexOf(tag) !== -1) : []
+const filterRoleTags = ({ tags }) => tags ? tags.filter(
+  tag => Object.values(MU_TAG.ROLE).some(role => role == tag)
+) : []
 
 const listRoles = trains => Array.from(new Set([].concat(...trains.map(filterRoleTags)))).sort()
 
@@ -11,7 +13,7 @@ const listTrains = (trains, totalTrains) => {
   const roles = listRoles(trains)
 
   let description = ` ${totalTrains} EMU${plural(totalTrains)} (${totalCompositions} composition${plural(totalCompositions)}`
-  if (roles?.length > 1) description += ` - ${roles.join('/')}`
+  if (roles?.length > 0) description += ` - ${roles.join('/')}`
   return description += ')'
 }
 
