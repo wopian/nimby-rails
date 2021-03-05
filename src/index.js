@@ -12,9 +12,9 @@ const GRAPHICS = join(CWD, 'graphics')
 const PLACEHOLDERS = join(GRAPHICS, 'placeholders')
 const COMPANIES = join(GRAPHICS, 'companies')
 
-for (const { name, native, region, units, trains } of companies) {
+for (const { name, native, region, units, trains, legacy } of companies) {
   const OUTPUT = join(MODS, slugify(name))
-  const { data, description, totalTrains, totalCompositions } = createMod({ name, native, region, units, trains })
+  const { data, description, totalTrains, totalCompositions } = createMod({ name, native, region, units, trains, legacy })
 
   if (!existsSync(OUTPUT)) mkdirSync(OUTPUT, { recursive: true })
   writeFileSync(join(OUTPUT, 'mod.txt'), data)
