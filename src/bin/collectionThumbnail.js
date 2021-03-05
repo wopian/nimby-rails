@@ -3,7 +3,7 @@ import { spawnSync } from 'child_process'
 import { existsSync, mkdirSync } from 'fs'
 import { join } from 'path'
 import { snakeCase } from 'snake-case'
-import { companies } from './data/index.js'
+import { companies } from '../data/index.js'
 
 const chunkify = (a,n)=>[...Array(Math.ceil(a.length/n))].map((_,i)=>a.slice(n*i,n+n*i));
 
