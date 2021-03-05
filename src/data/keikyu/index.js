@@ -683,6 +683,7 @@ export const keikyu = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/京急1500形電車',
       name: 'Keikyu 1500',
+      default_code: 'KHK-15##',
       description: 'Manufactured by Kawasaki Heavy Industries and Tokyu Car Corporation',
       year_introduced: 1985,
       tags: [MU_TAG.GAUGE.STANDARD, MU_TAG.POWER.ELECTRIC, MU_TAG.ROLE.COMMUTER],
@@ -716,6 +717,7 @@ export const keikyu = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/京急600形電車_(3代)',
       name: 'Keikyu 600 III',
+      default_code: 'KHK-6##',
       description: 'Manufactured by Kawasaki Heavy Industries and Tokyu Car Corporation',
       year_introduced: 1994,
       tags: [MU_TAG.GAUGE.STANDARD, MU_TAG.POWER.ELECTRIC, MU_TAG.ROLE.COMMUTER],
@@ -760,6 +762,7 @@ export const keikyu = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/京急2100形電車',
       name: 'Keikyu 2100',
+      default_code: 'KHK-21##',
       description: 'Manufactured by Kawasaki Heavy Industries and Tokyu Car Corporation',
       year_introduced: 1998,
       tags: [MU_TAG.GAUGE.STANDARD, MU_TAG.POWER.ELECTRIC, MU_TAG.ROLE.COMMUTER],
@@ -782,6 +785,7 @@ export const keikyu = {
     {
       wiki: 'https://ja.wikipedia.org/wiki/京急1000形電車_(2代)',
       name: 'Keikyu 1000 II',
+      default_code: 'KHK-10##',
       description: 'Manufactured by Kawasaki Heavy Industries and Tokyu Car Corporation',
       year_introduced: 2002,
       tags: [MU_TAG.GAUGE.STANDARD, MU_TAG.POWER.ELECTRIC, MU_TAG.ROLE.COMMUTER],

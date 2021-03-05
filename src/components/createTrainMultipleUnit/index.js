@@ -68,7 +68,7 @@ export const createTrainMultipleUnit = ({
   if (default_name) output.default_name = default_name
   else {
     const unitNumber = name.split(' ')[1].slice(0, -2)
-    output.default_name = `${name} series ${unitNumber}## formation`
+    output.default_name = `${name} Series ${unitNumber}## Formation`
   }
 
   if (composition?.length > 0) output.composition = composition.map(compositionToString)
