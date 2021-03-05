@@ -11,7 +11,7 @@ test('with company name, region and country', t => {
       { name: 'Wop Corp', region: 'Cornwall' }
     ],
     country: 'the United Kingdom'
-  }), 'Collection of 0 EMUs (0 compositions) from 1 company operating in the United Kingdom.\n\nCornwall region:\nWop Corp')
+  }), 'Collection of 0 EMUs (0 compositions) from 1 company operating in the United Kingdom.\n\nTrain models use accurate and realistic figures. Purchase price and running costs are balanced with the built-in trains and all other mods published by wopian.\n\nCornwall region:\nWop Corp')
 })
 
 test('with company wiki', t => {
@@ -20,7 +20,7 @@ test('with company wiki', t => {
       { wiki: 'https://wiki.example', name: 'Wop Corp', region: 'Hokkaidō' },
       { wiki: 'https://wiki2.example', name: 'Ian Corporation', region: 'Tōhoku' }
     ]
-  }), 'Collection of 0 EMUs (0 compositions) from 2 companies operating in Japan.\n\nHokkaidō region:\n[url=https://wiki.example]Wop Corp[/url]\n\nTōhoku region:\n[url=https://wiki2.example]Ian Corporation[/url]')
+  }), 'Collection of 0 EMUs (0 compositions) from 2 companies operating in Japan.\n\nTrain models use accurate and realistic figures. Purchase price and running costs are balanced with the built-in trains and all other mods published by wopian.\n\nHokkaidō region:\n[url=https://wiki.example]Wop Corp[/url]\n\nTōhoku region:\n[url=https://wiki2.example]Ian Corporation[/url]')
 })
 
 test('with company trains', t => {
@@ -35,7 +35,7 @@ test('with company trains', t => {
         ]
       }
     ]
-  }), 'Collection of 2 EMUs (3 compositions) from 1 company operating in Japan.\n\nHokkaidō region:\nWop Corp 2 EMUs (3 compositions)')
+  }), 'Collection of 2 EMUs (3 compositions) from 1 company operating in Japan.\n\nTrain models use accurate and realistic figures. Purchase price and running costs are balanced with the built-in trains and all other mods published by wopian.\n\nHokkaidō region:\nWop Corp 2 EMUs (3 compositions)')
 })
 
 test('with company trains and tagged by role', t => {
@@ -50,7 +50,7 @@ test('with company trains and tagged by role', t => {
         ]
       }
     ]
-  }), 'Collection of 2 EMUs (3 compositions) from 1 company operating in Japan.\n\nHokkaidō region:\nWop Corp 2 EMUs (3 compositions - metro/tram)')
+  }), 'Collection of 2 EMUs (3 compositions) from 1 company operating in Japan.\n\nTrain models use accurate and realistic figures. Purchase price and running costs are balanced with the built-in trains and all other mods published by wopian.\n\nHokkaidō region:\nWop Corp 2 EMUs (3 compositions - metro/tram)')
 })
 
 test('with company trains and tagged by role, without region', t => {
@@ -64,7 +64,7 @@ test('with company trains and tagged by role, without region', t => {
         ]
       }
     ]
-  }), 'Collection of 2 EMUs (3 compositions) from 1 company operating in Japan.\n\nundefined region:\nWop Corp 2 EMUs (3 compositions - metro/tram)')
+  }), 'Collection of 2 EMUs (3 compositions) from 1 company operating in Japan.\n\nTrain models use accurate and realistic figures. Purchase price and running costs are balanced with the built-in trains and all other mods published by wopian.\n\nundefined region:\nWop Corp 2 EMUs (3 compositions - metro/tram)')
 })
 
 test('with company trains without compositions', t => {
@@ -78,7 +78,7 @@ test('with company trains without compositions', t => {
         ]
       }
     ]
-  }), 'Collection of 2 EMUs (0 compositions) from 1 company operating in Japan.\n\nundefined region:\nWop Corp 2 EMUs (0 compositions - metro/tram)')
+  }), 'Collection of 2 EMUs (0 compositions) from 1 company operating in Japan.\n\nTrain models use accurate and realistic figures. Purchase price and running costs are balanced with the built-in trains and all other mods published by wopian.\n\nundefined region:\nWop Corp 2 EMUs (0 compositions - metro/tram)')
 })
 
 test('with company trains single role', t => {
@@ -91,5 +91,5 @@ test('with company trains single role', t => {
         ]
       }
     ]
-  }), 'Collection of 1 EMU (0 compositions) from 1 company operating in Japan.\n\nundefined region:\nWop Corp 1 EMU (0 compositions - commuter)')
+  }), 'Collection of 1 EMU (0 compositions) from 1 company operating in Japan.\n\nTrain models use accurate and realistic figures. Purchase price and running costs are balanced with the built-in trains and all other mods published by wopian.\n\nundefined region:\nWop Corp 1 EMU (0 compositions - commuter)')
 })

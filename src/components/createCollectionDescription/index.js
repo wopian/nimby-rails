@@ -49,7 +49,8 @@ export const createCollectionDescription = ({ companies = [], country = 'Japan' 
 
   const totalCompositions = companies.reduce((total, { trains }) => trains ? total + getCompositionTotal(trains) : total, 0)
 
-  let description = `Collection of ${totalTrains} EMU${plural(totalTrains)} (${totalCompositions} composition${plural(totalCompositions)}) from ${totalCompanies} compan${plural(totalCompanies, 'ies', 'y')} operating in ${country}.\n`
+  let description = `Collection of ${totalTrains} EMU${plural(totalTrains)} (${totalCompositions} composition${plural(totalCompositions)}) from ${totalCompanies} compan${plural(totalCompanies, 'ies', 'y')} operating in ${country}.`
+  description += '\n\nTrain models use accurate and realistic figures. Purchase price and running costs are balanced with the built-in trains and all other mods published by wopian.\n'
   description += listRegionsAndCompanies(regions, companies)
   return description.trimEnd()
 }
