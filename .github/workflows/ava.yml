@@ -2,9 +2,7 @@ name: AVA
 
 on:
   push:
-    branches: [ master ]
   pull_request:
-    branches: [ master ]
 
 env:
   FORCE_COLOR: true
