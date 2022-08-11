@@ -22,7 +22,7 @@
     "coverage": "c8 --check-coverage --lines 80 --functions 75 --branches 100 --reporter lcovonly --reporter text --reporter text-summary ava"
   },
   "dependencies": {
-    "colorette": "~1.4.0",
+    "colorette": "~2.0.0",
     "fs-extra": "~10.1.0",
     "ini": "~3.0.0",
     "snake-case": "~3.0.4",
