@@ -24,7 +24,7 @@
   "dependencies": {
     "colorette": "~2.0.0",
     "fs-extra": "~11.3.0",
-    "ini": "~4.1.0",
+    "ini": "~5.0.0",
     "snake-case": "~4.0.0",
     "svgexport": "~0.4.1"
   },
